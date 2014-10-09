@@ -1,4 +1,4 @@
 doraemon
 ========
 
-Automated testing and build for firmware
+Automated testing and build for firmware for factory
