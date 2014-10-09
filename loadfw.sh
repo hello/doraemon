@@ -3,6 +3,7 @@ set -e
 JLINKDIR=JLinkOSX
 PROG=$JLINKDIR/JLinkExe
 BINDIR="$PWD/temp"
+COMMONDIR="$PWD/common"
 
 announce(){
     echo "======================================"
@@ -10,6 +11,6 @@ announce(){
     echo "======================================"
 }
 
-. announce "Setup" && ./common/setup.sh
-. announce "Load Target" && ./targets/$1 || echo "Please supply a valid target!"
-
+announce "Setup" && . $COMMONDIR/setup.sh
+announce "Load Target" && ./targets/$1 || echo "Please supply a valid target!"
+announce "Finished"
