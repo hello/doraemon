@@ -1,12 +1,14 @@
 #!/bin/sh
 set -e
 mkbindir(){
-    if [ ! -d "$BINDIR" ]; then
-        mkdir "$BINDIR" && echo "Created $BINDIR"
+    if [ ! -d "$WORKDIR" ]; then
+        mkdir "$WORKDIR" && echo "Created $WORKDIR"
     fi
 }
 
-mkbindir()
+git submodule init
+git submodule update
+mkbindir
 
 
 
