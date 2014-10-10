@@ -8,7 +8,7 @@ COMMONDIR="$PWD/common"
 export WORKDIR="$PWD/temp"
 export SOFTDEVICEDIR="$PWD/SoftDevice"
 export EXE="$PROG $PROGOPTS"
-export TARGETDIR="$PWD/targets/$1/"
+export TARGETDIR="$PWD/targets/$1"
 
 announce(){
     echo "======================================"
@@ -17,5 +17,6 @@ announce(){
 }
 
 announce "Setup" && . $COMMONDIR/setup.sh && echo "OK"
-announce "Load Target" && $TARGETDIR/$1.sh && echo "OK"
+announce "Configure Target" && $TARGETDIR/$1.sh && echo "OK"
+announce "Load Target" && $EXE $WORKDIR/flash.jlink && echo "OK"
 announce "Finished"
