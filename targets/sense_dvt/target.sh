@@ -21,6 +21,6 @@ sed\
     -e "s,\$APP,$WORKDIR/$APP_IMG,g"\
     -e "s,\$BOOTLOADER,$WORKDIR/$BOOTLOADER_IMG,g"\
     -e "s,\$CRC,$WORKDIR/$CRC_IMG,g"\
+    -e "s,\$DEVICEINFO,$DEVICE_INFO_IMG,g"\
     <$TARGETDIR/$JLINK_TEMPLATE > $WORKDIR/flash.jlink
-
 
