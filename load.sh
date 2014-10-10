@@ -17,6 +17,6 @@ announce(){
 }
 
 announce "Setup" && . $COMMONDIR/setup.sh && echo "OK"
-announce "Configure Target" && $TARGETDIR/$1.sh && echo "OK"
+announce "Configure Target" && $TARGETDIR/target.sh && echo "OK"
 announce "Load Target" && $EXE $WORKDIR/flash.jlink && echo "OK"
 announce "Finished"
