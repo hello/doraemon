@@ -11,6 +11,10 @@ mkregdir(){
     fi
 }
 
+if [ -f $DEVICE_INFO_IMG ]; then
+    echo "Incomplete Operation, please check $DEVICE_INFO_IMG"
+    return 1
+fi
 git submodule init
 git submodule update
 mkbindir

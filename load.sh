@@ -13,26 +13,44 @@ export REGISTRATIONDIR="$PWD/devices"
 export DEVICE_INFO_IMG="$WORKDIR/device.info"
 
 announce(){
-    echo "=================="
-    echo "$1"
-    echo "=================="
+    echo "======================================"
+    echo "            $1                  "
+    echo "======================================"
 }
-report(){
+fail(){
     echo "======================================"
     echo "======================================"
     echo "=                                    ="
     echo "=                                    ="
-    echo "=              $1                  ="
+    echo "=              FAIL                  ="
     echo "=                                    ="
     echo "=                                    ="
     echo "=                                    ="
     echo "======================================"
     echo "======================================"
+    return 1
+}
+
+pass(){
+    echo "======================================"
+    echo "======================================"
+    echo "=                                    ="
+    echo "=                                    ="
+    echo "=              PASS                  ="
+    echo "=                                    ="
+    echo "=                                    ="
+    echo "=                                    ="
+    echo "======================================"
+    echo "======================================"
+    return 0
 }
 
 
-announce "Setup" && . $COMMONDIR/setup.sh && echo "OK"
-announce "Configure Target" && $TARGETDIR/target.sh && echo "OK"
-announce "Load Target" && $EXE $WORKDIR/flash.jlink && echo "OK"
-announce "Post Load Script" && $COMMONDIR/register.sh && echo "OK"
-report "PASS"
+clear
+(announce "Setup" && . $COMMONDIR/setup.sh && announce "OK") || fail
+clear
+(announce "Configure Target" && $TARGETDIR/target.sh && announce "OK") || fail
+clear
+(announce "Load Target" && $EXE $WORKDIR/flash.jlink && announce "OK")
+clear
+(announce "Post Load Script" && $COMMONDIR/register.sh && pass) || fail
