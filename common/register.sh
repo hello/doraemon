@@ -8,5 +8,7 @@ chmod 600 $DEVICE_INFO_IMG
 if [ -s $DEVICE_INFO_IMG ]; then
     mv -f $DEVICE_INFO_IMG $REGISTRATIONDIR/$(get_id $DEVICE_INFO_IMG)
 else
+    echo "Removing empty info"
+    rm -f $DEVICE_INFO_IMG
     return 1
 fi
