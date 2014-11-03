@@ -3,7 +3,7 @@ SD_MAIN_IMG=s310_nrf51422_1.0.0_softdevice_main.bin
 UICR_MAIN_IMG=s310_nrf51422_1.0.0_softdevice_uicr.bin
 JLINK_TEMPLATE=app+bootloader.prod.in
 BOOTLOADER_IMG="$(basename $(ls $TARGETDIR/bootloader*))"
-APP_IMG="$(basename $(ls $TARGETDIR/morpheus*))"
+APP_IMG="$(basename $(ls $TARGETDIR/pill*))"
 CRC_IMG="$(basename $(ls $TARGETDIR/*.crc))"
 
 cp_to_work(){
