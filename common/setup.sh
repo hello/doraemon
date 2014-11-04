@@ -6,6 +6,9 @@ mkbindir(){
     fi
 }
 mkregdir(){
+    if [ ! -d "$REGISTRATIONROOT" ]; then
+        mkdir "$REGISTRATIONROOT" && echo "Created $REGISTRATIONROOT"
+    fi
     if [ ! -d "$REGISTRATIONDIR" ]; then
         mkdir "$REGISTRATIONDIR" && echo "Created $REGISTRATIONDIR"
     fi
