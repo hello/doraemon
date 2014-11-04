@@ -9,7 +9,8 @@ export WORKDIR="$PWD/temp"
 export SOFTDEVICEDIR="$PWD/SoftDevice"
 export EXE="$PROG $PROGOPTS"
 export TARGETDIR="$PWD/targets/$1"
-export REGISTRATIONDIR="$PWD/devices"
+export REGISTRATIONROOT="$PWD/devices"
+export REGISTRATIONDIR="$REGISTRATIONROOT/$1"
 export DEVICE_INFO_IMG="$WORKDIR/device.info"
 
 announce(){
