@@ -4,6 +4,3 @@
 [submodule "SoftDevice"]
 	path = SoftDevice
 	url = git@github.com:hello/nRF51822_SoftDevice.git
-[submodule "devices"]
-	path = devices
-	url = git@github.com:hello/masamune.git
