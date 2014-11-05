@@ -7,7 +7,7 @@ mkbindir(){
 }
 mkregdir(){
     if [ ! -d "$REGISTRATIONROOT" ]; then
-        mkdir "$REGISTRATIONROOT" && echo "Created $REGISTRATIONROOT"
+        git clone git@github.com:hello/masamune.git $REGISTRATIONROOT
     fi
     if [ ! -d "$REGISTRATIONDIR" ]; then
         mkdir "$REGISTRATIONDIR" && echo "Created $REGISTRATIONDIR"
