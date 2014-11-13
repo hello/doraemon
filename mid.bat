@@ -1,6 +1,8 @@
-if not "%~3"=="" (
-	echo "Usage: mid.bat {target_name} {com port}"
-	goto :fail
+@echo off
+cls
+IF "%2"=="" (
+	echo Usage: mid.bat {target_name} {com port}
+	goto :eof
 )
 SET PWD=%~dp0
 SET TARG=%1
