@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+
+Name: plugin_customization.ini
+SHA1-Digest: klkDOJtsgCBZ/B+kZ2rVajYuzPY=
+
+Name: feature.xml
+SHA1-Digest: dNvs+iJps/6xZYMbepf5dtBRkKs=
+

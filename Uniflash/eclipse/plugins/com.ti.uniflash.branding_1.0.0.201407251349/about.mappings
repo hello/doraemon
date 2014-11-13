@@ -1,0 +1,18 @@
+# about.mappings
+# contains fill-ins for about.properties
+# java.io.Properties file (ISO 8859-1 with "\" escapes)
+# This file does not need to be translated.
+
+# 0 is reserved for help about's product name. It is referenced by plugin.properties of this plugin, and its value is maintained by master installer.
+# 1 is reserved for help about's product version. It is referenced by plugin.properties of this plugin, and its value is maintained by master installer.
+# 2 is reserved for future. Do not remove the '2=' line.
+# 3 is reserved for future. Do not remove the '3=' line.
+# 4 is reserved for ccstudio feature version which is displayed in feature tab inside help about dialog's install details dialog.
+#   It is referenced y about.properties of this plugin and its value is updated by ide build process.
+# 5 to 7 are reserved for future  
+
+0=CCS UniFlash
+1=3.2.0.00065
+2=
+3=
+4=

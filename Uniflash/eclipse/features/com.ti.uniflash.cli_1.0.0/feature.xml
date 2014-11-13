@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.uniflash.cli"
+      label="Uniflash Command line support"
+      version="1.0.0"
+	  
+      provider-name="Texas Instruments">
+
+   <description>
+      Uniflash Command line support
+   </description>
+
+   <copyright>
+      Copyright, Texas Instruments Inc.
+   </copyright>
+
+   <requires>
+		
+   </requires>
+   
+   <license url="">
+      This is released under the same terms as your original UniFlash installation. To review the licensing terms, please visit the UniFlash Wiki page: 
+  http://processors.wiki.ti.com/index.php/Category:CCS_UniFlash
+
+   </license>
+
+</feature>

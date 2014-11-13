@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Device (Top Level) element definition -->
+  <xs:element name="CC3xxx">
+    <xs:complexType>
+      <xs:sequence>
+	    <xs:element name="Version" type="VersionType" minOccurs="1" maxOccurs="1" />
+	    <xs:element name="Filename" type="FSType" minOccurs="1" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	  
+  <!-- Version element definition -->
+  <xs:complexType name="VersionType">
+    <xs:sequence>
+	  <xs:element name="Platform" type="xs:string" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareMajor" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareMinor" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareVersion" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="Software_sub_Minor" type="xs:integer" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+		
+  <!-- FileSystemDefinition element definition -->
+  <xs:complexType name="FSType">
+    <xs:sequence>
+	 <xs:element name="MAX" type="StrHexType" minOccurs="1" maxOccurs="1" />
+	 <xs:element name="RW" type="StrHexType" minOccurs="1" maxOccurs="1" />
+	 <xs:element name="RO" type="StrHexType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+	<xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  
+  <!-- Types/Restriction definition -->  
+  <!-- StrHexType => hex string (starts with 0x) with at most length of 8 -->
+  <xs:simpleType name="StrHexType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0x[0-9a-fA-F]{1,8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
