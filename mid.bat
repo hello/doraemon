@@ -1,13 +1,10 @@
-::CHANGE THIS!!
-SET COM=5
-
-
-SET PWD=%~dp0
-SET TARG=%1
-if not "%~2"=="" (
-	echo "Please supply a target name"
+if not "%~3"=="" (
+	echo "Usage: mid.bat {target_name} {com port}"
 	goto :fail
 )
+SET PWD=%~dp0
+SET TARG=%1
+SET COM=%2
 SET TEMPDIR=%PWD%temp
 IF NOT EXIST  %TEMPDIR% (
 	echo "creating temporary directory"
@@ -59,6 +56,10 @@ CALL %PWD%Uniflash\flashit.bat %COM%
 goto :eof
 
 :fail
-	echo "=========FAIL==========="
+	echo "****************************************************"
+	echo "*                                                  *"
+	echo "*                       FAIL                       *"
+	echo "*                                                  *"
+	echo "****************************************************"
 	goto :eof
 :eof
