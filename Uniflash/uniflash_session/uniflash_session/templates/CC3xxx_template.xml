@@ -98,7 +98,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\kitsune.bin</url>
+      <url>../../../temp/kitsune.bin</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -119,7 +119,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\application_bootloader.bin</url>
+      <url>../../application_bootloader.bin</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -224,7 +224,7 @@
       <Type>conf</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\macadd.bin</url>
+      <url>../../../temp/macadd.bin</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -251,7 +251,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\digi.cer</url>
+      <url>../../digi.cer</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -272,7 +272,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\key.aes</url>
+      <url>../../key.aes</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -293,7 +293,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>64</MaxSize>
-      <url>C:\TI\uniflash_3.2\hw_ver.txt</url>
+      <url>../../../temp/hw_ver.txt</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
@@ -314,7 +314,7 @@
       <Type>blob</Type>
       <Storage>SFLASH</Storage>
       <MaxSize>0</MaxSize>
-      <url>C:\TI\uniflash_3.2\factory.bin</url>
+      <url>../../../temp/factory.bin</url>
       <mode>
          <ModeEntry name="Rollback" checked="false"/>
          <ModeEntry name="Secured" checked="false"/>
