@@ -53,6 +53,22 @@ REM uncomment out next line for debugging
 REM echo java %FULL_COMMAND_LINE%
 
 java %FULL_COMMAND_LINE%
+set foundErr=1
+if errorlevel 0 if not errorlevel 1 set "foundErr="
+if defined foundErr goto :flashfail
+echo "****************************************************"
+echo "*                                                  *"
+echo "*                       PASS                       *"
+echo "*                                                  *"
+echo "****************************************************"
+goto :flashfin
+:flashfail
+echo "****************************************************"
+echo "*                                                  *"
+echo "*                       FAIL                       *"
+echo "*                                                  *"
+echo "****************************************************"
+:flashfin
 @echo off
 cd /d "%cwd%"
 goto:EOF
