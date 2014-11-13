@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.base"
+      label="Code Composer Studio Base Components"
+      version="5.3.0.00332"
+      provider-name="Texas Instruments">
+   <install-handler library="" handler=""/>
+
+   <description url="http://ti.com">
+      Code Composer Studio Base Components
+   </description>
+
+   <copyright>
+      Copyright Texas Instruments 2009 2010
+   </copyright>
+
+   <license url="file://C:/CCS 5.0.0.00023/ccsv5/doc/EULA/EULA.html">
+      TBD
+   </license>
+
+   <plugin
+         id="com.ti.ccstudio.base"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.ti.ccstudio.gelhelp.doc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

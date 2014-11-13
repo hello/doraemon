@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GUIControl">
+	  <xs:complexType>
+		  <xs:sequence>
+			<xs:element name="FileEntryControl" type="FileEntryControlType" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="ModeBreakDown" type="ModeBreakDownType" minOccurs="1" maxOccurs="1" />
+		  </xs:sequence>
+	  </xs:complexType>
+  </xs:element>
+  
+	<xs:complexType name="FileEntryControlType">
+		<xs:sequence>
+			<xs:element name="hidden" type="xs:boolean" minOccurs="0" maxOccurs="1"  />
+			<xs:element name="enableIf" minOccurs="0" maxOccurs="1" >
+			 <xs:complexType>
+				<xs:sequence>
+					<xs:element name="AttributeEntry" type="EntryStrValuePair" minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="ModeEntry" type="EntryCheckedPair" minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+			 </xs:complexType>
+			</xs:element>
+			<xs:element name="disableIf" minOccurs="0" maxOccurs="1" >
+			 <xs:complexType>
+				<xs:sequence>
+					<xs:element name="AttributeEntry" type="EntryStrValuePair" minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="ModeEntry" type="EntryCheckedPair" minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+			 </xs:complexType>
+			</xs:element>
+			<xs:element name="displayType" type="xs:string" minOccurs="0" maxOccurs="1"  />
+			<xs:element name="displayName" type="xs:string" minOccurs="0" maxOccurs="1"  />
+			<xs:element name="displayOrder" type="xs:decimal" minOccurs="0" maxOccurs="1"  />
+			<xs:element name="toolTip" type="xs:string" minOccurs="0" maxOccurs="1"  />
+		</xs:sequence>
+		<xs:attribute name="fileType" type="xs:string" use="required"  />
+		<xs:attribute name="field" type="xs:string" use="required" />
+	</xs:complexType>
+ 
+    <xs:complexType name="ModeBreakDownType">
+		<xs:sequence>
+			<xs:element name="ModeEntry" type="EntryIntValuePair" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+ 
+	<xs:complexType name="EntryIntValuePair">
+		<xs:attribute name="name" type="xs:string" use="required"  />
+		<xs:attribute name="value" type="xs:decimal" use="required"  />		
+	</xs:complexType>
+	
+	<xs:complexType name="EntryStrValuePair">
+		<xs:attribute name="name" type="xs:string" use="required"  />
+		<xs:attribute name="value" type="xs:string" use="required"  />		
+	</xs:complexType>
+	
+	<xs:complexType name="EntryCheckedPair">
+		<xs:attribute name="name" type="xs:string" use="required"  />
+		<xs:attribute name="checked" type="xs:boolean" use="required"  />		
+	</xs:complexType>
+</xs:schema>

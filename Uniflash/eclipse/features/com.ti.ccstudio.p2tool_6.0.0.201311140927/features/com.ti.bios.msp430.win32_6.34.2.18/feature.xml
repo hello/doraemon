@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.bios.msp430.win32"
+      label="MSP430 BIOS6"
+      version="6.34.2.18"
+      provider-name="Texas Instruments"
+      os="win32">
+
+   <copyright>
+      Copyright Texas Instruments 2010
+   </copyright>
+
+   <license>
+      See Code Composer Studio license for specific terms and conditions.
+   </license>
+
+</feature>

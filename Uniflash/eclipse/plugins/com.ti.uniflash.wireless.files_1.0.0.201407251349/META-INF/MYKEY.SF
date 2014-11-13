@@ -1,0 +1,44 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: BoxE2Bk4vConvlAGhnKGuXy+i5M=
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: sVIWjhrr7ggxXAVmxnVbtAEeT5I=
+
+Name: cc3xxx/bin/rbtl3101.dll
+SHA1-Digest: DtjZ7RYZGGyes+dVW/TV33vSU6c=
+
+Name: cc3xxx/templates/GUIControl.xml
+SHA1-Digest: GzA2y3vuFu48JxTWCpbc7xSmcmw=
+
+Name: cc3xxx/fileSystem/macadd.bin
+SHA1-Digest: alRjWGnuGqmjY0C3Ldt5pdOy1Lk=
+
+Name: cc3xxx/bin/rbtl3101_121.dll
+SHA1-Digest: 8BTDXlHLNGhVKrwi+hOmTXJ1z00=
+
+Name: cc3xxx/templates/CC3xxx_token.xml
+SHA1-Digest: nAFm60n7vFDoRFZMimItzoxWIJ8=
+
+Name: cc3xxx/bin/rbtl3100.dll
+SHA1-Digest: pa9jigeB1wXB/mxLnV6GWaqx9f4=
+
+Name: cc3xxx/templates/schemas/token_schema.xsd
+SHA1-Digest: 8f9P7BKVAkVtlmrGF4UQKAwaiS4=
+
+Name: cc3xxx/bin/rbtl3100s.dll
+SHA1-Digest: 8SHpGX2Oaj09clMW6ZVTBOI3u8Y=
+
+Name: cc3xxx/templates/CC3xxx_template.xml
+SHA1-Digest: cGlXZ+zV3yvSU0y0pBOENo8CLFw=
+
+Name: cc3xxx/bin/FlashAPI.dll
+SHA1-Digest: +/bFwk/IQw6ZicFIYXCOlLbCQBw=
+
+Name: cc3xxx/templates/schemas/GUIControl.xsd
+SHA1-Digest: E3U7Ke2mkyho974JI/fnBHCcrOA=
+
+Name: cc3xxx/bin/rbtl3101_132.dll
+SHA1-Digest: AYn0RiauB+NoLivclo2ZCkm0bdg=
+
+Name: cc3xxx/templates/schemas/template_schema.xsd
+SHA1-Digest: 2jRdfBcljflf7uwttrKhnKZwacs=
+

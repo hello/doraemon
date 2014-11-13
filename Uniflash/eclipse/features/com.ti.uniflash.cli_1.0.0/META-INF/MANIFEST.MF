@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_10 (Oracle Corporation)
+
+Name: p2.inf
+SHA-256-Digest: WnT+8K6zhkyRJNftVjvP2ne3QS75GVjgvg0NPN+T0qU=
+
+Name: feature.xml
+SHA-256-Digest: YiYD5xeMk76d7ZVDdYm7F+uJ422CRiotDbgXasJPe20=
+

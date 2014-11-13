@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+
+
+<plugin>
+
+
+	 <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.ti.uniflash.rcp.application"
+            name="CCS UniFlash">
+         <property
+               name="appName"
+               value="CCS UniFlash">
+         </property>
+         <property
+               name="windowImages"
+               value="platform:/plugin/com.ti.uniflash.rcp/icons/CCS-flash-16x16-simple-bolt.png,platform:/plugin/com.ti.uniflash.rcp/icons/CCS-flash-32x32-simple-bolt.png">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+         <property
+               name="aboutImage"
+               value="icons/alt_about.gif">
+         </property>
+         <property
+               name="aboutText"
+               value="%AboutText">
+         </property>
+      </product>
+   </extension>
+ 
+</plugin>

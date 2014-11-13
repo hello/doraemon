@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.p2tool"
+      label="CCStudio p2 Tool Feature"
+      version="6.0.0.201311140927"
+      provider-name="Texas Instruments">
+
+   <description>
+      CCStudio p2 Tool
+   </description>
+
+   <plugin
+         id="com.ti.ccstudio.p2.actions"
+         download-size="0"
+         install-size="0"
+         version="5.2.0.201311140927"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.startupInstaller"
+         download-size="0"
+         install-size="0"
+         version="6.0.0.201311140927"
+         unpack="false"/>
+
+</feature>

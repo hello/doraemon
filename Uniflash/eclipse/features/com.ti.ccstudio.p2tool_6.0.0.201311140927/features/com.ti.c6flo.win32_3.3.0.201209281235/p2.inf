@@ -1,0 +1,3 @@
+instructions.configure =\
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:0,location:http${#58}//software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/c6flo,name:TI C6EZFlo,enabled:true);\
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:1,location:http${#58}//software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/c6flo,name:TI C6EZFlo,enabled:true);

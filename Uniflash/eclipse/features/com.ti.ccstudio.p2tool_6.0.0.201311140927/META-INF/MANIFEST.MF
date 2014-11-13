@@ -1,0 +1,208 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+
+Name: features/com.ti.ccstudio.nowflash.win32_5.3.0.0/feature.xml
+SHA1-Digest: 80iyK2YzXye7yR9qFtLyn3CVFAA=
+
+Name: features/com.ti.ccstudio.msp430.emu.win32_5.3.0.2/feature.xml
+SHA1-Digest: Tu+bnKwPoaY/SN96y+ugdqNZjbI=
+
+Name: features/com.ti.bios.c2000.win32_6.34.2.18/feature.xml
+SHA1-Digest: PABKnPRel6LWqg76DmxNsokVhmM=
+
+Name: features/com.ti.ccstudio.base_5.3.0.00332/feature.xml
+SHA1-Digest: XRsiWX+dc0q+tou6Q9DeL/V9bEk=
+
+Name: features/com.ti.bios.base.win32_6.34.2.18/feature.xml
+SHA1-Digest: thofbYtmqQZbIoKaC3iGyLDrOIY=
+
+Name: features/com.ti.ccstudio.cc2538.devicesupport.win32_0.9.3.0/feat
+ ure.xml
+SHA1-Digest: Btq/kko54kAXyDan7XmFo6RIciQ=
+
+Name: features/com.ti.bios.msp430.win32_6.34.2.18/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.ti.bios.5.42.win32_5.42.0.07/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.sd.ccstudio.emulation.win32_5.2.0.03/p2.inf
+SHA1-Digest: vehkEApoIR3fxUkrxVO7hZr3ZoM=
+
+Name: features/com.ti.ccstudio.installer.win32_5.3.0.00067/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.bios.msp430.win32_6.34.2.18/feature.xml
+SHA1-Digest: Wr46fKQJ2YWKIspq3t3BI7kQCMs=
+
+Name: features/com.ti.ccstudio.debugserver.win32_5.3.0.332/feature.xml
+SHA1-Digest: yauKlUKWkD1667LUg5FSMNZEqnc=
+
+Name: features/com.ti.ccstudio.c6000_5.3.0.201210101700/feature.xml
+SHA1-Digest: uREFOeUwstT56ulQVP7rUM4eSlk=
+
+Name: features/com.ti.c2000.support.win32_4.1.0.3/feature.xml
+SHA1-Digest: //oBgQnWPEM7n+38P34LPu3gzdo=
+
+Name: features/com.ti.ccstudio.nowflash.win32_5.3.0.0/p2.inf
+SHA1-Digest: QvAEFQJXD4ODIY8ecNZy5nb5tA0=
+
+Name: features/com.ti.c6flo.win32_3.3.0.201209281235/p2.inf
+SHA1-Digest: 9nrRBOS12lpxAwvhDvo7vEFDRyc=
+
+Name: features/com.ti.ccstudio.c6000_5.3.0.201210101700/about.html
+SHA1-Digest: UMqULQxk4mm68y+YOrHwnj8W/1U=
+
+Name: features/com.ti.ccstudio.davinci.devicesupport.win32_1.1.0/featu
+ re.xml
+SHA1-Digest: adW5PC5yMkUZsudBzfGFKdTyT50=
+
+Name: features/com.ti.ccstudio.msp430.emu.win32_5.3.0.2/p2.inf
+SHA1-Digest: eERLWni9J5T70buwWxG7wxNe8rY=
+
+Name: features/com.ti.ccstudio.integra.devicesupport.win32_1.0.7/p2.in
+ f
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.c5500_5.3.0.201210101700/feature.xml
+SHA1-Digest: vHGCkNM0zxQ5RNtuJjMSJhX6HwM=
+
+Name: features/com.ti.ccstudio.cc2538.devicesupport.win32_0.9.3.0/p2.i
+ nf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.debugserver.win32_5.3.0.332/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.c2000.flash.setup.win32_1.0.0.2/p2.inf
+SHA1-Digest: L5/CJF/TlfJF6Zt28JjAgtz1M2o=
+
+Name: features/com.ti.ccstudio.c6000mc.devicesupport.win32_1.0.3/p2.in
+ f
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.integra.devicesupport.win32_1.0.7/featu
+ re.xml
+SHA1-Digest: p8ga4pxgrk3swAqIXU4oTBF3GcI=
+
+Name: features/com.bh.ccstudio.emulation.win32_5.2.0.205/p2.inf
+SHA1-Digest: qxflp0BTHYyWY2Ct/fzdMOQK1i8=
+
+Name: features/com.ti.ccstudio.c2000_5.3.0.201210101700/about.html
+SHA1-Digest: UMqULQxk4mm68y+YOrHwnj8W/1U=
+
+Name: features/com.ti.ccstudio.ccsinit.win32_5.1.0.0/feature.xml
+SHA1-Digest: bxDHHNfuAbtfrITnuocT/PLH3GU=
+
+Name: features/com.ti.c2000.support.win32_4.1.0.3/p2.inf
+SHA1-Digest: L5/CJF/TlfJF6Zt28JjAgtz1M2o=
+
+Name: features/com.ti.ccstudio.c2000_5.3.0.201210101700/feature.xml
+SHA1-Digest: ctRFCqnI8l6OXNKwdNZORi3C0nY=
+
+Name: features/com.ti.ccstudio.idemain_5.3.0.201210101700/feature.xml
+SHA1-Digest: +qUB4PoAY2SARmro7v48TYfEQFI=
+
+Name: features/com.ti.ccstudio.c54xx.devicesupport.win32_1.0.3/feature
+ .xml
+SHA1-Digest: b+3uQnmbys9s5BCY1syUu1t2rMw=
+
+Name: features/com.ti.bios.c2000.win32_6.34.2.18/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.ti.ccstudio.hercules.win32_5.3.0.1/p2.inf
+SHA1-Digest: 5ZccWe1Nzor+RTqPmvDLAXiCXqs=
+
+Name: features/com.ti.ccstudio.c55xx.devicesupport.win32_1.0.8/feature
+ .xml
+SHA1-Digest: jAvWMTcfDy1/Z0qptx3ndUNJQYI=
+
+Name: features/com.ti.ccstudio.omap.devicesupport.win32_1.0.3/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.bios.arm.win32_6.34.2.18/feature.xml
+SHA1-Digest: zfLvwOoiXscG57fZZdugOaT+xBQ=
+
+Name: features/com.ti.ccstudio.msp430_5.3.0.201210101700/about.html
+SHA1-Digest: UMqULQxk4mm68y+YOrHwnj8W/1U=
+
+Name: features/com.ti.bios.base.win32_6.34.2.18/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.ti.ccstudio.gui.composer.ccs_1.0.0.201210101700/fea
+ ture.xml
+SHA1-Digest: k3AsW3M2rX0pF15i7xxBnIBaOTU=
+
+Name: feature.xml
+SHA1-Digest: 7t5PrluBJ16sKBuAkJKnqcff/Uw=
+
+Name: features/com.ti.ccstudio.omap.devicesupport.win32_1.0.3/feature.
+ xml
+SHA1-Digest: fcOtHIzmwNjvZVknkfzDqjs8Moc=
+
+Name: features/com.ti.ccstudio.c5400_5.3.0.201210101700/feature.xml
+SHA1-Digest: 00cHW/BrZDq9uONB/RRvCdTxYCw=
+
+Name: features/com.ti.ccstudio.c54xx.devicesupport.win32_1.0.3/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.c5400_5.3.0.201210101700/about.html
+SHA1-Digest: UMqULQxk4mm68y+YOrHwnj8W/1U=
+
+Name: features/com.ti.ccstudio.msp430_5.3.0.201210101700/feature.xml
+SHA1-Digest: tOlfnJRuBCHi/60W/N9v5t1Px0E=
+
+Name: features/com.ti.c6flo.win32_3.3.0.201209281235/feature.xml
+SHA1-Digest: 73gTB8obwedYLQxDx+cFbrkSDCA=
+
+Name: features/com.ti.bios.c6000.win32_6.34.2.18/feature.xml
+SHA1-Digest: sLF4ZfoZpt9s3oeqlr3yejdTSl8=
+
+Name: features/com.ti.ccstudio.c6000mc.devicesupport.win32_1.0.3/featu
+ re.xml
+SHA1-Digest: DA7xtF1gOXvyAQJq6VqQzyR5OJY=
+
+Name: features/com.ti.ccstudio.c5500_5.3.0.201210101700/about.html
+SHA1-Digest: UMqULQxk4mm68y+YOrHwnj8W/1U=
+
+Name: features/com.ti.c2000.flash.setup.win32_1.0.0.2/feature.xml
+SHA1-Digest: xcNxOZUN3170PpZ2JlhXrA7WoPg=
+
+Name: features/com.ti.ccstudio.davinci.devicesupport.win32_1.1.0/p2.in
+ f
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.hercules.win32_5.3.0.1/feature.xml
+SHA1-Digest: foE7qAHoUO7CjEQ5FQEbbEDEKlU=
+
+Name: features/com.ti.ccstudio.c6000.devicesupport.win32_1.0.6/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.sd.ccstudio.emulation.win32_5.2.0.03/feature.xml
+SHA1-Digest: gxAjtxKT67WG8MoZS0Kqt65uPk4=
+
+Name: features/com.ti.ccstudio.c6000.devicesupport.win32_1.0.6/feature
+ .xml
+SHA1-Digest: yxCj4sxLh8I8K46IwAgRjfEwmsA=
+
+Name: features/com.ti.ccstudio.c55xx.devicesupport.win32_1.0.8/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.ti.ccstudio.ccsinit.win32_5.1.0.0/p2.inf
+SHA1-Digest: uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+
+Name: features/com.bh.ccstudio.emulation.win32_5.2.0.205/feature.xml
+SHA1-Digest: qQgYpEiVNX0XN2FQqgPjCVFEbKA=
+
+Name: features/com.ti.bios.5.42.win32_5.42.0.07/feature.xml
+SHA1-Digest: hFQxygMpfEJMomrZJhIhnc7BA6M=
+
+Name: features/com.ti.bios.c6000.win32_6.34.2.18/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.ti.bios.arm.win32_6.34.2.18/p2.inf
+SHA1-Digest: xbgWra062rpUB4KJmlKmVwcwn8Q=
+
+Name: features/com.ti.ccstudio.installer.win32_5.3.0.00067/feature.xml
+SHA1-Digest: p5ph68oVbwwg6X89xhB67zlZaU0=
+

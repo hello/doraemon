@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime
+Bundle-Vendor: TI
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201407251349
+Bundle-Name: Branding
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.ti.uniflash.branding.Activator
+Bundle-SymbolicName: com.ti.uniflash.branding;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+Name: icons/alt_about.gif
+SHA1-Digest: 8AEdpWfnT1RZYvWFC5BvSmuQFew=
+
+Name: about.properties
+SHA1-Digest: mO734U5e0X1sbjuggkzxRAbe4yw=
+
+Name: plugin.xml
+SHA1-Digest: lIvuNxbealjDXEtbZD6FbJ3PN50=
+
+Name: plugin.properties
+SHA1-Digest: /wFew3ZEFuZjOS2gFIQCMUdZiyg=
+
+Name: com/ti/uniflash/branding/Activator.class
+SHA1-Digest: m9hZhSaodKTWjuvrU6Y+2gUzYjY=
+
+Name: about.ini
+SHA1-Digest: vidBAeBVNphl6zVwtZ1ZsKKrnz8=
+
+Name: about.mappings
+SHA1-Digest: VkLI4tCRnSez36HfxSJ3TwlYrY0=
+

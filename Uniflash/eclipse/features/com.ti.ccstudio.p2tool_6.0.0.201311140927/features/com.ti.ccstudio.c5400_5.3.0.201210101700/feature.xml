@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.c5400"
+      label="Code Composer Studio IDE C5400 Components"
+      version="5.3.0.201210101700"
+      provider-name="Texas Instruments">
+
+   <description>
+      Code Composer Studio IDE C5400 Components
+   </description>
+
+   <copyright>
+      Copyright Texas Instruments 2010-2011
+   </copyright>
+
+   <license>
+      See Code Composer Studio license for specific terms and conditions.
+   </license>
+
+   <plugin
+         id="com.ti.ccstudio.buildDefinitions.C5400"
+         download-size="0"
+         install-size="0"
+         version="5.2.0.201210101700"/>
+
+   <plugin
+         id="com.ti.ccstudio.buildDefinitions.C5400_legacy"
+         download-size="0"
+         install-size="0"
+         version="5.1.0.201210101700"
+         unpack="false"/>
+
+</feature>

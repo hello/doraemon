@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.msp430"
+      label="Code Composer Studio IDE MSP430 Components"
+      version="5.3.0.201210101700"
+      provider-name="Texas Instruments">
+
+   <description>
+      Code Composer Studio IDE MSP430 Components
+   </description>
+
+   <copyright>
+      Copyright Texas Instruments 2010-2011
+   </copyright>
+
+   <license>
+      See Code Composer Studio license for specific terms and conditions.
+   </license>
+
+   <plugin
+         id="com.ti.ccstudio.buildDefinitions.MSP430"
+         download-size="0"
+         install-size="0"
+         version="5.2.0.201210101700"/>
+
+   <plugin
+         id="com.ti.ccstudio.buildDefinitions.MSP430_legacy"
+         download-size="0"
+         install-size="0"
+         version="5.1.1.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.debug.trace.msp430"
+         download-size="0"
+         install-size="0"
+         version="5.3.0.201210101700"
+         unpack="false"/>
+		 
+   <plugin
+         id="com.ti.ccstudio.debug.ui.msp430"
+         download-size="0"
+         install-size="0"
+         version="5.3.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.highlights.msp430"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+</feature>
