@@ -1,1 +1,1 @@
-uniflashcli.bat -config "C:\ti\uniflash_3.2\uniflash_session\uniflash.ucf" -setOptions com=4 secure=false spPath="C:\ti\uniflash_3.2\servicepack_1.0.0.1.2.bin" -operations format servicePackUpdate program
+%~dp0uniflashcli.bat -config "%~dp0uniflash_session\uniflash.ucf" -setOptions com=%1 secure=false spPath="%~dp0servicepack_1.0.0.1.2.bin" -operations format servicePackUpdate program
