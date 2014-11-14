@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1406310630359">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs/" version="1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ/" version="1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38/" version="1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38">
+		</feature>
+		<feature id="com.ti.uniflash.cli" url="features/com.ti.uniflash.cli_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="com.ti.ccstudio.p2tool" url="features/com.ti.ccstudio.p2tool_6.0.0.201311140927/" version="6.0.0.201311140927">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP/" version="2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs/" version="1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs">
+		</feature>
+		<feature id="com.ti.uniflash.feature" url="features/com.ti.uniflash.feature_1.0.0.201407251349/" version="1.0.0.201407251349">
+		</feature>
+	</site>
+</config>

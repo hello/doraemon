@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Device (Top Level) element definition -->
+  <xs:element name="CC3xxx">
+    <xs:complexType>
+      <xs:sequence>
+	    <xs:element name="Version" type="VersionType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="Values" type="ValuesType" minOccurs="0" maxOccurs="unbounded" />
+	    <xs:element name="Filename" type="FSType" minOccurs="1" maxOccurs="unbounded" />
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+	
+
+  <!-- Version element definition -->
+  <xs:complexType name="VersionType">
+    <xs:sequence>
+	  <xs:element name="Platform" type="xs:string" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="BootLoader" type="VersionTypeParam" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="NWP" type="VersionTypeParam" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="MAC" type="VersionTypeParam" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="PHY" type="VersionTypeParam" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="Patches" type="VersionTypeParam" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Version element definition -->
+  <xs:complexType name="VersionTypeParam">
+    <xs:sequence>
+	  <xs:element name="SoftwareMajor" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareMinor" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareVersion" type="xs:integer" minOccurs="0" maxOccurs="1" />
+	  <xs:element name="SoftwareSubVersion" type="xs:integer" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+		
+  <!-- ValuesDefinition element definition -->
+  <xs:complexType name="ValuesType">
+    <xs:sequence>
+            <xs:element name="Value" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="xs:string">
+                    <xs:attribute name="val" type="xs:string" use="required" />
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+    </xs:sequence>
+	 <xs:attribute name="name" type="xs:string" use="required" />
+     <xs:attribute name="type" type="xs:string" use="required" />
+  </xs:complexType>
+		
+	<xs:complexType name="EntryCheckedPair">
+		<xs:attribute name="name" type="xs:string" use="required"  />
+		<xs:attribute name="checked" type="xs:boolean" use="required"  />		
+	</xs:complexType>
+	
+	<xs:complexType name="ModeBreakDownCheckedType">
+		<xs:sequence>
+			<xs:element name="ModeEntry" type="EntryCheckedPair" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+  <!-- FileSystemDefinition element definition -->
+  <xs:complexType name="FSType">
+    <xs:sequence>
+		<xs:element name="Version" type="xs:decimal" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Type" type="FileTypeRestrict" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Storage" type="StorageRestrict" minOccurs="0" maxOccurs="1" />
+		<xs:element name="MaxSize" type="xs:decimal" minOccurs="0" maxOccurs="1" />
+		<xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1" />
+		<xs:element name="mode" type="ModeBreakDownCheckedType" minOccurs="0" maxOccurs="1" />
+		<xs:element name="verify" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Update" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Erase" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Certificate" type="xs:string" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Signature" type="xs:string" minOccurs="0" maxOccurs="1" />
+		<xs:element name="Param" type="ParamType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+	<xs:attribute name="name" type="xs:string" use="required" />
+	<xs:attribute name="category" type="xs:string" use="required" />
+  </xs:complexType>
+  
+  <!-- Types/Restriction definition -->
+  <!-- ParamType => parameter definition -->
+  <xs:complexType name="ParamType">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="Default" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="Desc" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="Offset" type="xs:string" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="type" type="ParamTypeRestrict" use="required" />
+    <xs:attribute name="size" type="xs:integer" use="required" />
+    <xs:attribute name="valtype" type="xs:string" use="optional" />
+    <xs:attribute name="cond" type="xs:string" use="optional" />
+  </xs:complexType>
+  
+  <!-- TypeElemRestrict => type of config parameter type we support -->
+  <xs:simpleType name="ParamTypeRestrict">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="u"/>
+      <xs:enumeration value="d"/>
+      <xs:enumeration value="x"/>
+      <xs:enumeration value="s"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- TypeElemRestrict => type of filetype we support -->
+  <xs:simpleType name="FileTypeRestrict">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="blob"/>
+      <xs:enumeration value="conf"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- StorageRestrict => type of memory storage we support -->
+  <xs:simpleType name="StorageRestrict">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="FLASH"/>
+      <xs:enumeration value="SFLASH"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- StrHexType => hex string (starts with 0x) with at most length of 8 -->
+  <xs:simpleType name="StrHexType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0x[0-9a-fA-F]{1,8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/enabled=true
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/isSystem=false
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/name=file\:/c\:/hudson/workspace/hd.uniflash32xx/hd.uniflash32xx/sdo-ccs/uniflash/build/output/buildRepo - metadata
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/suffix=content.xml
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/uri=file\:/c\:/hudson/workspace/hd.uniflash32xx/hd.uniflash32xx/sdo-ccs/uniflash/build/output/buildRepo/
+repositories/file\:_c\:_hudson_workspace_hd.uniflash32xx_hd.uniflash32xx_sdo-ccs_uniflash_build_output_buildRepo/version=1.0.0
+repositories/http\:__software-dl.ti.com_ccs_non-esd_uniflash_updates_wcs/count=2
+repositories/http\:__software-dl.ti.com_ccs_non-esd_uniflash_updates_wcs/enabled=true
+repositories/http\:__software-dl.ti.com_ccs_non-esd_uniflash_updates_wcs/isSystem=false
+repositories/http\:__software-dl.ti.com_ccs_non-esd_uniflash_updates_wcs/nickname=UniFlash RCP Updates
+repositories/http\:__software-dl.ti.com_ccs_non-esd_uniflash_updates_wcs/uri=http\://software-dl.ti.com/ccs/non-esd/uniflash/updates/wcs

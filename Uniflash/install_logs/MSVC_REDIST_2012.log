@@ -1,0 +1,32 @@
+[19FC:1A2C][2014-11-13T11:44:50]: Burn v3.6.3542.0, Windows v6.1 (Build 7601: Service Pack 1), path: C:\Users\CHRISJ~1\DOCUME~1\GitHub\doraemon\Uniflash\VCREDI~1.EXE, cmdline: '/q /l C:/Users/chrisjohnson/Documents/GitHub/doraemon/Uniflash/install_logs/MSVC_REDIST_2012.log /nostart -burn.unelevated BurnPipe.{E49DE3DE-7560-4147-97C9-F53FDF808C79} {30600781-A1F3-44AC-A228-6E4FF568D9DF} 6156'
+[19FC:1A2C][2014-11-13T11:44:50]: Setting string variable 'WixBundleLog' to value 'C:/Users/chrisjohnson/Documents/GitHub/doraemon/Uniflash/install_logs/MSVC_REDIST_2012.log'
+[19FC:1A2C][2014-11-13T11:44:50]: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\CHRISJ~1\DOCUME~1\GitHub\doraemon\Uniflash\VCREDI~1.EXE'
+[19FC:1A2C][2014-11-13T11:44:50]: Detect 2 packages
+[19FC:1A2C][2014-11-13T11:44:50]: Detected package: vcRuntimeMinimum_x86, state: Present, cached: Complete
+[19FC:1A2C][2014-11-13T11:44:50]: Detected package: vcRuntimeAdditional_x86, state: Present, cached: Complete
+[19FC:1A2C][2014-11-13T11:44:50]: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[19FC:1A2C][2014-11-13T11:44:50]: Detect complete, result: 0x0
+[19FC:1A2C][2014-11-13T11:44:50]: Plan 2 packages, action: Modify
+[19FC:1A2C][2014-11-13T11:44:50]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[19FC:1A2C][2014-11-13T11:44:50]: Condition 'VersionNT > v6.2 OR (VersionNT = v6.2 AND (NTProductType = 1)) OR (VersionNT = v6.2 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND NOT (NTProductType = 1)) OR (VersionNT = v6.1 AND (NTProductType = 1)) OR (VersionNT = v6.1 AND NOT (NTProductType = 1)) OR (VersionNT = v6.0 AND (NTProductType = 1)) OR (VersionNT = v5.1) OR (VersionNT = v5.2 AND NOT (NTProductType = 1)) OR (VersionNT = v5.2 AND (NTProductType = 1))' evaluates to true.
+[19FC:1A2C][2014-11-13T11:44:50]: Planned package: vcRuntimeMinimum_x86, state: Present, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[19FC:1A2C][2014-11-13T11:44:50]: Planned package: vcRuntimeAdditional_x86, state: Present, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[19FC:1A2C][2014-11-13T11:44:50]: Plan complete, result: 0x0
+[19FC:1A2C][2014-11-13T11:44:50]: Apply begin
+[180C:19C4][2014-11-13T11:44:51]: Creating a system restore point.
+[180C:19C4][2014-11-13T11:44:56]: Created a system restore point.
+[19FC:1A2C][2014-11-13T11:44:56]: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[19FC:1A2C][2014-11-13T11:44:56]: Shutting down, exit code: 0x0
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: NTProductType = 1
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: ServicePackLevel = 1
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: VersionNT = 6.1.0.0
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleAction = 5
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleElevated = 1
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleInstalled = 1
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleLog = C:/Users/chrisjohnson/Documents/GitHub/doraemon/Uniflash/install_logs/MSVC_REDIST_2012.log
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleName = Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleOriginalSource = C:\TI\UNIFLA~1.2\VCREDI~1.EXE
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleProviderKey = {33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleTag = 
+[19FC:1A2C][2014-11-13T11:44:56]: Variable: WixBundleVersion = 11.0.61030.0
+[19FC:1A2C][2014-11-13T11:44:56]: Exit code: 0x0, restarting: No

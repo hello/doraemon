@@ -1,0 +1,1760 @@
+Log started 11/13/2014 at 11:43:49
+Preferred installation mode : win32
+Trying to init installer in mode win32
+Mode win32 successfully initialized
+Preparing to Install
+Preparing to Install
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash
+Unpacking files
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\command_line
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration\org.eclipse.equinox.simpleconfigurator
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration\org.eclipse.update
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\downloads
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.bh.ccstudio.emulation.win32_5.2.0.205
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.sd.ccstudio.emulation.win32_5.2.0.03
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.5.42.win32_5.42.0.07
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.arm.win32_6.34.2.18
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.base.win32_6.34.2.18
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c2000.win32_6.34.2.18
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c6000.win32_6.34.2.18
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.msp430.win32_6.34.2.18
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.flash.setup.win32_1.0.0.2
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.support.win32_4.1.0.3
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c6flo.win32_3.3.0.201209281235
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.base_5.3.0.00332
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c2000_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5400_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c54xx.devicesupport.win32_1.0.3
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5500_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c55xx.devicesupport.win32_1.0.8
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000.devicesupport.win32_1.0.6
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000mc.devicesupport.win32_1.0.3
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.cc2538.devicesupport.win32_0.9.3.0
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.ccsinit.win32_5.1.0.0
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.davinci.devicesupport.win32_1.1.0
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.debugserver.win32_5.3.0.332
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.gui.composer.ccs_1.0.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.hercules.win32_5.3.0.1
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.idemain_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.installer.win32_5.3.0.00067
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.integra.devicesupport.win32_1.0.7
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430.emu.win32_5.3.0.2
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430_5.3.0.201210101700
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.nowflash.win32_5.3.0.0
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.omap.devicesupport.win32_1.0.3
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.p2tool_5.2.0.201204111758
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.core
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\.settings
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\libs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\com
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\com\ti
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\com\ti\uniflash
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\com\ti\uniflash\branding
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\icons
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\libs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\fileSystem
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\schemas
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\scripts
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\.eclipseproduct
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\artifacts.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\uniflash.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\uniflash.ini
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\command_line\cc3xx_cmd.bat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\command_line\com.ti.uniflash.commandline.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\command_line\p2gc.bat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration\config.ini
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration\org.eclipse.equinox.simpleconfigurator\bundles.info
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\configuration\org.eclipse.update\platform.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.bh.ccstudio.emulation.win32_5.2.0.205\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.bh.ccstudio.emulation.win32_5.2.0.205\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.sd.ccstudio.emulation.win32_5.2.0.03\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.sd.ccstudio.emulation.win32_5.2.0.03\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.5.42.win32_5.42.0.07\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.5.42.win32_5.42.0.07\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.arm.win32_6.34.2.18\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.arm.win32_6.34.2.18\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.base.win32_6.34.2.18\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.base.win32_6.34.2.18\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c2000.win32_6.34.2.18\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c2000.win32_6.34.2.18\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c6000.win32_6.34.2.18\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.c6000.win32_6.34.2.18\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.msp430.win32_6.34.2.18\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.bios.msp430.win32_6.34.2.18\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.flash.setup.win32_1.0.0.2\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.flash.setup.win32_1.0.0.2\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.support.win32_4.1.0.3\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c2000.support.win32_4.1.0.3\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c6flo.win32_3.3.0.201209281235\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.c6flo.win32_3.3.0.201209281235\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.base_5.3.0.00332\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c2000_5.3.0.201210101700\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c2000_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5400_5.3.0.201210101700\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5400_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c54xx.devicesupport.win32_1.0.3\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c54xx.devicesupport.win32_1.0.3\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5500_5.3.0.201210101700\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c5500_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c55xx.devicesupport.win32_1.0.8\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c55xx.devicesupport.win32_1.0.8\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000.devicesupport.win32_1.0.6\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000.devicesupport.win32_1.0.6\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000mc.devicesupport.win32_1.0.3\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000mc.devicesupport.win32_1.0.3\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000_5.3.0.201210101700\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.c6000_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.cc2538.devicesupport.win32_0.9.3.0\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.cc2538.devicesupport.win32_0.9.3.0\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.ccsinit.win32_5.1.0.0\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.ccsinit.win32_5.1.0.0\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.davinci.devicesupport.win32_1.1.0\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.davinci.devicesupport.win32_1.1.0\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.debugserver.win32_5.3.0.332\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.debugserver.win32_5.3.0.332\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.gui.composer.ccs_1.0.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.hercules.win32_5.3.0.1\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.hercules.win32_5.3.0.1\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.idemain_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.installer.win32_5.3.0.00067\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.installer.win32_5.3.0.00067\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.integra.devicesupport.win32_1.0.7\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.integra.devicesupport.win32_1.0.7\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430.emu.win32_5.3.0.2\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430.emu.win32_5.3.0.2\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430_5.3.0.201210101700\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.msp430_5.3.0.201210101700\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.nowflash.win32_5.3.0.0\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.nowflash.win32_5.3.0.0\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.omap.devicesupport.win32_1.0.3\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\features\com.ti.ccstudio.omap.devicesupport.win32_1.0.3\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.ccstudio.p2tool_6.0.0.201311140927\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\p2.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.cli_1.0.0\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\plugin_customization.ini
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\com.ti.uniflash.feature_1.0.0.201407251349\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\eclipse_update_120.jpg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\epl-v10.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\feature.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\license.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\epl-v10.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\feature.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\license.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\eclipse_update_120.jpg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\epl-v10.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\feature.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\license.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\eclipse_update_120.jpg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\epl-v10.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\feature.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\license.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\eclipse_update_120.jpg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\epl-v10.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\feature.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\feature.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\license.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.lock
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1406310622834.profile.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1406310622992.profile.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1406310629863.profile.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1406310630620.profile.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ibm.icu_4.4.2.v20110823.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.base.ui_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.core_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.debug.server.core_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.debug.server_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.p2.actions_5.2.0.201311140927.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.p2app_1.0.0.201202161700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.startupInstaller_6.0.0.201311140927.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.swt_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.ccstudio.system.setup_5.3.0.201210101700.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.common.core.utils.local_1.0.0.201403092200.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.common.core_6.0.0.201403092200.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.cc3xx_1.0.0.201407251349.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.rcp_1.0.0.201407251349.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.script.runner_1.0.0.201407251349.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.session_1.0.0.201407251349.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash_1.0.0.201407251349.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.apache.commons.codec_1.3.0.v201101211617.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.apache.commons.httpclient_3.1.0.v201012070820.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.apache.commons.logging_1.0.4.v201101211617.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32_5.3.0.201206111645.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core_5.4.0.201206111645.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.compare.core_3.5.200.v20120522-1148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.commands_3.6.1.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.contenttype_3.4.200.v20120523-2004.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.databinding.property_1.4.100.v20120523-1956.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.databinding_1.4.1.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.expressions_3.4.400.v20120523-2004.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.filebuffers_3.5.200.v20120523-1310.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.filesystem_1.3.200.v20120522-2012.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.jobs_3.5.200.v20120521-2346.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.net.win32.x86_1.0.100.v20120522-1148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.net_1.2.200.v20120522-1148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.resources_3.8.0.v20120522-2034.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime_3.8.0.v20120521-2346.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.variables_3.2.600.v20120521-2012.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.filetransfer_5.0.0.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.identity_3.1.200.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.httpclient_4.0.200.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.provider.filetransfer_3.2.0.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf.ssl_1.0.100.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ecf_3.1.300.v20120608-0148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.app_1.3.100.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.common_3.6.100.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.concurrent_1.0.300.v20120522-2049.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.ds_1.4.0.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.frameworkadmin.equinox_1.0.400.v20120428-0117.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.frameworkadmin_2.0.100.v20120606-175127.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher_1.3.0.v20120522-1813.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.artifact.repository_1.1.200.v20120430-1959.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.console_1.0.300.v20120429-0125.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.core_2.2.0.v20120430-0525.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.director_2.2.0.v20120524-0542.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.discovery.compatibility_1.0.101.v20120524-1717.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.discovery_1.0.200.v20120524-1717.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.engine_2.2.0.v20120501-1502.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.jarprocessor_1.0.200.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.publisher.eclipse_1.1.0.v20120511-1931.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.publisher_1.2.0.v20120428-0117.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ql_2.0.100.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.natives_1.1.0.v20120524-0542.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120305-0333.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ui.discovery_1.0.0.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.preferences_3.5.0.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.registry_3.5.200.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.security.ui_1.1.100.v20120522-2049.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.security.win32.x86_1.0.300.v20120522-2049.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.security_1.1.100.v20120522-1841.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.simpleconfigurator_1.0.300.v20110815-1744.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.util_1.0.400.v20120522-2049.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.help_3.6.0.v20120521-2344.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.jface.databinding_1.6.0.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.jface.text_3.8.0.v20120531-0600.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.jface_3.8.0.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ltk.core.refactoring_3.6.0.v20120523-1543.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.osgi.services_3.3.100.v20120522-1822.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.osgi_3.8.0.v20120529-1548.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.8.0.v3833.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.swt_3.8.0.v3833.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.text_3.5.200.v20120523-1310.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.browser_3.4.0.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.console_3.5.100.v20120521-2012.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.forms_3.5.200.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.net_1.2.100.v20120522-1148.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui.workbench_3.8.0.v20120521-2332.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.ui_3.8.0.v20120523-1546.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.sat4j.core_2.3.0.v20110329.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.sat4j.pb_2.3.0.v20110329.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\unpackappjars.bat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\dummy.txt
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\libs\jna-4.0.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\libs\jna-platform-4.0.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.jna_1.0.0.201407251349\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\about.ini
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\about.mappings
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\about.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\plugin.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\plugin.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\com\ti\uniflash\branding\Activator.class
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\icons\alt_about.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201407251349\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\eclipselink.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\libs\FlashCC3xIntegration.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201407251349\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\FlashAPI.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\rbtl3100.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\rbtl3100s.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\rbtl3101.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\rbtl3101_121.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\bin\rbtl3101_132.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\fileSystem\macadd.bin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\CC3xxx_template.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\CC3xxx_token.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\GUIControl.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\schemas\GUIControl.xsd
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\schemas\template_schema.xsd
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\cc3xxx\templates\schemas\token_schema.xsd
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\META-INF\MYKEY.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\com.ti.uniflash.wireless.files_1.0.0.201407251349\META-INF\MYKEY.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86\pom.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86\pom.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\listtasks.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\spawner.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\starter.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\winreg.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\.api_description
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\fragment.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\runtime_registry_compatibility.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\about.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\eclipse_1503.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\launcher.win32.win32.x86.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\eclipse.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\ECLIPSE_.RSA
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\ECLIPSE_.SF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\MANIFEST.MF
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\scripts\uniflash.bat
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\uniflashCLI.bat
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem\signed_files
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem\cc3100.bin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem\macadd.bin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem\Ucf.bin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\cc3xxx\fileSystem\signed_files\Ucf.signed
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\certs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\tools
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\ftdibus.cat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\ftdibus.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\ftdiport.cat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\ftdiport.inf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftbusui.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftcserco.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftd2xx.lib
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftd2xx64.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftdibus.sys
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftlang.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftser2k.sys
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\amd64\ftserui2.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftbusui.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftcserco.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftd2xx.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftd2xx.lib
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftdibus.sys
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftlang.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftser2k.sys
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi\i386\ftserui2.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\certs\install-certs.bat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\certs\ti3.p7b
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\tools\DPInst32.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\tools\DPInst64.exe
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package.xdc
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\ccsLegacyScriptingJNI.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\com.ti.ccstudio.debug.memoryserver_1.0.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\com.ti.ccstudio.scripting.environment_3.1.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\com.ti.debug.engine_1.0.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\com.ti.uart.monitor_1.0.0.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\dss.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\java\js.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\.vers_b100
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\.vers_g101
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\.vers_r100
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.bld.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.defs.h
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.ext.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.rel.dot
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.rel.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package.xdc.xml
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\package_ti.dss.c
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\ti.dss.ccs101
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\ccs_base\DebugServer\packages\ti\dss\package\ti.dss.sch
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\vcredist_x86_2012_11.0.61030.exe
+Visual C++ Redistributable 2012
+Executing C:/Users/chrisjohnson/Documents/GitHub/doraemon/Uniflash/vcredist_x86_2012_11.0.61030.exe /q /l "C:/Users/chrisjohnson/Documents/GitHub/doraemon/Uniflash/install_logs/MSVC_REDIST_2012.log" /nostart
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+Directory already exists: C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\client
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\new_plugin
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\applet
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\audio
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\chrome
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\chrome\content
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ie
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\i386
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\im
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\servicetag
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Kentucky
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\North_Dakota
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\COPYRIGHT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_de.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_es.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_fr.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_it.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_ja.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_ko.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_sv.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_zh_CN.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\LICENSE_zh_TW.rtf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\README.txt
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\THIRDPARTYLICENSEREADME.txt
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\Welcome.html
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\awt.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\axbridge.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\cmm.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\dcpr.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\deploy.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\deploytk.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\dt_shmem.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\dt_socket.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\eula.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\fontmanager.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\hpi.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\hprof.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\instrument.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\ioser12.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\j2pcsc.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\j2pkcs11.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jaas_nt.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java-rmi.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\javacpl.cpl
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\javacpl.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\javaw.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\javaws.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java_crw_demo.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jawt.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jbroker.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\JdbcOdbc.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jdwp.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jkernel.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jli.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jp2iexp.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jp2launcher.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jp2native.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jp2ssv.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpeg.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpicom.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpiexp.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpinscp.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpioji.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jpishare.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jqs.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jqsnotify.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jsound.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jsoundds.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jucheck.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jureg.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\jusched.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\keytool.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\kinit.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\klist.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\ktab.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\management.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\mlib_image.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\msvcr71.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\msvcrt.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\net.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\nio.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\npdeploytk.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\npjpi160_13.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\npoji610.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\npt.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\orbd.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\pack200.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\policytool.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\regutils.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\rmi.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\rmid.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\rmiregistry.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\servertool.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\splashscreen.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\ssv.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\ssvagent.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\sunmscapi.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\tnameserv.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\unicows.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\unpack.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\unpack200.exe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\verify.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\w2k_lsa_auth.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\wsdetect.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\zip.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\client\classes.jsa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\client\jvm.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\client\Xusage.txt
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\new_plugin\msvcr71.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\new_plugin\npdeploytk.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\new_plugin\npjp2.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\calendars.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\charsets.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\classlist
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\content-types.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\flavormap.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fontconfig.98.bfc
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fontconfig.98.properties.src
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fontconfig.bfc
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fontconfig.properties.src
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\javaws.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\jce.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\jsse.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\jvm.hprof.txt
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\logging.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management-agent.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\meta-index
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\net.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\plugin.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\psfont.properties.ja
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\psfontj2d.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\resources.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\rt.pack.gz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\sound.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\tzmappings
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\unpackappjars.bat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\audio\soundbank.gm
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm\CIEXYZ.pf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm\GRAY.pf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm\LINEAR_RGB.pf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm\PYCC.pf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\cmm\sRGB.pf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\ffjcext.zip
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\lzma.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_de.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_es.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_fr.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_it.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_ja.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_ko.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_sv.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_zh_CN.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_zh_HK.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\messages_zh_TW.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\splash.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\jqs.conf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\jqsmessages.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\chrome.manifest
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\install.rdf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\chrome\content\overlay.js
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ff\chrome\content\overlay.xul
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\deploy\jqs\ie\jqs_plugin.dll
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\dnsns.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\localedata.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\meta-index
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\sunjce_provider.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\sunmscapi.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\ext\sunpkcs11.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaBrightDemiBold.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaBrightDemiItalic.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaBrightItalic.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaBrightRegular.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaSansDemiBold.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaSansRegular.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaTypewriterBold.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\fonts\LucidaTypewriterRegular.ttf
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\i386\jvm.cfg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\im\indicim.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\im\thaiim.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\cursors.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\invalid32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_CopyDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_LinkDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_MoveDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management\jmxremote.access
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management\jmxremote.password.template
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management\management.properties
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\management\snmp.acl.template
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\cacerts
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\java.policy
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\java.security
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\javaws.policy
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\local_policy.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\security\US_export_policy.jar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\servicetag\jdk_header.png
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\CET
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\CST6CDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\EET
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\EST
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\EST5EDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\GMT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\HST
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\MET
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\MST
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\MST7MDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\PST8PDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\WET
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\ZoneInfoMappings
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Abidjan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Accra
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Addis_Ababa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Algiers
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Asmara
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Bamako
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Bangui
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Banjul
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Bissau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Blantyre
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Brazzaville
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Bujumbura
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Cairo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Casablanca
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Ceuta
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Conakry
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Dakar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Dar_es_Salaam
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Djibouti
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Douala
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\El_Aaiun
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Freetown
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Gaborone
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Harare
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Johannesburg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Kampala
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Khartoum
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Kigali
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Kinshasa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Lagos
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Libreville
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Lome
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Luanda
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Lubumbashi
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Lusaka
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Malabo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Maputo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Maseru
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Mbabane
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Mogadishu
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Monrovia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Nairobi
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Ndjamena
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Niamey
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Nouakchott
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Ouagadougou
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Porto-Novo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Sao_Tome
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Tripoli
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Tunis
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Africa\Windhoek
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Adak
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Anchorage
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Anguilla
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Antigua
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Araguaina
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Aruba
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Asuncion
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Atikokan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Bahia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Barbados
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Belem
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Belize
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Blanc-Sablon
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Boa_Vista
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Bogota
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Boise
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Cambridge_Bay
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Campo_Grande
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Cancun
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Caracas
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Cayenne
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Cayman
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Chicago
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Chihuahua
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Costa_Rica
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Cuiaba
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Curacao
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Danmarkshavn
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Dawson
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Dawson_Creek
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Denver
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Detroit
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Dominica
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Edmonton
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Eirunepe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\El_Salvador
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Fortaleza
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Glace_Bay
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Godthab
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Goose_Bay
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Grand_Turk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Grenada
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Guadeloupe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Guatemala
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Guayaquil
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Guyana
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Halifax
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Havana
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Hermosillo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Inuvik
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Iqaluit
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Jamaica
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Juneau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\La_Paz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Lima
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Los_Angeles
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Maceio
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Managua
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Manaus
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Martinique
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Mazatlan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Menominee
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Merida
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Mexico_City
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Miquelon
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Moncton
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Monterrey
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Montevideo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Montreal
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Montserrat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Nassau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\New_York
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Nipigon
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Nome
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Noronha
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Panama
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Pangnirtung
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Paramaribo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Phoenix
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Port-au-Prince
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Porto_Velho
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Port_of_Spain
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Puerto_Rico
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Rainy_River
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Rankin_Inlet
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Recife
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Regina
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Resolute
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Rio_Branco
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Santarem
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Santiago
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Santo_Domingo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Sao_Paulo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Scoresbysund
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\St_Johns
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\St_Kitts
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\St_Lucia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\St_Thomas
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\St_Vincent
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Swift_Current
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Tegucigalpa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Thule
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Thunder_Bay
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Tijuana
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Toronto
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Tortola
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Vancouver
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Whitehorse
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Winnipeg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Yakutat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Yellowknife
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Buenos_Aires
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Catamarca
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Cordoba
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Jujuy
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\La_Rioja
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Mendoza
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Rio_Gallegos
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Salta
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\San_Juan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\San_Luis
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Tucuman
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Argentina\Ushuaia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Indianapolis
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Knox
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Marengo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Petersburg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Tell_City
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Vevay
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Vincennes
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Indiana\Winamac
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Kentucky\Louisville
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\Kentucky\Monticello
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\North_Dakota\Center
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\America\North_Dakota\New_Salem
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Casey
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Davis
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\DumontDUrville
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Mawson
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\McMurdo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Palmer
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Rothera
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Syowa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Antarctica\Vostok
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Aden
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Almaty
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Amman
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Anadyr
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Aqtau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Aqtobe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Ashgabat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Baghdad
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Bahrain
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Baku
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Bangkok
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Beirut
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Bishkek
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Brunei
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Choibalsan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Chongqing
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Colombo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Damascus
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Dhaka
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Dili
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Dubai
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Dushanbe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Gaza
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Harbin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Hong_Kong
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Hovd
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Ho_Chi_Minh
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Irkutsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Jakarta
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Jayapura
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Jerusalem
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kabul
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kamchatka
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Karachi
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kashgar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kathmandu
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kolkata
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Krasnoyarsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kuala_Lumpur
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kuching
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Kuwait
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Macau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Magadan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Makassar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Manila
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Muscat
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Nicosia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Novosibirsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Omsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Oral
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Phnom_Penh
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Pontianak
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Pyongyang
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Qatar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Qyzylorda
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Rangoon
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Riyadh
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Riyadh87
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Riyadh88
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Riyadh89
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Sakhalin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Samarkand
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Seoul
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Shanghai
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Singapore
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Taipei
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Tashkent
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Tbilisi
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Tehran
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Thimphu
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Tokyo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Ulaanbaatar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Urumqi
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Vientiane
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Vladivostok
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Yakutsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Yekaterinburg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Asia\Yerevan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Azores
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Bermuda
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Canary
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Cape_Verde
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Faroe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Madeira
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Reykjavik
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\South_Georgia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\Stanley
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Atlantic\St_Helena
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Adelaide
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Brisbane
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Broken_Hill
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Currie
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Darwin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Eucla
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Hobart
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Lindeman
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Lord_Howe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Melbourne
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Perth
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Australia\Sydney
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+1
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+10
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+11
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+12
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+2
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+3
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+4
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+5
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+6
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+7
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+8
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT+9
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-1
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-10
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-11
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-12
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-13
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-14
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-2
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-3
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-4
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-5
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-6
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-7
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-8
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\GMT-9
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\UCT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Etc\UTC
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Amsterdam
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Andorra
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Athens
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Belgrade
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Berlin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Brussels
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Bucharest
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Budapest
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Chisinau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Copenhagen
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Dublin
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Gibraltar
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Helsinki
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Istanbul
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Kaliningrad
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Kiev
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Lisbon
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\London
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Luxembourg
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Madrid
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Malta
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Minsk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Monaco
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Moscow
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Oslo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Paris
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Prague
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Riga
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Rome
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Samara
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Simferopol
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Sofia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Stockholm
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Tallinn
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Tirane
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Uzhgorod
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Vaduz
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Vienna
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Vilnius
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Volgograd
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Warsaw
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Zaporozhye
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Europe\Zurich
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Antananarivo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Chagos
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Christmas
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Cocos
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Comoro
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Kerguelen
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Mahe
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Maldives
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Mauritius
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Mayotte
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Indian\Reunion
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Apia
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Auckland
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Chatham
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Easter
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Efate
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Enderbury
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Fakaofo
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Fiji
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Funafuti
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Galapagos
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Gambier
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Guadalcanal
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Guam
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Honolulu
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Johnston
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Kiritimati
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Kosrae
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Kwajalein
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Majuro
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Marquesas
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Midway
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Nauru
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Niue
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Norfolk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Noumea
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Pago_Pago
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Palau
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Pitcairn
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Ponape
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Port_Moresby
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Rarotonga
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Saipan
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Tahiti
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Tarawa
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Tongatapu
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Truk
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Wake
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\Pacific\Wallis
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\AST4
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\AST4ADT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\CST6
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\CST6CDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\EST5
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\EST5EDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\HST10
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\MST7
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\MST7MDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\PST8
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\PST8PDT
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\YST9
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib\zi\SystemV\YST9YDT
+Creating directory C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\doc
+Unpacking files
+Unpacking C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\doc\eclipse-css-2.ico
+Unpacking jars...
+Executing C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash/eclipse/plugins/unpackappjars.bat "C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java.exe"
+Script exit code: 0
+
+Script output:
+ 
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ibm.icu_4.4.2.v20110823.pack.gz"  "com.ibm.icu_4.4.2.v20110823.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.base.ui_5.3.0.201210101700.pack.gz"  "com.ti.base.ui_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.core_5.3.0.201210101700.pack.gz"  "com.ti.ccstudio.core_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.debug.server.core_5.3.0.201210101700.pack.gz"  "com.ti.ccstudio.debug.server.core_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.debug.server_5.3.0.201210101700.pack.gz"  "com.ti.ccstudio.debug.server_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.p2.actions_5.2.0.201311140927.pack.gz"  "com.ti.ccstudio.p2.actions_5.2.0.201311140927.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.p2app_1.0.0.201202161700.pack.gz"  "com.ti.ccstudio.p2app_1.0.0.201202161700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.startupInstaller_6.0.0.201311140927.pack.gz"  "com.ti.ccstudio.startupInstaller_6.0.0.201311140927.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.swt_5.3.0.201210101700.pack.gz"  "com.ti.ccstudio.swt_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.ccstudio.system.setup_5.3.0.201210101700.pack.gz"  "com.ti.ccstudio.system.setup_5.3.0.201210101700.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.common.core.utils.local_1.0.0.201403092200.pack.gz"  "com.ti.common.core.utils.local_1.0.0.201403092200.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.common.core_6.0.0.201403092200.pack.gz"  "com.ti.common.core_6.0.0.201403092200.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.uniflash.cc3xx_1.0.0.201407251349.pack.gz"  "com.ti.uniflash.cc3xx_1.0.0.201407251349.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.uniflash.rcp_1.0.0.201407251349.pack.gz"  "com.ti.uniflash.rcp_1.0.0.201407251349.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.uniflash.script.runner_1.0.0.201407251349.pack.gz"  "com.ti.uniflash.script.runner_1.0.0.201407251349.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.uniflash.session_1.0.0.201407251349.pack.gz"  "com.ti.uniflash.session_1.0.0.201407251349.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "com.ti.uniflash_1.0.0.201407251349.pack.gz"  "com.ti.uniflash_1.0.0.201407251349.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.apache.commons.codec_1.3.0.v201101211617.pack.gz"  "org.apache.commons.codec_1.3.0.v201101211617.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.apache.commons.httpclient_3.1.0.v201012070820.pack.gz"  "org.apache.commons.httpclient_3.1.0.v201012070820.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.apache.commons.logging_1.0.4.v201101211617.pack.gz"  "org.apache.commons.logging_1.0.4.v201101211617.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.cdt.core.win32_5.3.0.201206111645.pack.gz"  "org.eclipse.cdt.core.win32_5.3.0.201206111645.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.cdt.core_5.4.0.201206111645.pack.gz"  "org.eclipse.cdt.core_5.4.0.201206111645.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.compare.core_3.5.200.v20120522-1148.pack.gz"  "org.eclipse.compare.core_3.5.200.v20120522-1148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.commands_3.6.1.v20120521-2332.pack.gz"  "org.eclipse.core.commands_3.6.1.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.contenttype_3.4.200.v20120523-2004.pack.gz"  "org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.pack.gz"  "org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.databinding.property_1.4.100.v20120523-1956.pack.gz"  "org.eclipse.core.databinding.property_1.4.100.v20120523-1956.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.databinding_1.4.1.v20120521-2332.pack.gz"  "org.eclipse.core.databinding_1.4.1.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.expressions_3.4.400.v20120523-2004.pack.gz"  "org.eclipse.core.expressions_3.4.400.v20120523-2004.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.filebuffers_3.5.200.v20120523-1310.pack.gz"  "org.eclipse.core.filebuffers_3.5.200.v20120523-1310.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.filesystem_1.3.200.v20120522-2012.pack.gz"  "org.eclipse.core.filesystem_1.3.200.v20120522-2012.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.jobs_3.5.200.v20120521-2346.pack.gz"  "org.eclipse.core.jobs_3.5.200.v20120521-2346.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.net.win32.x86_1.0.100.v20120522-1148.pack.gz"  "org.eclipse.core.net.win32.x86_1.0.100.v20120522-1148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.net_1.2.200.v20120522-1148.pack.gz"  "org.eclipse.core.net_1.2.200.v20120522-1148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.resources_3.8.0.v20120522-2034.pack.gz"  "org.eclipse.core.resources_3.8.0.v20120522-2034.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.runtime_3.8.0.v20120521-2346.pack.gz"  "org.eclipse.core.runtime_3.8.0.v20120521-2346.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.core.variables_3.2.600.v20120521-2012.pack.gz"  "org.eclipse.core.variables_3.2.600.v20120521-2012.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.filetransfer_5.0.0.v20120608-0148.pack.gz"  "org.eclipse.ecf.filetransfer_5.0.0.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.identity_3.1.200.v20120608-0148.pack.gz"  "org.eclipse.ecf.identity_3.1.200.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20120608-0148.pack.gz"  "org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.provider.filetransfer.httpclient_4.0.200.v20120608-0148.pack.gz"  "org.eclipse.ecf.provider.filetransfer.httpclient_4.0.200.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20120608-0148.pack.gz"  "org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.provider.filetransfer_3.2.0.v20120608-0148.pack.gz"  "org.eclipse.ecf.provider.filetransfer_3.2.0.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf.ssl_1.0.100.v20120608-0148.pack.gz"  "org.eclipse.ecf.ssl_1.0.100.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ecf_3.1.300.v20120608-0148.pack.gz"  "org.eclipse.ecf_3.1.300.v20120608-0148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.app_1.3.100.v20120522-1841.pack.gz"  "org.eclipse.equinox.app_1.3.100.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.common_3.6.100.v20120522-1841.pack.gz"  "org.eclipse.equinox.common_3.6.100.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.concurrent_1.0.300.v20120522-2049.pack.gz"  "org.eclipse.equinox.concurrent_1.0.300.v20120522-2049.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.ds_1.4.0.v20120522-1841.pack.gz"  "org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.frameworkadmin.equinox_1.0.400.v20120428-0117.pack.gz"  "org.eclipse.equinox.frameworkadmin.equinox_1.0.400.v20120428-0117.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.frameworkadmin_2.0.100.v20120606-175127.pack.gz"  "org.eclipse.equinox.frameworkadmin_2.0.100.v20120606-175127.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.launcher_1.3.0.v20120522-1813.pack.gz"  "org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.artifact.repository_1.1.200.v20120430-1959.pack.gz"  "org.eclipse.equinox.p2.artifact.repository_1.1.200.v20120430-1959.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.console_1.0.300.v20120429-0125.pack.gz"  "org.eclipse.equinox.p2.console_1.0.300.v20120429-0125.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.core_2.2.0.v20120430-0525.pack.gz"  "org.eclipse.equinox.p2.core_2.2.0.v20120430-0525.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517.pack.gz"  "org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.director_2.2.0.v20120524-0542.pack.gz"  "org.eclipse.equinox.p2.director_2.2.0.v20120524-0542.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.discovery.compatibility_1.0.101.v20120524-1717.pack.gz"  "org.eclipse.equinox.p2.discovery.compatibility_1.0.101.v20120524-1717.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.discovery_1.0.200.v20120524-1717.pack.gz"  "org.eclipse.equinox.p2.discovery_1.0.200.v20120524-1717.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.engine_2.2.0.v20120501-1502.pack.gz"  "org.eclipse.equinox.p2.engine_2.2.0.v20120501-1502.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.jarprocessor_1.0.200.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.jarprocessor_1.0.200.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717.pack.gz"  "org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001.pack.gz"  "org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542.pack.gz"  "org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.publisher.eclipse_1.1.0.v20120511-1931.pack.gz"  "org.eclipse.equinox.p2.publisher.eclipse_1.1.0.v20120511-1931.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.publisher_1.2.0.v20120428-0117.pack.gz"  "org.eclipse.equinox.p2.publisher_1.2.0.v20120428-0117.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ql_2.0.100.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.ql_2.0.100.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145.pack.gz"  "org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314.pack.gz"  "org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945.pack.gz"  "org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117.pack.gz"  "org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.touchpoint.natives_1.1.0.v20120524-0542.pack.gz"  "org.eclipse.equinox.p2.touchpoint.natives_1.1.0.v20120524-0542.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120305-0333.pack.gz"  "org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120305-0333.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ui.discovery_1.0.0.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.ui.discovery_1.0.0.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344.pack.gz"  "org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744.pack.gz"  "org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650.pack.gz"  "org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542.pack.gz"  "org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657.pack.gz"  "org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615.pack.gz"  "org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.preferences_3.5.0.v20120522-1841.pack.gz"  "org.eclipse.equinox.preferences_3.5.0.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.registry_3.5.200.v20120522-1841.pack.gz"  "org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.security.ui_1.1.100.v20120522-2049.pack.gz"  "org.eclipse.equinox.security.ui_1.1.100.v20120522-2049.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.security.win32.x86_1.0.300.v20120522-2049.pack.gz"  "org.eclipse.equinox.security.win32.x86_1.0.300.v20120522-2049.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.security_1.1.100.v20120522-1841.pack.gz"  "org.eclipse.equinox.security_1.1.100.v20120522-1841.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.pack.gz"  "org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.simpleconfigurator_1.0.300.v20110815-1744.pack.gz"  "org.eclipse.equinox.simpleconfigurator_1.0.300.v20110815-1744.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.equinox.util_1.0.400.v20120522-2049.pack.gz"  "org.eclipse.equinox.util_1.0.400.v20120522-2049.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.help_3.6.0.v20120521-2344.pack.gz"  "org.eclipse.help_3.6.0.v20120521-2344.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.jface.databinding_1.6.0.v20120521-2332.pack.gz"  "org.eclipse.jface.databinding_1.6.0.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.jface.text_3.8.0.v20120531-0600.pack.gz"  "org.eclipse.jface.text_3.8.0.v20120531-0600.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.jface_3.8.0.v20120521-2332.pack.gz"  "org.eclipse.jface_3.8.0.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ltk.core.refactoring_3.6.0.v20120523-1543.pack.gz"  "org.eclipse.ltk.core.refactoring_3.6.0.v20120523-1543.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.osgi.services_3.3.100.v20120522-1822.pack.gz"  "org.eclipse.osgi.services_3.3.100.v20120522-1822.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.swt.win32.win32.x86_3.8.0.v3833.pack.gz"  "org.eclipse.swt.win32.win32.x86_3.8.0.v3833.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.swt_3.8.0.v3833.pack.gz"  "org.eclipse.swt_3.8.0.v3833.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.text_3.5.200.v20120523-1310.pack.gz"  "org.eclipse.text_3.5.200.v20120523-1310.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.browser_3.4.0.v20120521-2332.pack.gz"  "org.eclipse.ui.browser_3.4.0.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.console_3.5.100.v20120521-2012.pack.gz"  "org.eclipse.ui.console_3.5.100.v20120521-2012.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.forms_3.5.200.v20120521-2332.pack.gz"  "org.eclipse.ui.forms_3.5.200.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.net_1.2.100.v20120522-1148.pack.gz"  "org.eclipse.ui.net_1.2.100.v20120522-1148.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.pack.gz"  "org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui.workbench_3.8.0.v20120521-2332.pack.gz"  "org.eclipse.ui.workbench_3.8.0.v20120521-2332.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.eclipse.ui_3.8.0.v20120523-1546.pack.gz"  "org.eclipse.ui_3.8.0.v20120523-1546.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.sat4j.core_2.3.0.v20110329.pack.gz"  "org.sat4j.core_2.3.0.v20110329.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "org.sat4j.pb_2.3.0.v20110329.pack.gz"  "org.sat4j.pb_2.3.0.v20110329.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\plugins>if ERRORLEVEL 1 exit /b 0   
+
+Script stderr:
+ 
+
+Removing temporary files
+Removing temporary files
+Unpacking jars...
+Executing C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash/eclipse/jre/lib/unpackappjars.bat "C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\java.exe"
+Script exit code: 0
+
+Script output:
+ 
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "charsets.pack.gz"  "charsets.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "deploy.pack.gz"  "deploy.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "javaws.pack.gz"  "javaws.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "jce.pack.gz"  "jce.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "jsse.pack.gz"  "jsse.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "management-agent.pack.gz"  "management-agent.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "plugin.pack.gz"  "plugin.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "resources.pack.gz"  "resources.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>"\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\bin\\unpack200" "rt.pack.gz"  "rt.jar"   
+
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\eclipse\jre\lib>if ERRORLEVEL 1 exit /b 0   
+
+Script stderr:
+ 
+
+Removing temporary files
+Removing temporary files
+Executing C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\certs\install-certs.bat 
+Script exit code: 0
+
+Script output:
+ 
+C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\certs>certutil -addstore "TrustedPublisher" C:\Users\CHRISJ~1\DOCUME~1\GitHub\doraemon\Uniflash\drivers\certs\\ti3.p7b 
+TrustedPublisher
+Related Certificates:
+
+Exact match:
+Element 5:
+Serial Number: 5200e5aa2556fc1a86ed96c9d44b33c7
+Issuer: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 2/7/2010 4:00 PM
+ NotAfter: 2/7/2020 3:59 PM
+Subject: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+Non-root Certificate
+Template: 
+Cert Hash(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+Certificate "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" already in store.
+Signature matches Public Key
+Related Certificates:
+
+Exact match:
+Element 4:
+Serial Number: 18dad19e267de8bb4a2158cdcc6b3b4a
+Issuer: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 11/7/2006 4:00 PM
+ NotAfter: 7/16/2036 3:59 PM
+Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Template: 
+Cert Hash(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+Certificate "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" already in store.
+Related Certificates:
+
+Exact match:
+Element 0:
+Serial Number: 558c8cedb57ce54fa6fb351fb84b222f
+Issuer: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 4/14/2014 4:00 PM
+ NotAfter: 4/16/2015 3:59 PM
+Subject: CN=Texas Instruments, OU=WCS, O=Texas Instruments, L=Dallas, S=Texas, C=US
+Non-root Certificate
+Template: 
+Cert Hash(sha1): c7 6e 48 8a fc 11 5a d0 9d a6 69 cb e4 13 31 6f e5 6e 94 38
+
+Certificate "CN=Texas Instruments, OU=WCS, O=Texas Instruments, L=Dallas, S=Texas, C=US" already in store.
+CertUtil: -addstore command completed successfully.
+
+Script stderr:
+ 
+
+Executing C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\tools\DPInst64.exe /q /se /sa /path "C:\Users\chrisjohnson\Documents\GitHub\doraemon\Uniflash\drivers\cc3200\ftdi"
+Script exit code: 512
+
+Script output:
+ 
+
+Script stderr:
+ Program ended with an error exit code
+
+Unable to install FTDI drivers 0
+[11:45:18] Program dpinst finished successfully
+[11:45:18] Program output:  
+[11:45:18] Program error: Program ended with an error exit code 
+[11:45:18] Program exit code: 512 
+Create shortcut
+Creating Uninstaller
+Creating uninstaller 25%
+Creating uninstaller 50%
+Creating uninstaller 75%
+Creating uninstaller 100%
+Installation completed
+Log finished 11/13/2014 at 11:45:20

@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.jna,com.sun.jna.platform,com.sun.jna.platform.
+ dnd,com.sun.jna.platform.mac,com.sun.jna.platform.unix,com.sun.jna.pl
+ atform.win32,com.sun.jna.platform.win32.COM,com.sun.jna.platform.winc
+ e,com.sun.jna.ptr,com.sun.jna.win32
+Bundle-Vendor: Texas Instruments
+Bundle-ClassPath: .,libs/jna-4.0.0.jar,libs/jna-platform-4.0.0.jar
+Bundle-Version: 1.0.0.201407251349
+Eclipse-BundleShape: dir
+Bundle-Name: JNA TI Wrapper
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ti.jna
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+Name: libs/jna-platform-4.0.0.jar
+SHA1-Digest: 3ra/ZpGJibUCCbjJqvOyVhr38BE=
+
+Name: dummy.txt
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: libs/jna-4.0.0.jar
+SHA1-Digest: mzoRxhPsP9NECvQQOxLD3oLTi24=
+

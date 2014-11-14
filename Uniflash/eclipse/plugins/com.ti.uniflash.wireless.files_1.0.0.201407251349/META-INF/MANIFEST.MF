@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bundle-Vendor: TI
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201407251349
+Eclipse-BundleShape: dir
+Bundle-Name: com.ti.uniflash.wireless.files
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ti.uniflash.wireless.files
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+Name: cc3xxx/bin/rbtl3101.dll
+SHA1-Digest: xP4G+AoUWr/znVIjLjqWwfrI4RA=
+
+Name: cc3xxx/templates/GUIControl.xml
+SHA1-Digest: 6qh00iE5U+q+WjcIQeVZH73OHrA=
+
+Name: cc3xxx/fileSystem/macadd.bin
+SHA1-Digest: +AgOmT4HX6G+zfb9by8F7w4Di6w=
+
+Name: cc3xxx/bin/rbtl3101_121.dll
+SHA1-Digest: j0/VhPIaHk2MgXH2cW9/PF519Cw=
+
+Name: cc3xxx/templates/CC3xxx_token.xml
+SHA1-Digest: mdTu8zN+phm8+pcwmcYjkYkQo30=
+
+Name: cc3xxx/bin/rbtl3100.dll
+SHA1-Digest: PmEsTamhvm0DeTVGBk2rXsAQvX8=
+
+Name: cc3xxx/templates/schemas/token_schema.xsd
+SHA1-Digest: TKYCmG62jDtO8cqRGT9uTANMDtI=
+
+Name: cc3xxx/bin/rbtl3100s.dll
+SHA1-Digest: ReKwuJJgtZGeFfmgR9VoTjVf5Wc=
+
+Name: cc3xxx/templates/CC3xxx_template.xml
+SHA1-Digest: /FnUPC6/lrmu6ZMV1eUlWhAybvA=
+
+Name: cc3xxx/bin/FlashAPI.dll
+SHA1-Digest: 6EzfL38eNCbsP0x144nliAJ49QQ=
+
+Name: cc3xxx/templates/schemas/GUIControl.xsd
+SHA1-Digest: Ce6fYlCTB7Gx7wxpQsgGTL3WI6g=
+
+Name: cc3xxx/bin/rbtl3101_132.dll
+SHA1-Digest: D0uyFUk+GwEPKg2P5CflWM5FeRM=
+
+Name: cc3xxx/templates/schemas/template_schema.xsd
+SHA1-Digest: cGM18dQSUbSJrc+ZU8JtFGsxLLg=
+

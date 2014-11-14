@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.hercules.win32"
+      label="Hercules Emulation"
+      version="5.3.0.1"
+      provider-name="Texas Instruments"
+      os="win32">
+
+   <copyright>
+      Copyright Texas Instruments 2010
+   </copyright>
+
+   <license>
+      See Code Composer Studio license for specific terms and conditions.
+   </license>
+
+</feature>

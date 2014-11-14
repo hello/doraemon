@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.ccstudio.gui.composer.ccs"
+      label="GUI Composer for CCS"
+      version="1.0.0.201210101700"
+      provider-name="Texas Instruments"
+      plugin="com.ti.ccstudio.branding">
+
+   <description>
+      GUI Composer for CCS
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.ti.backplane"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.binding.program"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.gui.composer.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="com.ti.gui.composer.common"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.gui.composer.webserver"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.gui.composer.webserver.adapter"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.gui.composer"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="davinci.gc_1_0"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="davinci.html"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="maqetta.core.client"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="maqetta.core.server"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="maqetta.core.server.standalone"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="org.apache.commons.fileupload"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="1.3.2.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.ccstudio.gui.composer.http.jetty"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.gui.composer.common.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="davinci.dojo_1_8"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+   <plugin
+         id="com.ti.gui.composer.help"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"
+         unpack="false"/>
+
+   <plugin
+         id="com.ti.gui.composer.highlights"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201210101700"/>
+
+</feature>

@@ -1,0 +1,3 @@
+instructions.configure =\
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:0,location:http${#58}//software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/msp430/Updates/p2win32,name:TI MSP430 Device Support,enabled:true);\
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:1,location:http${#58}//software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/msp430/Updates/p2win32,name:TI MSP430 Device Support,enabled:true);

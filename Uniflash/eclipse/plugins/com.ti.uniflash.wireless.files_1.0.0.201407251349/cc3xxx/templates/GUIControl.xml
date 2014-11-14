@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIControl>
+	<FileEntryControl fileType="template" field="name">
+		<hidden>false</hidden>
+		<disableIf>
+			<AttributeEntry name="category" value="system" />
+		</disableIf>
+		<displayOrder>1</displayOrder>
+		<toolTip>The name of the file on the device File System</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Category">
+		<hidden>1</hidden>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Version">
+		<hidden>1</hidden>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Type">
+		<hidden>1</hidden>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Storage">
+		<hidden>1</hidden>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="MaxSize">
+		<hidden>0</hidden>
+		<displayName>Max Size</displayName>
+		<displayOrder>3</displayOrder>
+		<toolTip>The maximum file size (in bytes) for the file. The specified URL file can be the same size or smaller than the given max size. Users can enter 0 to indicate to use the original file size.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="url">
+		<hidden>0</hidden>
+		<displayType>file</displayType>
+		<displayOrder>2</displayOrder>
+		<toolTip>The full path to the file on the user's machine.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="mode">
+		<hidden>0</hidden>
+		<displayOrder>7</displayOrder>
+		<toolTip>Provides control for various options supported by the tool.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Erase">
+		<hidden>0</hidden>
+		<displayOrder>4</displayOrder>
+		<toolTip>Erase the file on the device File System</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Update">
+		<hidden>0</hidden>
+		<displayOrder>5</displayOrder>
+		<toolTip>Update the file on the device File System if it exists. Otherwise, programs the new file to the device File System.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="verify">
+		<hidden>0</hidden>
+		<displayOrder>6</displayOrder>
+		<toolTip>Verify that the file was loaded properly.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Certificate">
+		<hidden>0</hidden>
+		<enableIf>
+			<ModeEntry name="Secured" checked="true" />
+		</enableIf>
+		<disableIf>
+			<ModeEntry name="NoSignatureTest" checked="true" />
+		</disableIf>
+		<displayOrder>9</displayOrder>
+		<toolTip>Name of the certificate on the device File System. The given certificate file needs to be programmed on the device first before using it to program the current secure file. This field is only valid when the secure mode is on.</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="template" field="Signature">
+		<hidden>0</hidden>
+		<enableIf>
+			<ModeEntry name="Secured" checked="true" />
+		</enableIf>
+		<disableIf>
+			<ModeEntry name="NoSignatureTest" checked="true" />
+		</disableIf>
+		<displayType>file</displayType>
+		<displayOrder>8</displayOrder>
+		<toolTip>Path to the full signature file on the user's File System; needed for programming a secure file (secure mode on).</toolTip>
+	</FileEntryControl>
+	<FileEntryControl fileType="token" field="MAX">
+		<hidden>0</hidden>
+		<enableIf>
+			<ModeEntry name="NoSignatureTest" checked="true" />
+		</enableIf>
+		<displayName>Max Privilege Token</displayName>
+		<displayOrder>10</displayOrder>
+		<toolTip>The maximum privilege token value. This value is only writable by the user when the VendorToken mode is on.</toolTip>
+	</FileEntryControl>
+	<ModeBreakDown>
+		<ModeEntry name="Rollback" value="1" />
+		<ModeEntry name="Secured" value="2" />
+		<ModeEntry name="NoSignatureTest" value="4" />
+		<ModeEntry name="StaticToken" value="8" />
+		<ModeEntry name="VendorToken" value="16" />
+		<ModeEntry name="PublicWrite" value="32" />
+		<ModeEntry name="PublicRead" value="64" />
+	</ModeBreakDown>
+</GUIControl>

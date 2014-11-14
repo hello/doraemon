@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.ti.c2000.flash.setup.win32"
+      label="C2000 Emulation Flash"
+      version="1.0.0.2"
+      provider-name="Texas Instruments"
+      os="win32">
+
+   <copyright>
+      Copyright Texas Instruments 2010
+   </copyright>
+
+   <license>
+      See Code Composer Studio license for specific terms and conditions.
+   </license>
+
+</feature>

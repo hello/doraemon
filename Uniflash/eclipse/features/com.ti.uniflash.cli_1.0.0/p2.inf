@@ -1,0 +1,7 @@
+
+instructions.configure=\
+org.eclipse.equinox.p2.touchpoint.natives.unzip(source:${installFolder}/downloads/uniflash-cli_1.0.0.zip,target:${installFolder}/..);\
+org.eclipse.equinox.p2.touchpoint.natives.remove(path:${installFolder}/downloads/uniflash-cli_1.0.0.zip);
+
+instructions.uninstall=org.eclipse.equinox.p2.touchpoint.natives.cleanupzip(source:${installFolder}/downloads/uniflash-cli_1.0.0.zip,target:${installFolder}/..);
+			
