@@ -53,7 +53,7 @@ REM uncomment out next line for debugging
 REM echo java %FULL_COMMAND_LINE%
 
 java %FULL_COMMAND_LINE%
-:flashfin
+
 @echo off
 cd /d "%cwd%"
 goto:EOF
