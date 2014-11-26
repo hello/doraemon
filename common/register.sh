@@ -2,7 +2,8 @@
 set -e
 echo "Uploading factory file"
 get_id(){
-    xxd -s 0x60 -l 8 -g 8 -u -ps $1
+#    xxd -s 0x60 -l 8 -g 8 -u -ps $1
+    shasum $1 | cut -d' ' -f1
 }
 chmod 600 $DEVICE_INFO_IMG
 if [ -s $DEVICE_INFO_IMG ]; then
