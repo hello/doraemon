@@ -22,14 +22,13 @@ IF NOT EXIST  %DEVICEDIR% (
 	mkdir %DEVICEDIR%
 )
 
-REM %JLINK% -device nrf51422 -if swd -speed 4000 -CommanderScript %TEMPDIR%flash.jlink
+%JLINK% -device nrf51422 -if swd -speed 4000 -CommanderScript %TEMPDIR%flash.jlink
 
 SET DEVICEINFO=%TEMPDIR%device.info
 
 for /f %%i in ("%DEVICEINFO%") do set "size=%%~zi"
 if not defined size set size=0
 if %size% gtr 0 (
-    echo file found
 ) else (
     echo  Unable to readback
     goto :fail
