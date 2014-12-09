@@ -29,13 +29,14 @@ SET DEVICEINFO=%TEMPDIR%device.info
 for /f %%i in ("%DEVICEINFO%") do set "size=%%~zi"
 if not defined size set size=0
 if %size% gtr 0 (
+    echo Blob found
 ) else (
     echo  Unable to readback
     goto :fail
 )
 
 
-FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
+FOR /F "tokens=1 delims=\\ " %%i in ("%CYGWIN%/sha1sum.exe %DEVICEINFO%") do SET SHA=%%i
 
 %CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
 
