@@ -36,7 +36,7 @@ if %size% gtr 0 (
 )
 
 
-FOR /F "tokens=1 delims=\\ " %%i in ("%CYGWIN%/sha1sum.exe %DEVICEINFO%") do SET SHA=%%i
+FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
 
 %CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
 
