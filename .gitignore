@@ -1,3 +1,4 @@
 temp/*
 devices/*
+cached/*/*.{crc,bin}
 *.DS_Store
