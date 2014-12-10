@@ -2,6 +2,7 @@
 cls
 SET PWD=%~dp0
 SET TARG=%1
+SET INFONAME=%2
 SET TEMPDIR=%PWD%cached/%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
@@ -41,8 +42,6 @@ if %size% gtr 0 (
     echo  Unable to readback
     goto :fail
 )
-SET INFONAME=
-SET /p INFONAME=Enter SN:
 IF "%INFONAME%" == "" (
 	echo "No name input, using SHA1 as default name"
 	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
@@ -50,20 +49,13 @@ IF "%INFONAME%" == "" (
 ) else (
 	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%INFONAME%
 )
-
-
-
-	echo "****************************************************"
-	echo "*                                                  *"
-	echo "*                       PASS                       *"
-	echo "*                                                  *"
-	echo "****************************************************"
 goto :eof
 :fail
 	echo "****************************************************"
 	echo "*                                                  *"
-	echo "*                       FAIL                       *"
+	echo "*                       fail                       *"
 	echo "*                                                  *"
 	echo "****************************************************"
-	goto :eof
+	exit 1
 :eof
+	exit 0
