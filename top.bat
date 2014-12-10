@@ -2,11 +2,18 @@
 cls
 SET PWD=%~dp0
 SET TARG=%1
-SET CYGWIN=%PWD%misc\bin\win64\
 SET TEMPDIR=%PWD%cached/%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
 SET DEVICEDIR=%DEVICEROOT%%TARG%
+
+if defined ProgramFiles(x86) (
+	echo "Win 64 Detected"
+	SET CYGWIN=%PWD%misc\bin\win64\
+) else (
+	echo "Win 32 Detected"
+	SET CYGWIN=%PWD%misc\bin\win32\
+)
 
 IF NOT EXIST  %TEMPDIR% (
 	echo "target directory does not exist"
