@@ -30,6 +30,8 @@ IF NOT EXIST  %DEVICEDIR% (
 	mkdir %DEVICEDIR%
 )
 %CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
+For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
+
 %JLINK% -device nrf51422 -if swd -speed 2000 -CommanderScript %TEMPDIR%flash.jlink
 
 SET DEVICEINFO=%TEMPDIR%device.info
