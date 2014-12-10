@@ -2,11 +2,18 @@
 cls
 SET PWD=%~dp0
 SET TARG=%1
-SET CYGWIN=%PWD%misc\bin\win64\
 SET TEMPDIR=%PWD%cached/%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
 SET DEVICEDIR=%DEVICEROOT%%TARG%
+
+if defined ProgramFiles(x86) (
+	echo "Win 64 Detected"
+	SET CYGWIN=%PWD%misc\bin\win64\
+) else (
+	echo "Win 32 Detected"
+	SET CYGWIN=%PWD%misc\bin\win32\
+)
 
 IF NOT EXIST  %TEMPDIR% (
 	echo "target directory does not exist"
@@ -21,7 +28,7 @@ IF NOT EXIST  %DEVICEDIR% (
 	echo "device directory does not exist, creating"
 	mkdir %DEVICEDIR%
 )
-
+%CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
 %JLINK% -device nrf51422 -if swd -speed 4000 -CommanderScript %TEMPDIR%flash.jlink
 
 SET DEVICEINFO=%TEMPDIR%device.info
@@ -34,11 +41,15 @@ if %size% gtr 0 (
     echo  Unable to readback
     goto :fail
 )
+SET /p INFONAME=Enter SN:
+IF "%INFONAME%" == "" (
+	echo "No name input, using SHA1 as default name"
+	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
+	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
+) else (
+	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%INFONAME%
+)
 
-
-FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
-
-%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
 
 
 	echo "****************************************************"
