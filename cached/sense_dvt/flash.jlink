@@ -11,5 +11,6 @@ loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\sense_dvt/morpheu
 w4 10001014 36000
 savebin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\sense_dvt/device.info 0x10000000 0xff
 r
+g
 q
 
