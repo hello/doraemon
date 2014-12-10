@@ -21,7 +21,7 @@ IF NOT EXIST  %DEVICEDIR% (
 	echo "device directory does not exist, creating"
 	mkdir %DEVICEDIR%
 )
-
+%CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
 %JLINK% -device nrf51422 -if swd -speed 4000 -CommanderScript %TEMPDIR%flash.jlink
 
 SET DEVICEINFO=%TEMPDIR%device.info
