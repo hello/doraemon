@@ -34,9 +34,9 @@ if %size% gtr 0 (
     echo  Unable to readback
     goto :fail
 )
-set /p INFONAME=Enter SN?:
-IF %INFONAME%=="" (
-	echo No name input, using SHA1 as default name
+SET /p INFONAME=Enter SN:
+IF "%INFONAME%" == "" (
+	echo "No name input, using SHA1 as default name"
 	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
 	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
 ) else (
