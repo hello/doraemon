@@ -1,4 +1,5 @@
 temp/*
 devices/*
-cached/sense_dvt/*.{crc,bin}
+cached/*/*.bin
+cached/*/*.crc
 *.DS_Store
