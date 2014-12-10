@@ -41,6 +41,7 @@ if %size% gtr 0 (
     echo  Unable to readback
     goto :fail
 )
+INFONME=""
 SET /p INFONAME=Enter SN:
 IF "%INFONAME%" == "" (
 	echo "No name input, using SHA1 as default name"
