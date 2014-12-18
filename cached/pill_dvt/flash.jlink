@@ -1,0 +1,18 @@
+w4 4001e504, 2
+w4 4001e50c, 1
+sleep 50
+r
+w4 4001e504, 1
+loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
+loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
+loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/pill+pill_DVT1.bin 0x20000
+loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/bootloader+pill_DVT1.bin 0x36000
+loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/pill+pill_DVT1.crc.bin 0x3f000
+w4 10001014, 36000
+r
+g
+sleep 3000
+r
+savebin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\pill_dvt/device.info 0x3f400 0x200
+r
+q

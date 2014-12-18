@@ -1,3 +1,5 @@
 temp/*
 devices/*
+cached/*/*.bin
+cached/*/*.crc
 *.DS_Store
