@@ -7,7 +7,7 @@ APP_IMG="$(basename $(ls $TARGETDIR/pill*))"
 CRC_IMG="$(basename $(ls $TARGETDIR/*.crc))"
 
 cp_to_work(){
-    cp -n -v $TARGETDIR/$1 $WORKDIR/$1
+    cp -f -v $TARGETDIR/$1 $WORKDIR/$1
 }
 
 cp_to_work $SD_MAIN_IMG
