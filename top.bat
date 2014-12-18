@@ -3,7 +3,7 @@ cls
 SET PWD=%~dp0
 SET TARG=%1
 SET INFONAME=%2
-SET TEMPDIR=%PWD%cached/%TARG%/
+SET TEMPDIR=%PWD%cached/%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
 SET DEVICEDIR=%DEVICEROOT%%TARG%
@@ -29,7 +29,7 @@ IF NOT EXIST  %DEVICEDIR% (
 	echo "device directory does not exist, creating"
 	mkdir %DEVICEDIR%
 )
-%CYGWIN%rm.exe -f -v %TEMPDIR%*.{bin,crc}
+%CYGWIN%rm.exe -f -v %TEMPDIR%/*.{bin,crc}
 %CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
 For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
 
