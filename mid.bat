@@ -8,6 +8,14 @@ SET PWD=%~dp0
 SET TARG=%1
 SET COM=%2
 SET TEMPDIR=%PWD%temp
+
+if defined ProgramFiles(x86) (
+	echo "Win 64 Detected"
+	SET CYGWIN=%PWD%misc\bin\win64\
+) else (
+	echo "Win 32 Detected"
+	SET CYGWIN=%PWD%misc\bin\win32\
+)
 IF NOT EXIST  %TEMPDIR% (
 	echo "creating temporary directory"
 	mkdir %PWD%temp
@@ -40,18 +48,12 @@ SET TARGMIDDST=%TEMPDIR%\kitsune.bin
 SET TARGTOPDST=%TEMPDIR%\factory.bin
 SET TARGHWDST=%TEMPDIR%\hw_ver.txt
 
-IF NOT EXIST %TARGMIDDST% (
-	echo "Copying kitsune"
-	xcopy /y /v     "%TARGMIDSRC%" "%TARGMIDDST%"
-)
-IF NOT EXIST %TARGTOPDST% (
-	echo "Copying Top Factory"
-	xcopy /y /v    "%TARGTOPSRC%" "%TARGTOPDST%"
-)
-IF NOT EXIST %TARGHWDST% (
-	echo "Copying hw version"
-	xcopy /y /v    "%TARGHWSRC%"  "%TARGHWDST%"
-)
+echo "Copying kitsune"
+%CYGWIN%cp.exe -f -v %TARGMIDSRC% %TARGMIDDST%
+echo "Copying Top Factory"
+%CYGWIN%cp.exe -f -v %TARGTOPSRC% %TARGTOPDST%
+echo "Copying hw version"
+%CYGWIN%cp.exe -f -v %TARGHWSRC%  %TARGHWDST%
 
 
 CALL %PWD%Uniflash\flashit.bat %COM%
