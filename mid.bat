@@ -49,11 +49,11 @@ SET TARGTOPDST=%TEMPDIR%\factory.bin
 SET TARGHWDST=%TEMPDIR%\hw_ver.txt
 
 echo "Copying kitsune"
-%CYGWIN%cp.exe -f -v %TARGMIDSRC% %TARGMIDDST%
+xcopy /y /v %TARGMIDSRC% %TARGMIDDST%
 echo "Copying Top Factory"
-%CYGWIN%cp.exe -f -v %TARGTOPSRC% %TARGTOPDST%
+xcopy /y /v %TARGTOPSRC% %TARGTOPDST%
 echo "Copying hw version"
-%CYGWIN%cp.exe -f -v %TARGHWSRC%  %TARGHWDST%
+xcopy /y /v %TARGHWSRC%  %TARGHWDST%
 
 
 CALL %PWD%Uniflash\flashit.bat %COM%
