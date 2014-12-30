@@ -283,7 +283,28 @@
          <ModeEntry name="PublicRead" checked="false"/>
       </mode>
       <verify>false</verify>
-      <Update>true</Update>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="/hello/deviceid" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>64</MaxSize>
+      <url>../../device_id.place_holder</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
       <Erase>false</Erase>
       <Certificate></Certificate>
       <Signature></Signature>
