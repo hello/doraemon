@@ -1,1 +1,1 @@
-%~dp0uniflashcli.bat -config "%~dp0uniflash_session\uniflash.ucf" -setOptions com=%1 secure=false spPath="%~dp0servicepack_1.0.0.1.2.bin" -operations servicePackUpdate program
+%~dp0uniflashcli.bat -config "%~dp0uniflash_session\uniflash.ucf" -setOptions com=%1 secure=false spPath="%~dp0servicepack_1.0.0.1.2.bin" -operations format servicePackUpdate program
