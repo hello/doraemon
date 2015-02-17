@@ -27,7 +27,7 @@ IF NOT EXIST  %TARGFOLDER% (
 	goto :fail
 )
 
-SET TARGMIDSRC=%TARGFOLDER%\kitsune.bin
+SET TARGMIDSRC=C:\Users\chrisjohnson\Desktop\kitsune\kitsune\main\ccs\exe\kitsune.bin
 SET TARGTOPSRC=%TARGFOLDER%\morpheus+*.bin
 SET TARGHWSRC=%TARGFOLDER%\hw_ver.txt
 
