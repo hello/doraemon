@@ -11,6 +11,9 @@ loadbin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\sense_pvt/morpheu
 w4 10001014 36000
 savebin C:\Users\chrisjohnson\Documents\GitHub\doraemon\cached\sense_pvt/device.info 0x10000000 0xff
 r
+w4 4001e504, 1
+w4 0x10001004, 0
+r
 g
 q
 
