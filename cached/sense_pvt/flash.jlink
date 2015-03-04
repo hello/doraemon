@@ -3,12 +3,12 @@ w4 4001e50c, 1
 sleep 50
 r
 w4 4001e504, 1
-w4 10001014 36000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morpheus+morpheus_PVT1.bin 0x20000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/bootloader_serial+morpheus_PVT1.bin 0x36000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morpheus+morpheus_PVT1.crc.bin 0x3f000
+w4 10001014 36000
 savebin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/device.info 0x10000000 0xff
 r
 w4 4001e504, 1
