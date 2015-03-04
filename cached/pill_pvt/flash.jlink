@@ -17,5 +17,6 @@ savebin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/device
 r
 w4 4001e504, 1
 w4 0x10001004, 0
+sleep 50
 r
 q
