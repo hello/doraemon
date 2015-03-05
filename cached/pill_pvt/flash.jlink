@@ -1,0 +1,22 @@
+w4 4001e504, 2
+w4 4001e50c, 1
+sleep 50
+r
+w4 4001e504, 1
+loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
+loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
+loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+pill_PVT1.bin 0x20000
+loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/bootloader+pill_PVT1.bin 0x36000
+loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+pill_PVT1.crc.bin 0x3f000
+w4 10001014, 36000
+r
+g
+sleep 3000
+r
+savebin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/device.info 0x3f400 0x200
+r
+w4 4001e504, 1
+w4 0x10001004, 0
+sleep 50
+r
+q
