@@ -1,0 +1,12 @@
+version: 2b50fcdf
+last_tag: 0.3.6.9
+branch: HEAD
+travis_pull_request: false
+travis_branch: 0.3.6.9
+travis_tag: 0.3.6.9
+travis_build_id: 9845231
+travis_build_number: 1308
+travis_commit: fc64c9e4b6da337b3ad028dc7a0d6837ab50fcdf
+travis_commit_range: 
+travis_job_id: 14270114
+travis_job_number: 1308.1
