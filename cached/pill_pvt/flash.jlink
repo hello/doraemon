@@ -9,6 +9,11 @@ loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+p
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/bootloader+pill_PVT1.bin 0x36000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+pill_PVT1.crc.bin 0x3f000
 w4 10001014, 36000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+pill_PVT1.bin 0x20000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/bootloader+pill_PVT1.bin 0x36000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\pill_pvt/pill+pill_PVT1.crc.bin 0x3f000
 r
 g
 sleep 3000
