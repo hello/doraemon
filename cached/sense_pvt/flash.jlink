@@ -9,6 +9,15 @@ loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morph
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/bootloader_serial+morpheus_PVT1.bin 0x36000
 loadbin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morpheus+morpheus_PVT1.crc.bin 0x3f000
 w4 10001014 36000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morpheus+morpheus_PVT1.bin 0x20000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/bootloader_serial+morpheus_PVT1.bin 0x36000
+verifybin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/morpheus+morpheus_PVT1.crc.bin 0x3f000
+r
+g
+sleep 3000
+r
 savebin C:\Users\chrisjohnson\Documents\Projects\doraemon\cached\sense_pvt/device.info 0x10000000 0xff
 r
 w4 4001e504, 1
