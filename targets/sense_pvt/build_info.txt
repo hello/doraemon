@@ -1,12 +1,12 @@
-version: 5b38a87c
-last_tag: 0.9.22_rc7
+version: 74812427
+last_tag: 0.11.26
 branch: HEAD
 travis_pull_request: false
-travis_branch: 0.9.22_rc7
-travis_tag: 0.9.22_rc7
-travis_build_id: 13700450
-travis_build_number: 2567
-travis_commit: 68990d57cc45c1a89be7e71a6f0b81bfdb38a87c
+travis_branch: 0.11.26
+travis_tag: 0.11.26
+travis_build_id: 17414893
+travis_build_number: 3063
+travis_commit: d69ebb80308100a4c8ae41a809774d8574812427
 travis_commit_range: 
-travis_job_id: 20501720
-travis_job_number: 2567.1
+travis_job_id: 26748521
+travis_job_number: 3063.1
