@@ -1,12 +1,12 @@
 version: 63bc421
-last_tag: 1.0.0
+last_tag: 0.11.26
 branch: HEAD
 travis_pull_request: false
-travis_branch: 1.0.0
-travis_tag: 1.0.0
-travis_build_id: 17659068
-travis_build_number: 3067
+travis_branch: chris-dev
+travis_tag: 
+travis_build_id: 17659041
+travis_build_number: 3066
 travis_commit: a726637af9a12ce5cfc6a955c4903e4c063bc421
-travis_commit_range: 
-travis_job_id: 27167838
-travis_job_number: 3067.1
+travis_commit_range: 2ec16a0e000c...a726637af9a1
+travis_job_id: 27167786
+travis_job_number: 3066.1
