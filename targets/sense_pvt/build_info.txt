@@ -1,12 +1,12 @@
-version: 1cbd0136
-last_tag: 1.0.1
+version: 7b184085
+last_tag: 1.0.4.1
 branch: HEAD
 travis_pull_request: false
-travis_branch: 1.0.1
-travis_tag: 1.0.1
-travis_build_id: 18021189
-travis_build_number: 3091
-travis_commit: 8f29726d13e70a73c2c2b75b478aadca1cbd0136
+travis_branch: 1.0.4.1
+travis_tag: 1.0.4.1
+travis_build_id: 18316037
+travis_build_number: 3130
+travis_commit: a3ad5f244a655d071e3bbcb8704e326d7b184085
 travis_commit_range: 
-travis_job_id: 27775233
-travis_job_number: 3091.1
+travis_job_id: 28262160
+travis_job_number: 3130.1
