@@ -1,0 +1,176 @@
+"Win 64 Detected"
+"Copying kitsune"
+C:\Users\chrisjohnson\repo\kitsune\kitsune\main\ccs\exe\kitsune.bin
+1 File(s) copied
+"Copying Top Factory"
+C:\Users\chrisjohnson\repo\doraemon\targets\sense_pvt\morpheus+morpheus_PVT1.bin
+1 File(s) copied
+"Copying hw version"
+C:\Users\chrisjohnson\repo\doraemon\targets\sense_pvt\hw_ver.txt
+1 File(s) copied
+
+***** Texas Instruments Universal Flash Programmer *****
+
+> Configuring UniFlash with the following configuration: C:/Users/chrisjohnson/repo/doraemon/Uniflash/uniflash_session/uniflash.ucf
+
+> Device: SimpleLink Wifi CC3100/CC3200
+> Interface: CC3x Serial(UART) Interface
+
+> Template XML: C:\Users\chrisjohnson\repo\doraemon\Uniflash\uniflash_session\uniflash_session\templates\CC3xxx_template.xml
+> Token XML: C:\Users\chrisjohnson\repo\doraemon\Uniflash\uniflash_session\uniflash_session\templates\CC3xxx_token.xml
+> User setting [com]: 12
+> User setting [secure]: false
+> User setting [capacity]: 16MB
+> User setting [spPath]: C:/Users/chrisjohnson/repo/doraemon/Uniflash/SP1.02_2.3.7.8.1.2.4.2.1.5.3.26.bin
+
+> Executing operation: format
+> Relevant settings: 
+	Secure: false
+	Alert: false
+	Capacity: 16MB
+ExecuteOp: Connect
+INFO: > Executing Operation: Connect
+INFO: setting break signal
+INFO: --- please restart the device ---
+INFO: connection succeeded
+INFO: getting storage list
+ExecuteOp: Format
+INFO: > Executing Operation: Init
+INFO: reading version info
+INFO: DEVICE CC3200 ES1.33
+INFO: reading version info
+INFO: reading version info
+Progress (SRAM): 16%
+Progress (SRAM): 32%
+Progress (SRAM): 41%
+Progress (SRAM): 49%
+Progress (SRAM): 65%
+Progress (SRAM): 74%
+Progress (SRAM): 90%
+Progress (SRAM): 98%
+Progress (SRAM): 100%
+INFO: > Executing Operation: Format
+INFO: Erase storage SFLASH 
+INFO: erase storage succeeded
+INFO: erase storage completed
+> Finish Executing operation: format
+
+> Executing operation: servicePackUpdate
+> Relevant settings: 
+	Serivce Pack File: C:/Users/chrisjohnson/repo/doraemon/Uniflash/SP1.02_2.3.7.8.1.2.4.2.1.5.3.26.bin
+ExecuteOp: ServicePackUpdate
+INFO: > Executing Operation: ServicePackUpdate
+INFO: Path to the service pack file: C:/Users/chrisjohnson/repo/doraemon/Uniflash/SP1.02_2.3.7.8.1.2.4.2.1.5.3.26.bin
+INFO: reading version info
+INFO: ROM Device detected.
+INFO: Service pack version information: 
+INFO: NWP version: 2.3.7.8
+INFO: MAC version: 1.2.4.2
+INFO: PHY version: 1.5.3.23
+INFO: NWP Patch version: 2.3.0.8
+INFO: MAC Patch version: 1.2.0.2
+INFO: PHY Patch version: 1.0.3.23
+INFO: Downloading file "/sys/servicepack.ucf" with size 8356
+Progress (/sys/servicepack.ucf): 49%
+Progress (/sys/servicepack.ucf): 98%
+Progress (/sys/servicepack.ucf): 100%
+INFO: 
+
+New Token is 0x864A8C5
+INFO: Download complete
+> Finish Executing operation: servicePackUpdate
+
+> Executing operation: program
+ExecuteOp: Program
+INFO: > Executing Operation: Program
+INFO: > File name: /sys/mcuimg1.bin, Update: true, Erase: false
+INFO: > Size of file = 140256
+INFO: > Update File: /sys/mcuimg1.bin
+INFO: Downloading file "/sys/mcuimg1.bin" with size 140256
+Progress (/sys/mcuimg1.bin): 11%
+Progress (/sys/mcuimg1.bin): 20%
+Progress (/sys/mcuimg1.bin): 29%
+Progress (/sys/mcuimg1.bin): 37%
+Progress (/sys/mcuimg1.bin): 46%
+Progress (/sys/mcuimg1.bin): 52%
+Progress (/sys/mcuimg1.bin): 61%
+Progress (/sys/mcuimg1.bin): 70%
+Progress (/sys/mcuimg1.bin): 78%
+Progress (/sys/mcuimg1.bin): 87%
+Progress (/sys/mcuimg1.bin): 96%
+Progress (/sys/mcuimg1.bin): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+INFO: > File name: /sys/mcuimg.bin, Update: true, Erase: false
+INFO: > Size of file = 15712
+INFO: > Update File: /sys/mcuimg.bin
+INFO: Downloading file "/sys/mcuimg.bin" with size 15712
+Progress (/sys/mcuimg.bin): 26%
+Progress (/sys/mcuimg.bin): 52%
+Progress (/sys/mcuimg.bin): 78%
+Progress (/sys/mcuimg.bin): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+INFO: > File name: /cert/ca.pem, Update: false, Erase: false
+INFO: > File name: /cert/client.pem, Update: false, Erase: false
+INFO: > File name: /cert/private.key, Update: false, Erase: false
+INFO: > File name: /tmp/pac.bin, Update: false, Erase: false
+INFO: > File name: /sys/macadd.bin, Update: false, Erase: false
+INFO: > File name: /cert/ca.der, Update: true, Erase: false
+INFO: > Size of file = 947
+INFO: > Update File: /cert/ca.der
+INFO: Downloading file "/cert/ca.der" with size 947
+Progress (/cert/ca.der): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+INFO: > File name: /cert/key.aes, Update: true, Erase: false
+INFO: > Size of file = 16
+INFO: > Update File: /cert/key.aes
+INFO: Downloading file "/cert/key.aes" with size 16
+Progress (/cert/key.aes): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+INFO: > File name: /hello/hw_ver, Update: true, Erase: false
+INFO: > Size of file = 4
+INFO: > Update File: /hello/hw_ver
+INFO: Downloading file "/hello/hw_ver" with size 4
+Progress (/hello/hw_ver): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+INFO: > File name: /top/factory.bin, Update: true, Erase: false
+INFO: > Size of file = 66360
+INFO: > Update File: /top/factory.bin
+INFO: Downloading file "/top/factory.bin" with size 66360
+Progress (/top/factory.bin): 12%
+Progress (/top/factory.bin): 24%
+Progress (/top/factory.bin): 37%
+Progress (/top/factory.bin): 49%
+Progress (/top/factory.bin): 55%
+Progress (/top/factory.bin): 67%
+Progress (/top/factory.bin): 80%
+Progress (/top/factory.bin): 92%
+Progress (/top/factory.bin): 100%
+INFO: 
+
+New Token is 0x0
+INFO: Download complete
+INFO: > Updated Token value: 0x0
+> Finish Executing operation: program
+ExecuteOp: Disconnect
+INFO: > Executing Operation: Disconnect
+<End of command>
