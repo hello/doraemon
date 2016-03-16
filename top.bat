@@ -4,7 +4,7 @@ SET PWD=%~dp0
 SET TARG=%1
 SET INFONAME=%2
 SET TEMPDIR=%PWD%temp\
-SET CACHEDIR=%PWD%cached/%TARG%\
+SET CACHEDIR=%PWD%cached\%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
 SET DEVICEDIR=%DEVICEROOT%%TARG%
@@ -31,13 +31,14 @@ IF NOT EXIST  %DEVICEDIR% (
 	mkdir %DEVICEDIR%
 )
 %CYGWIN%rm.exe -f -v %TEMPDIR%/*.{bin,crc, jlink}
-%CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc,in} %TEMPDIR%
+%CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
 For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
-%CYGWIN%sed.exe -e's,$TEMP/,%TEMPDIR%,g' -e's,$CACHE/,%CACHEDIR%,g' < %TEMPDIR%app+bootloader.prod.in > %TEMPDIR%flash.jlink
-
+SET TEMPDIR=%TEMPDIR:\=/%
+SET CACHEDIR=%CACHEDIR:\=/%
+%CYGWIN%sed.exe -e "s,\$TEMP\/,%TEMPDIR%,g" -e "s,\$CACHE\/,%CACHEDIR%,g" %PWD%targets/%TARG%\app+bootloader.prod.in > %TEMPDIR%flash.jlink
 %JLINK% -device nrf51422 -if swd -speed 2000 -CommanderScript %TEMPDIR%flash.jlink
 
-SET DEVICEINFO=%TEMPDIR%device.info
+SET DEVICEINFO=%CACHEDIR%device.info
 
 for /f %%i in ("%DEVICEINFO%") do set "size=%%~zi"
 if not defined size set size=0
@@ -61,6 +62,8 @@ goto :eof
 	echo "*                       fail                       *"
 	echo "*                                                  *"
 	echo "****************************************************"
+read
 	exit 1
 :eof
+read
 	exit 0
