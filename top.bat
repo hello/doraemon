@@ -30,7 +30,7 @@ IF NOT EXIST  %DEVICEDIR% (
 	echo "device directory does not exist, creating"
 	mkdir %DEVICEDIR%
 )
-%CYGWIN%rm.exe -f -v %TEMPDIR%/*.{bin,crc, jlink}
+%CYGWIN%rm.exe -f -v %TEMPDIR%/*.{bin,crc,jlink}
 %CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc} %TEMPDIR%
 For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
 SET TEMPDIR=%TEMPDIR:\=/%
