@@ -33,7 +33,7 @@ IF NOT EXIST  %DEVICEDIR% (
 %CYGWIN%rm.exe -f -v %TEMPDIR%/*.{bin,crc, jlink}
 %CYGWIN%cp.exe -f -v %PWD%targets/%TARG%/*.{bin,crc,in} %TEMPDIR%
 For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
-%CYGWIN%sed.exe -e's,$TEMP/,%TEMPDIR%,g' -e',$CACHE/,%CACHEDIR%,g' < %TEMPDIR%app+bootloader.prod.in > %TEMPDIR%flash.jlink
+%CYGWIN%sed.exe -e's,$TEMP/,%TEMPDIR%,g' -e's,$CACHE/,%CACHEDIR%,g' < %TEMPDIR%app+bootloader.prod.in > %TEMPDIR%flash.jlink
 
 %JLINK% -device nrf51422 -if swd -speed 2000 -CommanderScript %TEMPDIR%flash.jlink
 
