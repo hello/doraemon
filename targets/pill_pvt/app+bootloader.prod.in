@@ -3,17 +3,17 @@ w4 4001e50c 1 # NVMC: erase all flash, including UICR
 sleep 50
 r
 w4 4001e504 1 # NVMC: enable writing
-loadbin $SOFTDEVICE_MAIN 0x0
-loadbin $SOFTDEVICE_UICR 0x10001000
-loadbin $APP 0x20000
-loadbin $BOOTLOADER 0x36000
-loadbin $CRC 0x3f000
+loadbin $TEMP/s310_nrf51422_1.0.0_softdevice_main.bin 0x0
+loadbin $TEMP/s310_nrf51422_1.0.0_softdevice_uicr.bin 0x10001000
+loadbin $TEMP/pill+pill_PVT1.bin 0x20000
+loadbin $TEMP/bootloader+pill_PVT1.bin 0x36000
+loadbin $TEMP/pill+pill_PVT1.crc.bin 0x3f000
 w4 10001014, 36000
 r
 g
 sleep 3000
 r
-savebin $DEVICEINFO 0x3f400 0x200
+savebin $CACHE/device.info 0x3f400 0x200
 r
 w4 4001e504, 1
 w4 0x10001004, 0
