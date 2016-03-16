@@ -62,8 +62,6 @@ goto :eof
 	echo "*                       fail                       *"
 	echo "*                                                  *"
 	echo "****************************************************"
-read
 	exit 1
 :eof
-read
 	exit 0
