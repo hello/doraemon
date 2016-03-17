@@ -1,0 +1,3385 @@
+******************************************************************************
+                  TI ARM Linker Unix v5.1.5                    
+******************************************************************************
+>> Linked Wed Jan 13 20:28:52 2016
+
+OUTPUT FILE NAME:   </home/travis/build/hello/kitsune/kitsune/main/ccs/exe/kitsune.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 2001eaa1
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  SRAM_DATA             20000000   00003fff  00003d40  000002bf  RW  
+  SRAM                  20004000   000237ff  00022e38  000009c7  RW X
+  SRAM_HEAP             20027800   000187ff  0001826c  00000593  RW  
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+20000000    20000000    00003d40   00000000    rw-
+  20000000    20000000    00003340   00000000    rw- .bss
+  20003340    20003340    00000800   00000000    rw- .sysmem
+  20003b40    20003b40    00000200   00000000    rw- .stack
+20004000    20004000    00022e40   00022e40    r-x
+  20004000    20004000    00000400   00000400    r-- .intvecs
+  20004400    20004400    0001f71c   0001f71c    r-x .text
+  20023b20    20023b20    00002e0c   00002e0c    r-- .const
+  20026930    20026930    00000510   00000510    r-- .cinit
+20027800    20027800    0001826c   00000000    rw-
+  20027800    20027800    0001826c   00000000    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.init_array 
+*          0    20004000    00000000     UNINITIALIZED
+
+.bss       0    20000000    00003340     UNINITIALIZED
+                  20000000    00001c00     FreeRTOS.a : heap_6.obj (.bss)
+                  20001c00    00000800     udma_if.obj (.bss)
+                  20002400    00000400     fatfs_cmd.obj (.bss:g_buff)
+                  20002800    00000230     fatfs_cmd.obj (.bss:fsobj)
+                  20002a30    00000228     fatfs_cmd.obj (.bss:file_obj)
+                  20002c58    00000210     pcm_handler.obj (.bss)
+                  20002e68    00000138     audiofeatures.obj (.bss:_data$79)
+                  20002fa0    00000080     fatfs_cmd.obj (.bss:buffer$5)
+                  20003020    00000080     fatfs_cmd.obj (.bss:full_path$4)
+                  200030a0    00000078     prox_signal.obj (.bss:_data$46)
+                  20003118    00000058     fatfs_cmd.obj (.bss:sBootInfo)
+                  20003170    00000054     cmdline.obj (.bss:argv$1$70)
+                  200031c4    00000050     fatfs_cmd.obj (.bss:path_buff)
+                  20003214    00000050     FreeRTOS.a : queue.obj (.bss:xQueueRegistry)
+                  20003264    00000020     (.common:entropy_pool$68)
+                  20003284    00000020     (.common:self$40)
+                  200032a4    0000001c     (.common:fsdirobj)
+                  200032c0    00000018     (.common:file_info)
+                  200032d8    00000014     (.common:_data$45)
+                  200032ec    00000010     i2c_if.obj (.bss)
+                  200032fc    00000010     (.common:_self$72)
+                  2000330c    00000010     (.common:self$62)
+                  2000331c    00000008     fatfs.a : ff.obj (.bss)
+                  20003324    00000008     spi_cmd.obj (.bss)
+                  2000332c    00000004     (.common:_sl_mutex$41)
+                  20003330    00000004     (.common:pxDelayedTaskList$84)
+                  20003334    00000004     (.common:pxOverflowDelayedTaskList$84)
+                  20003338    00000004     (.common:result$2$58)
+                  2000333c    00000002     (.common:self$36)
+                  2000333e    00000001     (.common:RxIrqCnt)
+                  2000333f    00000001     (.common:old_light_sensor)
+
+.sysmem    0    20003340    00000800     UNINITIALIZED
+                  20003340    00000008     rtsv7M4_T_le_v4SPD16_eabi.lib : memory.obj (.sysmem)
+                  20003348    000007f8     --HOLE--
+
+.stack     0    20003b40    00000200     UNINITIALIZED
+                  20003b40    00000200     --HOLE--
+
+.intvecs   0    20004000    00000400     
+                  20004000    00000400     startup_ccs.obj (.intvecs)
+
+.text      0    20004400    0001f71c     
+                  20004400    00000dcc     fatfs_cmd.obj (.text:GetData)
+                  200051cc    0000080a     ble_proto.obj (.text:on_ble_protobuf_command)
+                  200059d6    00000002     startup_ccs.obj (.text:BusFaultHandler)
+                  200059d8    000005fb     wifi_cmd.obj (.text:send_data_pb)
+                  20005fd3    00000001     --HOLE-- [fill = 0]
+                  20005fd4    000005cc     commands.obj (.text:vUARTTask)
+                  200065a0    000005b8     fatfs.a : ff.obj (.text:f_mkfs)
+                  20006b58    00000514     audiotask.obj (.text:DoPlayback$75)
+                  2000706c    000004dc     sys_time.obj (.text:fetch_ntp_time_from_ntp)
+                  20007548    000004bc     fatfs_cmd.obj (.text:file_download_task)
+                  20007a04    000004a1     audiotask.obj (.text:DoCapture$75)
+                  20007ea5    00000001     --HOLE-- [fill = 0]
+                  20007ea6    00000002     driverlib.a : interrupt.obj (.text:IntDefaultHandler)
+                  20007ea8    00000384     wifi_cmd.obj (.text:start_connection)
+                  2000822c    0000034a     simplelink.a : driver.obj (.text:_SlDrvMsgRead)
+                  20008576    00000002     startup_ccs.obj (.text:NmiSR)
+                  20008578    00000334     fatfs.a : ff.obj (.text:find_volume$83)
+                  200088ac    00000328     ble_proto.obj (.text:_set_wifi$72)
+                  20008bd4    0000031c     i2c_cmd.obj (.text:get_light)
+                  20008ef0    000002fc     uartstdio.obj (.text:UARTStdioIntHandler)
+                  200091ec    000002f4     led_cmd.obj (.text:led_task)
+                  200094e0    000002f0     commands.obj (.text:thread_tx)
+                  200097d0    000002a8     rtsv7M4_T_le_v4SPD16_eabi.lib : mktime.obj (.text)
+                  20009a78    00000288     hlo_net_tools.obj (.text:get_stream$58)
+                  20009d00    00000288     commands.obj (.text:thread_alarm)
+                  20009f88    00000284     networktask.obj (.text:nettask_send$52)
+                  2000a20c    00000264     fault.obj (.text:faultPrinter)
+                  2000a470    00000260     pinmux.obj (.text:PinMuxConfig)
+                  2000a6d0    0000025c     led_animations.obj (.text:Cmd_led_animate)
+                  2000a92c    0000025c     i2c_cmd.obj (.text:get_prox)
+                  2000ab88    00000254     bigint.obj (.text:bi_divide)
+                  2000addc    00000249     ustdlib.obj (.text:uvsnprintf)
+                  2000b025    00000001     --HOLE-- [fill = 0]
+                  2000b026    00000002     wifi_cmd.obj (.text:SimpleLinkSockEventHandler)
+                  2000b028    00000243     http.obj (.text:http_data)
+                  2000b26b    00000001     --HOLE-- [fill = 0]
+                  2000b26c    00000220     rtsv7M4_T_le_v4SPD16_eabi.lib : ll_div_t2.obj (.text)
+                  2000b48c    0000021c     fatfs.a : ff.obj (.text:f_lseek)
+                  2000b6a8    0000021c     commands.obj (.text:sample_sensor_data)
+                  2000b8c4    00000212     uartstdio.obj (.text:UARTprintf)
+                  2000bad6    00000002     pb_encode.obj (.text:remove_const$16)
+                  2000bad8    0000020c     pcm_handler.obj (.text:DMAPingPongCompleteAppCB_opt)
+                  2000bce4    0000020c     fatfs_cmd.obj (.text:sf_sha1_verify)
+                  2000bef0    000001fc     commands.obj (.text:Cmd_fs_write)
+                  2000c0ec    000001fc     fatfs_cmd.obj (.text:_WriteBootInfo)
+                  2000c2e8    000001f4     rtsv7M4_T_le_v4SPD16_eabi.lib : ull_div_t2.obj (.text)
+                  2000c4dc    000001e8     fatfs_cmd.obj (.text:Cmd_ls)
+                  2000c6c4    000001e8     pill_settings.obj (.text:on_pill_settings)
+                  2000c8ac    000001e2     uart_logger.obj (.text:_va_printf)
+                  2000ca8e    00000002     hlo_net_tools.obj (.text:response_header$58)
+                  2000ca90    000001e0     ble_cmd.obj (.text:_encode_wifi_scan_result_fields$73)
+                  2000cc70    000001dc     wifi_cmd.obj (.text:connect_wifi)
+                  2000ce4c    000001cc     audiofeatures.obj (.text:AudioFeatures_SetAudioData)
+                  2000d018    000001b8     uart_logger.obj (.text:analytics_event_task)
+                  2000d1d0    000001b3     commands.obj (.text:Cmd_fs_read)
+                  2000d383    00000001     --HOLE-- [fill = 0]
+                  2000d384    000001b0     networktask.obj (.text:NetworkTask_SendProtobuf)
+                  2000d534    000001b0     wifi_cmd.obj (.text:SimpleLinkWlanEventHandler)
+                  2000d6e4    00000198     fatfs_cmd.obj (.text:boot_commit_ota)
+                  2000d87c    00000191     fs_utils.obj (.text:fs_save)
+                  2000da0d    00000001     --HOLE-- [fill = 0]
+                  2000da0e    00000188     fatfs.a : ff.obj (.text:f_write)
+                  2000db96    00000002     rtsv7M4_T_le_v4SPD16_eabi.lib : _lock.obj (.text)
+                  2000db98    00000184     aes.obj (.text:AES_decrypt$82)
+                  2000dd1c    00000178     audiohmm.obj (.text:AudioHmm_EvaluateModel)
+                  2000de94    00000178     commands.obj (.text:Cmd_generate_factory_data)
+                  2000e00c    00000178     commands.obj (.text:set_alarm)
+                  2000e184    00000173     fatfs_cmd.obj (.text:CreateConnection)
+                  2000e2f7    00000001     --HOLE-- [fill = 0]
+                  2000e2f8    00000170     prox_signal.obj (.text:ProxSignal_UpdateChangeSignals)
+                  2000e468    0000016c     commands.obj (.text:launch_tasks)
+                  2000e5d4    00000168     fatfs_cmd.obj (.text:download_file)
+                  2000e73c    00000167     hlo_net_tools.obj (.text:get_unique_wifi_list)
+                  2000e8a3    00000001     --HOLE-- [fill = 0]
+                  2000e8a4    00000164     sha1.obj (.text:SHA1ProcessMessageBlock$42)
+                  2000ea08    00000160     fatfs.a : ff.obj (.text:f_mkdir)
+                  2000eb68    00000160     sys_time.obj (.text:time_task$38)
+                  2000ecc8    0000015c     pb_encode.obj (.text:encode_array$16)
+                  2000ee24    0000015c     uart_logger.obj (.text:uart_logger_task)
+                  2000ef80    0000015a     fatfs.a : ff.obj (.text:f_open)
+                  2000f0da    00000002     --HOLE-- [fill = 0]
+                  2000f0dc    00000154     fatfs_cmd.obj (.text:GetChunkSize)
+                  2000f230    00000153     pb_decode.obj (.text:pb_decode_noinit)
+                  2000f383    00000001     --HOLE-- [fill = 0]
+                  2000f384    0000014e     fatfs.a : ff.obj (.text:f_read)
+                  2000f4d2    00000002     --HOLE-- [fill = 0]
+                  2000f4d4    00000147     wifi_cmd.obj (.text:validate_signatures$32)
+                  2000f61b    00000001     --HOLE-- [fill = 0]
+                  2000f61c    00000144     simplelink.a : driver.obj (.text:_SlDrvRxHdrRead)
+                  2000f760    00000142     audioclassifier.obj (.text:GetNextMatrixCallback$81)
+                  2000f8a2    00000002     --HOLE-- [fill = 0]
+                  2000f8a4    0000013c     commands.obj (.text:Cmd_do_octogram)
+                  2000f9e0    0000013c     i2c_cmd.obj (.text:Cmd_readlight)
+                  2000fb1c    0000013c     wifi_cmd.obj (.text:decode_rx_data_pb$32)
+                  2000fc58    0000013b     wifi_cmd.obj (.text:wifi_reset)
+                  2000fd93    00000001     --HOLE-- [fill = 0]
+                  2000fd94    00000130     fatfs_cmd.obj (.text:Cmd_write)
+                  2000fec4    00000130     diskio.obj (.text:disk_initialize)
+                  2000fff4    00000130     i2c_cmd.obj (.text:init_light_sensor)
+                  20010124    00000130     rtsv7M4_T_le_v4SPD16_eabi.lib : strtol.obj (.text)
+                  20010254    00000130     commands.obj (.text:thread_sensor_poll)
+                  20010384    0000012c     audioprocessingtask.obj (.text:AudioProcessingTask_Thread)
+                  200104b0    0000012c     hw_ver.obj (.text:check_hw_version)
+                  200105dc    0000012c     FreeRTOS.a : heap_6.obj (.text:pvPortRealloc)
+                  20010708    0000012c     simplelink.a : cc_pal.obj (.text:spi_Open)
+                  20010834    0000012c     commands.obj (.text:thread_fast_i2c_poll)
+                  20010960    00000123     fatfs.a : ff.obj (.text:create_name$83)
+                  20010a83    00000001     --HOLE-- [fill = 0]
+                  20010a84    00000122     bigint.obj (.text:bi_mod_power)
+                  20010ba6    00000002     --HOLE-- [fill = 0]
+                  20010ba8    00000120     fatfs_cmd.obj (.text:_ReadBootInfo)
+                  20010cc8    00000120     pb_decode.obj (.text:decode_static_field$17)
+                  20010de8    0000011c     top_board.obj (.text:_on_ack_success$37)
+                  20010f04    00000118     aes.obj (.text:AES_encrypt$82)
+                  2001101c    00000118     led_cmd.obj (.text:Cmd_led)
+                  20011134    00000114     driverlib.a : prcm.obj (.text:PRCMCC3200MCUInit)
+                  20011248    00000114     fft.obj (.text:fft)
+                  2001135c    00000113     top_board.obj (.text:_prep_file$37)
+                  2001146f    00000001     --HOLE-- [fill = 0]
+                  20011470    00000110     wifi_cmd.obj (.text:Cmd_status)
+                  20011580    00000110     rtsv7M4_T_le_v4SPD16_eabi.lib : strtoul.obj (.text)
+                  20011690    0000010c     fatfs_cmd.obj (.text:cd)
+                  2001179c    0000010c     commands.obj (.text:print_nwp_version$69)
+                  200118a8    00000108     fatfs_cmd.obj (.text:_on_file_download)
+                  200119b0    00000108     spi_cmd.obj (.text:spi_read)
+                  20011ab8    00000104     led_cmd.obj (.text:led_fast)
+                  20011bbc    00000104     fft.obj (.text:logpsdmel)
+                  20011cc0    00000100     simplelink.a : driver.obj (.text:_SlDrvMsgWrite)
+                  20011dc0    00000100     FreeRTOS.a : queue.obj (.text:xQueueGenericReceive)
+                  20011ec0    00000100                : tasks.obj (.text:xTaskIncrementTick)
+                  20011fc0    000000fe     fatfs.a : ff.obj (.text:dir_next$83)
+                  200120be    00000002     --HOLE-- [fill = 0]
+                  200120c0    000000fc     hlo_net_tools.obj (.text:Cmd_scan_wifi)
+                  200121bc    000000fc     diskio.obj (.text:disk_write)
+                  200122b8    000000fc     wifi_cmd.obj (.text:write_buffered_callback_sha$32)
+                  200123b4    000000fa     hellomath.obj (.text:fxd_sqrt)
+                  200124ae    00000002     --HOLE-- [fill = 0]
+                  200124b0    000000f8     sys_time.obj (.text:Cmd_time_test)
+                  200125a8    000000f8     wifi_cmd.obj (.text:_on_response_protobuf$32)
+                  200126a0    000000f8     hlo_proto_tools.obj (.text:encode_MorpheusCommand$57)
+                  20012798    000000f4     uart_logger.obj (.text:_logstr$35)
+                  2001288c    000000f3     fs_utils.obj (.text:fs_get)
+                  2001297f    00000001     --HOLE-- [fill = 0]
+                  20012980    000000f0     ble_proto.obj (.text:_process_pill_heartbeat$72)
+                  20012a70    000000ee     ble_cmd.obj (.text:_decode_string_field)
+                  20012b5e    00000002     --HOLE-- [fill = 0]
+                  20012b60    000000ec     proto_utils.obj (.text:encode_all_pills)
+                  20012c4c    000000ec     fileuploadertask.obj (.text:encode_file)
+                  20012d38    000000ec     i2c_cmd.obj (.text:get_humid)
+                  20012e24    000000ec     sys_time.obj (.text:get_rtc_time$38)
+                  20012f10    000000ec     i2c_cmd.obj (.text:get_temp)
+                  20012ffc    000000ec     simplelink.a : device.obj (.text:sl_Start)
+                  200130e8    000000e8     audioclassifier.obj (.text:AudioClassifier_DataCallback)
+                  200131d0    000000e8     ble_proto.obj (.text:_pair_device$72)
+                  200132b8    000000e8     fatfs.a : ff.obj (.text:put_fat)
+                  200133a0    000000e8     FreeRTOS.a : queue.obj (.text:xQueueGenericSend)
+                  20013488    000000e4     sys_time.obj (.text:set_sl_time)
+                  2001356c    000000e0     simplelink.a : driver.obj (.text:_SlDrvDataReadOp)
+                  2001364c    000000e0     FreeRTOS.a : tasks.obj (.text:xTaskGenericCreate)
+                  2001372c    000000df     commands.obj (.text:Cmd_tasks)
+                  2001380b    00000001     --HOLE-- [fill = 0]
+                  2001380c    000000dc     cmdline.obj (.text:CmdLineProcess)
+                  200138e8    000000dc     simplelink.a : driver.obj (.text:_SlDrvReleasePoolObj)
+                  200139c4    000000dc     audiohelper.obj (.text:deleteFilesInDir)
+                  20013aa0    000000dc     proto_utils.obj (.text:encode_all_periodic_data)
+                  20013b7c    000000dc     led_animations.obj (.text:play_led_wheel)
+                  20013c58    000000d8     simplelink.a : driver.obj (.text:_SlDrvDriverCBInit)
+                  20013d30    000000d8     top_board.obj (.text:_printchar$37)
+                  20013e08    000000d6     fatfs_cmd.obj (.text:hexToi)
+                  20013ede    00000002     --HOLE-- [fill = 0]
+                  20013ee0    000000d4     audioclassifier.obj (.text:CopyCircularBufferToPermanentStorage$81)
+                  20013fb4    000000d4     audiofeatures.obj (.text:UpdateChangeSignals$79)
+                  20014088    000000d4     pb_encode.obj (.text:encode_basic_field$16)
+                  2001415c    000000d4     fatfs.a : ff.obj (.text:f_getfree)
+                  20014230    000000d4     led_animations.obj (.text:play_led_animation_solid)
+                  20014304    000000d2     aes.obj (.text:AES_cbc_decrypt)
+                  200143d6    000000d2     fatfs.a : ff.obj (.text:get_fat)
+                  200144a8    000000d0     i2c_cmd.obj (.text:_read_als)
+                  20014578    000000d0     pill_settings.obj (.text:pill_settings_load_from_file)
+                  20014648    000000d0     main.obj (.text:watchdog_thread)
+                  20014718    000000ce     octogram.obj (.text:update_octogram$51)
+                  200147e6    00000002     --HOLE-- [fill = 0]
+                  200147e8    000000cc     prox_signal.obj (.text:GetGesture$46)
+                  200148b4    000000cc     dust_cmd.obj (.text:get_dust)
+                  20014980    000000cc     i2c_if.obj (.text:recoveri2c)
+                  20014a4c    000000cc     FreeRTOS.a : tasks.obj (.text:xTaskResumeAll)
+                  20014b18    000000ca     pb_decode.obj (.text:pb_message_set_to_defaults$17)
+                  20014be2    00000002     --HOLE-- [fill = 0]
+                  20014be4    000000c8     spi_cmd.obj (.text:spi_reset)
+                  20014cac    000000c8     top_board.obj (.text:top_board_dfu_begin)
+                  20014d74    000000c4     simplelink.a : driver.obj (.text:_SlDrvWaitForPoolObj)
+                  20014e38    000000c4     pill_settings.obj (.text:pill_settings_reset_all)
+                  20014efc    000000c4     matmessageutils.obj (.text:write_mat_array)
+                  20014fc0    000000c2     aes.obj (.text:AES_cbc_encrypt)
+                  20015082    00000002     --HOLE-- [fill = 0]
+                  20015084    000000c0     fileuploadertask.obj (.text:FileUploaderTask_Thread)
+                  20015144    000000c0     led_animations.obj (.text:_animate_trippy$55)
+                  20015204    000000c0     uart_logger.obj (.text:_save_newest$35)
+                  200152c4    000000bd     wifi_cmd.obj (.text:Cmd_country)
+                  20015381    00000003     --HOLE-- [fill = 0]
+                  20015384    000000bd     sys_time.obj (.text:get_sl_time)
+                  20015441    00000003     --HOLE-- [fill = 0]
+                  20015444    000000bc     aes.obj (.text:AES_set_key)
+                  20015500    000000bc     uartstdio.obj (.text:UARTStdioInitExpClk)
+                  200155bc    000000bc     led_cmd.obj (.text:led_transition_custom_animation)
+                  20015678    000000bc     pb_encode.obj (.text:pb_encode_submessage)
+                  20015734    000000bc     commands.obj (.text:thread_dust$69)
+                  200157f0    000000bc     FreeRTOS.a : tasks.obj (.text:vTaskList)
+                  200158ac    000000bb     wifi_cmd.obj (.text:http_response_ok)
+                  20015967    00000001     --HOLE-- [fill = 0]
+                  20015968    000000ba     FreeRTOS.a : portasm.obj (.text)
+                  20015a22    00000002     --HOLE-- [fill = 0]
+                  20015a24    000000b8     wifi_cmd.obj (.text:Cmd_test_key)
+                  20015adc    000000b8     ble_proto.obj (.text:_process_encrypted_pill_data$72)
+                  20015b94    000000b8     sys_time.obj (.text:set_rtc_time$38)
+                  20015c4c    000000b8     simplelink.a : netapp.obj (.text:sl_NetAppDnsGetHostByName)
+                  20015d04    000000b4     FreeRTOS.a : heap_6.obj (.text:pvPortMalloc)
+                  20015db8    000000b4     simplelink.a : socket.obj (.text:sl_RecvFrom)
+                  20015e6c    000000b4                  : wlan.obj (.text:sl_WlanProfileAdd)
+                  20015f20    000000b4     fatfs.a : ff.obj (.text:sync_fs$83)
+                  20015fd4    000000b2     wifi_cmd.obj (.text:_set_led_color_based_on_room_conditions$32)
+                  20016086    00000002     --HOLE-- [fill = 0]
+                  20016088    000000b0     simplelink.a : socket.obj (.text:sl_Connect)
+                  20016138    000000b0                  : wlan.obj (.text:sl_WlanConnect)
+                  200161e8    000000b0                  : cc_pal.obj (.text:spi_Read)
+                  20016298    000000af     wifi_cmd.obj (.text:get_wifi_scan_result)
+                  20016347    00000001     --HOLE-- [fill = 0]
+                  20016348    000000af     hlo_net_tools.obj (.text:scan$58)
+                  200163f7    00000001     --HOLE-- [fill = 0]
+                  200163f8    000000ac     simplelink.a : driver.obj (.text:_SlDrvDataWriteOp)
+                  200164a4    000000ac     wifi_cmd.obj (.text:send_chunk_len)
+                  20016550    000000ac     simplelink.a : socket.obj (.text:sl_Send)
+                  200165fc    000000ab     uart_logger.obj (.text:_write_file$35)
+                  200166a7    00000001     --HOLE-- [fill = 0]
+                  200166a8    000000a8     octogram.obj (.text:Octogram_GetResult)
+                  20016750    000000a8     fatfs.a : ff.obj (.text:create_chain$83)
+                  200167f8    000000a8     hlo_proto_tools.obj (.text:decode_MorpheusCommand$57)
+                  200168a0    000000a8     pill_settings.obj (.text:pill_settings_get_color)
+                  20016948    000000a7     top_board.obj (.text:Cmd_top_dtm)
+                  200169ef    00000001     --HOLE-- [fill = 0]
+                  200169f0    000000a7     hlo_net_tools.obj (.text:open_sock$58)
+                  20016a97    00000001     --HOLE-- [fill = 0]
+                  20016a98    000000a4     i2c_cmd.obj (.text:init_prox_sensor)
+                  20016b3c    000000a3     pb_decode.obj (.text:pb_dec_bytes$17)
+                  20016bdf    00000001     --HOLE-- [fill = 0]
+                  20016be0    000000a2     sha1.obj (.text:SHA1PadMessage$42)
+                  20016c82    00000002     --HOLE-- [fill = 0]
+                  20016c84    000000a0     wifi_cmd.obj (.text:Cmd_sl)
+                  20016d24    000000a0     wifi_cmd.obj (.text:SimpleLinkNetAppEventHandler)
+                  20016dc4    000000a0     simplelink.a : driver.obj (.text:_SlFindAndSetActiveObj)
+                  20016e64    000000a0     ble_proto.obj (.text:_reply_wifi_scan_result$72)
+                  20016f04    000000a0     commands.obj (.text:_show_led_status$69)
+                  20016fa4    000000a0     hlo_async.obj (.text:hlo_future_create_task_bg)
+                  20017044    0000009d     pb_decode.obj (.text:pb_dec_submessage$17)
+                  200170e1    00000001     --HOLE-- [fill = 0]
+                  200170e2    0000009c     hellomath.obj (.text:FixedPointExp2Q10)
+                  2001717e    00000002     --HOLE-- [fill = 0]
+                  20017180    0000009c     top_board.obj (.text:_boot_watcher_task)
+                  2001721c    0000009c     wifi_cmd.obj (.text:_on_key_check_success$32)
+                  200172b8    0000009c     hlo_async.obj (.text:fork$59)
+                  20017354    0000009c     i2c_cmd.obj (.text:get_codec_NAU)
+                  200173f0    0000009c     crypto_misc.obj (.text:get_random)
+                  2001748c    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.obj (.text)
+                  20017528    0000009c     simplelink.a : socket.obj (.text:sl_SendTo)
+                  200175c4    00000098     aes.obj (.text:AES_convert_key)
+                  2001765c    00000098     spi_cmd.obj (.text:Cmd_spi_read)
+                  200176f4    00000098     simplelink.a : cc_pal.obj (.text:NwpPowerOnPreamble)
+                  2001778c    00000098     ble_proto.obj (.text:ble_proto_start_hold)
+                  20017824    00000098     chunk.obj (.text:http_parse_chunked)
+                  200178bc    00000098     bigint.obj (.text:regular_multiply$74)
+                  20017954    00000098     FreeRTOS.a : event_groups.obj (.text:xEventGroupWaitBits)
+                  200179ec    00000096     hlo_net_tools.obj (.text:Cmd_dig)
+                  20017a82    00000096     fatfs.a : ff.obj (.text:f_sync)
+                  20017b18    00000096             : ff.obj (.text:f_unlink)
+                  20017bae    00000002     --HOLE-- [fill = 0]
+                  20017bb0    00000094     audiotask.obj (.text:AudioTask_Thread)
+                  20017c44    00000094     fatfs_cmd.obj (.text:Cmd_cat)
+                  20017cd8    00000094     fft.obj (.text:dct)
+                  20017d6c    00000094     pb_common.obj (.text:pb_field_iter_next)
+                  20017e00    00000094     rtsv7M4_T_le_v4SPD16_eabi.lib : auto_init.obj (.text)
+                  20017e94    00000094     FreeRTOS.a : tasks.obj (.text:vTaskDelete)
+                  20017f28    00000093     pb_decode.obj (.text:pb_dec_string$17)
+                  20017fbb    00000001     --HOLE-- [fill = 0]
+                  20017fbc    00000090     diskio.obj (.text:disk_read)
+                  2001804c    00000090     top_board.obj (.text:send_top)
+                  200180dc    00000090     FreeRTOS.a : tasks.obj (.text:vTaskPriorityInherit)
+                  2001816c    0000008c     matmessageutils.obj (.text:SetIntMatrix)
+                  200181f8    0000008c     uartstdio.obj (.text:UARTwrite)
+                  20018284    0000008c     simplelink.a : driver.obj (.text:_SlDrvMsgReadCmdCtx)
+                  20018310    0000008c     pb_decode.obj (.text:decode_callback_field$17)
+                  2001839c    0000008c     led_cmd.obj (.text:led_slow)
+                  20018428    0000008c     simplelink.a : fs.obj (.text:sl_FsRead)
+                  200184b4    0000008c                  : fs.obj (.text:sl_FsWrite)
+                  20018540    0000008c                  : cc_pal.obj (.text:spi_Close)
+                  200185cc    0000008c     FreeRTOS.a : tasks.obj (.text:uxTaskGetSystemState)
+                  20018658    0000008b     wifi_cmd.obj (.text:Cmd_setDev)
+                  200186e3    00000001     --HOLE-- [fill = 0]
+                  200186e4    00000088     wifi_cmd.obj (.text:Cmd_setDns)
+                  2001876c    00000088     rawaudiostatemachine.obj (.text:RawAudioStateMachine_SetLogLikelihoodOfModel)
+                  200187f4    00000088     uart_logger.obj (.text:_remove_oldest$35)
+                  2001887c    00000088     commands.obj (.text:cancel_alarm$69)
+                  20018904    00000088     top_hci.obj (.text:hci_decode)
+                  2001898c    00000088     ble_proto.obj (.text:hold_animate_progress_task)
+                  20018a14    00000088     pb_decode.obj (.text:pb_read)
+                  20018a9c    00000088     top_board.obj (.text:top_board_task)
+                  20018b24    00000087     commands.obj (.text:set_test_alarm)
+                  20018bab    00000001     --HOLE-- [fill = 0]
+                  20018bac    00000085     top_board.obj (.text:_on_message$37)
+                  20018c31    00000003     --HOLE-- [fill = 0]
+                  20018c34    00000084     fault.obj (.text:FaultDecoder)
+                  20018cb8    00000084     led_animations.obj (.text:_animate_progress$55)
+                  20018d3c    00000084     fatfs_cmd.obj (.text:free_download_info)
+                  20018dc0    00000084     header.obj (.text:http_parse_header_char)
+                  20018e44    00000084     uart_logger.obj (.text:uart_logger_init)
+                  20018ec8    00000081     spi_cmd.obj (.text:Cmd_spi_write)
+                  20018f49    00000003     --HOLE-- [fill = 0]
+                  20018f4c    00000081     wifi_cmd.obj (.text:_on_provision_response_success$32)
+                  20018fcd    00000003     --HOLE-- [fill = 0]
+                  20018fd0    00000080     uartstdio.obj (.text:UARTPrimeTransmit$34)
+                  20019050    00000080     simplelink.a : driver.obj (.text:_SlDrvDriverCBDeinit)
+                  200190d0    00000080     led_cmd.obj (.text:_hist_pop)
+                  20019150    00000080     uart_logger.obj (.text:_read_oldest$35)
+                  200191d0    00000080     i2c_cmd.obj (.text:close_codec_NAU)
+                  20019250    00000080     wifi_cmd.obj (.text:on_key)
+                  200192d0    00000080     led_animations.obj (.text:play_led_trippy)
+                  20019350    0000007f     commands.obj (.text:Cmd_rssi)
+                  200193cf    00000001     --HOLE-- [fill = 0]
+                  200193d0    0000007e     fatfs.a : ff.obj (.text:dir_sdi$83)
+                  2001944e    00000002     --HOLE-- [fill = 0]
+                  20019450    0000007c     diskio.obj (.text:CardCapacityGet$67)
+                  200194cc    0000007c     wifi_cmd.obj (.text:Cmd_mode)
+                  20019548    0000007c     led_animations.obj (.text:_animate_wheel$55)
+                  200195c4    0000007c     uart_logger.obj (.text:_save_block_queue$35)
+                  20019640    0000007c     audioclassifier.obj (.text:getMatrixClientMessage)
+                  200196bc    0000007c     fatfs_cmd.obj (.text:global_filename)
+                  20019738    0000007c     main.obj (.text:main)
+                  200197b4    0000007c     FreeRTOS.a : tasks.obj (.text:prvListTaskWithinSingleList$84)
+                  20019830    0000007c     simplelink.a : netcfg.obj (.text:sl_NetCfgGet)
+                  200198ac    0000007c     spi_cmd.obj (.text:spi_write)
+                  20019928    0000007c     FreeRTOS.a : heap_6.obj (.text:vPortDefineHeapRegions)
+                  200199a4    00000078     fatfs_cmd.obj (.text:Cmd_mkfs)
+                  20019a1c    00000078     fatfs_cmd.obj (.text:_McuImageGetNewIndex)
+                  20019a94    00000078     wifi_cmd.obj (.text:_on_key_check_failure$32)
+                  20019b0c    00000078     uart_logger.obj (.text:_walk_log_dir$35)
+                  20019b84    00000078     ble_proto.obj (.text:ble_proto_led_flash)
+                  20019bfc    00000078     fatfs.a : ff.obj (.text:check_fs$83)
+                  20019c74    00000078     rtsv7M4_T_le_v4SPD16_eabi.lib : memset_t2.obj (.text)
+                  20019cec    00000078     simplelink.a : device.obj (.text:sl_DevGet)
+                  20019d64    00000078     sl_sync.obj (.text:sl_enter_critical_region)
+                  20019ddc    00000078     simplelink.a : cc_pal.obj (.text:spi_Write)
+                  20019e54    00000077     wifi_cmd.obj (.text:nwp_reset)
+                  20019ecb    00000001     --HOLE-- [fill = 0]
+                  20019ecc    00000076     hlo_net_tools.obj (.text:_init_url)
+                  20019f42    00000076     FreeRTOS.a : queue.obj (.text:prvUnlockQueue$85)
+                  20019fb8    00000074     commands.obj (.text:Cmd_record_buff)
+                  2001a02c    00000074     commands.obj (.text:CreateDirectoryIfNotExist$69)
+                  2001a0a0    00000074     i2c_if.obj (.text:I2C_IF_Read)
+                  2001a114    00000074     i2c_if.obj (.text:I2C_IF_Write)
+                  2001a188    00000074     simplelink.a : driver.obj (.text:_SlDrvClassifyRxMsg)
+                  2001a1fc    00000074     uart_logger.obj (.text:analytics_event)
+                  2001a270    00000074     commands.obj (.text:check_provision)
+                  2001a2e4    00000074     i2c_cmd.obj (.text:get_codec_mic_NAU)
+                  2001a358    00000074     wifi_cmd.obj (.text:load_data_server)
+                  2001a3cc    00000074     pb_decode.obj (.text:pb_decode_varint32$17)
+                  2001a440    00000074     simplelink.a : fs.obj (.text:sl_FsClose)
+                  2001a4b4    00000072     pb_encode.obj (.text:pb_encode_varint)
+                  2001a526    00000072     FreeRTOS.a : queue.obj (.text:xQueueGenericSendFromISR)
+                  2001a598    00000071     ble_cmd.obj (.text:ble_proto_free_command)
+                  2001a609    00000003     --HOLE-- [fill = 0]
+                  2001a60c    00000070     wifi_cmd.obj (.text:Cmd_time)
+                  2001a67c    00000070     i2c_if.obj (.text:I2CTransact$3)
+                  2001a6ec    00000070     pcm_handler.obj (.text:SetupPingPongDMATransferRx)
+                  2001a75c    00000070     simplelink.a : driver.obj (.text:_SlDrvCmdOp)
+                  2001a7cc    00000070     led_cmd.obj (.text:led_array)
+                  2001a83c    00000070     spi_cmd.obj (.text:spi_write_step)
+                  2001a8ac    00000070     FreeRTOS.a : tasks.obj (.text:vTaskDelayUntil)
+                  2001a91c    00000070                : tasks.obj (.text:vTaskSwitchContext)
+                  2001a98c    00000070                : tasks.obj (.text:xTaskRemoveFromEventList)
+                  2001a9fc    0000006f     wifi_cmd.obj (.text:flush_out_buffer$32)
+                  2001aa6b    00000001     --HOLE-- [fill = 0]
+                  2001aa6c    0000006e     ble_proto.obj (.text:_ble_reply_wifi_info$72)
+                  2001aada    00000002     --HOLE-- [fill = 0]
+                  2001aadc    0000006e     pb_decode.obj (.text:pb_dec_varint$17)
+                  2001ab4a    00000002     --HOLE-- [fill = 0]
+                  2001ab4c    0000006e     pb_decode.obj (.text:read_raw_value$17)
+                  2001abba    00000002     --HOLE-- [fill = 0]
+                  2001abbc    0000006c     pinmux.obj (.text:PinMuxConfig_hw_dep)
+                  2001ac28    0000006c     audiofeatures.obj (.text:UpdateEnergyStats$79)
+                  2001ac94    0000006c     simplelink.a : driver.obj (.text:_SlDrvMsgReadSpawnCtx)
+                  2001ad00    0000006c     bigint.obj (.text:bi_add)
+                  2001ad6c    0000006c     sys_time.obj (.text:cmd_set_time)
+                  2001add8    0000006c     matmessageutils.obj (.text:encode_int_array$6)
+                  2001ae44    0000006c     sys_time.obj (.text:init_time_module)
+                  2001aeb0    0000006c     commands.obj (.text:nordic_prox_int)
+                  2001af1c    0000006c     pill_settings.obj (.text:pill_settings_init)
+                  2001af88    0000006c     simplelink.a : device.obj (.text:sl_Stop)
+                  2001aff4    0000006b     wifi_cmd.obj (.text:pingRes)
+                  2001b05f    00000001     --HOLE-- [fill = 0]
+                  2001b060    0000006a     bigint.obj (.text:bi_subtract)
+                  2001b0ca    00000002     --HOLE-- [fill = 0]
+                  2001b0cc    00000068     driverlib.a : interrupt.obj (.text:IntDisable)
+                  2001b134    00000068                 : interrupt.obj (.text:IntEnable)
+                  2001b19c    00000068     udma_if.obj (.text:UDMAInit)
+                  2001b204    00000068     audiohmm.obj (.text:get_bmap$77)
+                  2001b26c    00000068     fatfs.a : ff.obj (.text:get_fileinfo$83)
+                  2001b2d4    00000068     wifi_cmd.obj (.text:mcu_reset)
+                  2001b33c    00000068     pb_decode.obj (.text:pb_decode_varint)
+                  2001b3a4    00000068     led_animations.obj (.text:play_led_progress_bar)
+                  2001b40c    00000068     wifi_cmd.obj (.text:send_periodic_data)
+                  2001b474    00000068     simplelink.a : netapp.obj (.text:sl_NetAppPingStart)
+                  2001b4dc    00000068     slip_packet.obj (.text:slip_write)
+                  2001b544    00000068     FreeRTOS.a : tasks.obj (.text:vTaskPriorityDisinherit)
+                  2001b5ac    00000067     wifi_cmd.obj (.text:Cmd_connect)
+                  2001b613    00000001     --HOLE-- [fill = 0]
+                  2001b614    00000066     FreeRTOS.a : queue.obj (.text:prvCopyDataToQueue$85)
+                  2001b67a    00000002     --HOLE-- [fill = 0]
+                  2001b67c    00000065     circ_buff.obj (.text:CreateCircularBuffer)
+                  2001b6e1    00000003     --HOLE-- [fill = 0]
+                  2001b6e4    00000065     wifi_cmd.obj (.text:reset_default_antenna)
+                  2001b749    00000003     --HOLE-- [fill = 0]
+                  2001b74c    00000064     driverlib.a : pin.obj (.text:PinConfigSet)
+                  2001b7b0    00000064     audioprocessingtask.obj (.text:SetUpUpload$76)
+                  2001b814    00000064     audioprocessingtask.obj (.text:Setup$76)
+                  2001b878    00000064     pcm_handler.obj (.text:SetupPingPongDMATransferTx)
+                  2001b8dc    00000064     simplelink.a : fs.obj (.text:_sl_GetCreateFsMode)
+                  2001b940    00000064     fatfs.a : ff.obj (.text:follow_path$83)
+                  2001b9a4    00000064     i2c_cmd.obj (.text:init_humid_sensor)
+                  2001ba08    00000064     i2c_cmd.obj (.text:init_temp_sensor)
+                  2001ba6c    00000064     wifi_cmd.obj (.text:send_pill_data)
+                  2001bad0    00000064     wifi_cmd.obj (.text:send_provision_request)
+                  2001bb34    00000064     spi_cmd.obj (.text:spi_init)
+                  2001bb98    00000064     spi_cmd.obj (.text:spi_read_step)
+                  2001bbfc    00000064     main.obj (.text:vAssertCalled)
+                  2001bc60    00000064     FreeRTOS.a : tasks.obj (.text:vTaskPlaceOnUnorderedEventList)
+                  2001bcc4    00000062     circ_buff.obj (.text:FillBuffer)
+                  2001bd26    00000002     --HOLE-- [fill = 0]
+                  2001bd28    00000062     ble_cmd.obj (.text:_encode_bytes_fields$73)
+                  2001bd8a    00000062     bigint.obj (.text:bi_export)
+                  2001bdec    00000062     fatfs.a : ff.obj (.text:f_opendir)
+                  2001be4e    00000062     FreeRTOS.a : event_groups.obj (.text:xEventGroupSetBits)
+                  2001beb0    00000060     audiocontrolhelper.obj (.text:AudioControlHelper_SetAudioControl)
+                  2001bf10    00000060     commands.obj (.text:Cmd_heapviz)
+                  2001bf70    00000060     wifi_cmd.obj (.text:Cmd_ping)
+                  2001bfd0    00000060     driverlib.a : prcm.obj (.text:PRCMPeripheralClockGet)
+                  2001c030    00000060                 : sdhost.obj (.text:SDHostInit)
+                  2001c090    00000060     pinmux.obj (.text:SetAntennaSelectionGPIOs$48)
+                  2001c0f0    00000060     simplelink.a : cc_pal.obj (.text:SetupDMAReceive$97)
+                  2001c150    00000060     proto_utils.obj (.text:_encode_string_fields)
+                  2001c1b0    00000060     led_cmd.obj (.text:_hist_push)
+                  2001c210    00000060     simplelink.a : netapp.obj (.text:_sl_HandleAsync_DnsGetHostByService)
+                  2001c270    00000060     hlo_net_tools.obj (.text:reselect_antenna$58)
+                  2001c2d0    00000060     rtsv7M4_T_le_v4SPD16_eabi.lib : i_divt2.obj (.text)
+                  2001c330    00000060     simplelink.a : fs.obj (.text:sl_FsGetInfo)
+                  2001c390    00000060                  : wlan.obj (.text:sl_WlanGet)
+                  2001c3f0    0000005e     rsa.obj (.text:RSA_encrypt)
+                  2001c44e    0000005e     fatfs.a : ff.obj (.text:remove_chain$83)
+                  2001c4ac    0000005e     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_rle.obj (.text)
+                  2001c50a    00000002     --HOLE-- [fill = 0]
+                  2001c50c    0000005d     fatfs_cmd.obj (.text:Cmd_umnt)
+                  2001c569    00000003     --HOLE-- [fill = 0]
+                  2001c56c    0000005c     audiotask.obj (.text:CheckForInterruptionDuringPlayback$75)
+                  2001c5c8    0000005c     commands.obj (.text:Cmd_get_octogram)
+                  2001c624    0000005c     top_board.obj (.text:Cmd_send_top)
+                  2001c680    0000005c     fileuploadertask.obj (.text:NetTaskResponse$64)
+                  2001c6dc    0000005c     led_animations.obj (.text:_animate_solid$55)
+                  2001c738    0000005c     simplelink.a : device.obj (.text:_sl_HandleAsync_InitComplete)
+                  2001c794    0000005c     bigint.obj (.text:bi_import)
+                  2001c7f0    0000005c     top_hci.obj (.text:hci_encode)
+                  2001c84c    0000005c     wifi_cmd.obj (.text:load_aes)
+                  2001c8a8    0000005c     wifi_cmd.obj (.text:load_device_id)
+                  2001c904    0000005c     FreeRTOS.a : tasks.obj (.text:vTaskPlaceOnEventList)
+                  2001c960    0000005b     wifi_cmd.obj (.text:Cmd_set_mac)
+                  2001c9bb    00000001     --HOLE-- [fill = 0]
+                  2001c9bc    0000005b     pb_encode.obj (.text:pb_encode_tag_for_field)
+                  2001ca17    00000001     --HOLE-- [fill = 0]
+                  2001ca18    0000005a     commands.obj (.text:Cmd_fs_delete)
+                  2001ca72    0000005a     audiotask.obj (.text:Init$75)
+                  2001cacc    0000005a     pb_encode.obj (.text:pb_enc_varint$16)
+                  2001cb26    00000002     --HOLE-- [fill = 0]
+                  2001cb28    0000005a     ble_proto.obj (.text:play_startup_sound$72)
+                  2001cb82    00000002     --HOLE-- [fill = 0]
+                  2001cb84    00000058     driverlib.a : prcm.obj (.text:PRCMHibernateIntervalSet)
+                  2001cbdc    00000058     rsa.obj (.text:RSA_pub_key_new)
+                  2001cc34    00000058     uartstdio.obj (.text:UARTgets)
+                  2001cc8c    00000058     bigint.obj (.text:bi_int_divide$74)
+                  2001cce4    00000058     bigint.obj (.text:bi_int_multiply$74)
+                  2001cd3c    00000058     commands.obj (.text:force_data_push)
+                  2001cd94    00000058     hlo_net_tools.obj (.text:http_get_stream)
+                  2001cdec    00000058     led_cmd.obj (.text:led_get_user_color)
+                  2001ce44    00000058     FreeRTOS.a : tasks.obj (.text:prvCheckTasksWaitingTermination$84)
+                  2001ce9c    00000058                : tasks.obj (.text:prvInitialiseTaskLists$84)
+                  2001cef4    00000058     matmessageutils.obj (.text:write_int_mat$6)
+                  2001cf4c    00000058     FreeRTOS.a : tasks.obj (.text:xTaskRemoveFromUnorderedEventList)
+                  2001cfa4    00000056     hlo_net_tools.obj (.text:SortByRSSI$58)
+                  2001cffa    00000056     commands.obj (.text:SortByRSSI$69)
+                  2001d050    00000056     pb_decode.obj (.text:pb_dec_svarint$17)
+                  2001d0a6    00000002     --HOLE-- [fill = 0]
+                  2001d0a8    00000056     pb_decode.obj (.text:pb_dec_uvarint$17)
+                  2001d0fe    00000002     --HOLE-- [fill = 0]
+                  2001d100    00000054     mcasp_if.obj (.text:AudioCapturerSetupDMAMode)
+                  2001d154    00000054     ble_cmd.obj (.text:Cmd_factory_reset)
+                  2001d1a8    00000054     hellomath.obj (.text:Scale16VecTo8)
+                  2001d1fc    00000054     simplelink.a : cc_pal.obj (.text:SetupDMASend$97)
+                  2001d250    00000054     driverlib.a : uart.obj (.text:UARTConfigSetExpClk)
+                  2001d2a4    00000054     simplelink.a : socket.obj (.text:_sl_HandleAsync_Connect)
+                  2001d2f8    00000054                  : netapp.obj (.text:_sl_HandleAsync_DnsGetHostByName)
+                  2001d34c    00000054                  : netapp.obj (.text:_sl_HandleAsync_PingResponse)
+                  2001d3a0    00000054     ble_proto.obj (.text:ble_reply_http_status)
+                  2001d3f4    00000054     fatfs_cmd.obj (.text:file_exists)
+                  2001d448    00000054     fft.obj (.text:fix_window)
+                  2001d49c    00000054     fatfs_cmd.obj (.text:init_download_task)
+                  2001d4f0    00000054     bigint.obj (.text:more_comps$74)
+                  2001d544    00000054     pb_encode.obj (.text:pb_write)
+                  2001d598    00000054     simplelink.a : fs.obj (.text:sl_FsOpen)
+                  2001d5ec    00000054                  : socket.obj (.text:sl_SetSockOpt)
+                  2001d640    00000054                  : wlan.obj (.text:sl_WlanGetNetworkList)
+                  2001d694    00000054     FreeRTOS.a : tasks.obj (.text:xTaskCheckForTimeOut)
+                  2001d6e8    00000053     commands.obj (.text:Cmd_slip)
+                  2001d73b    00000001     --HOLE-- [fill = 0]
+                  2001d73c    00000052     udma_if.obj (.text:SetupTransfer)
+                  2001d78e    00000052     bigint.obj (.text:bi_compare)
+                  2001d7e0    00000052     fatfs.a : ff.obj (.text:sync_window$83)
+                  2001d832    00000052     led_animations.obj (.text:wheel_color$55)
+                  2001d884    00000051     ble_cmd.obj (.text:ble_send_protobuf)
+                  2001d8d5    00000003     --HOLE-- [fill = 0]
+                  2001d8d8    00000050     diskio.obj (.text:CardSendCmd$67)
+                  2001d928    00000050     dust_cmd.obj (.text:Cmd_dusttest)
+                  2001d978    00000050     commands.obj (.text:Cmd_test_3200_rtc$69)
+                  2001d9c8    00000050     audiohelper.obj (.text:InitAudioPlayback)
+                  2001da18    00000050     simplelink.a : driver.obj (.text:_SlAsyncEventGenericHandler)
+                  2001da68    00000050     wifi_cmd.obj (.text:_get_sync_response$32)
+                  2001dab8    00000050     uart_logger.obj (.text:_read_file$35)
+                  2001db08    00000050     hlo_net_tools.obj (.text:_replace_ssid_by_rssi)
+                  2001db58    00000050     bigint.obj (.text:alloc$74)
+                  2001dba8    00000050     pb_encode.obj (.text:pb_enc_bytes$16)
+                  2001dbf8    00000050     pb_decode.obj (.text:pb_make_string_substream)
+                  2001dc48    00000050     simplelink.a : cc_pal.obj (.text:spi_Read_CPU$97)
+                  2001dc98    00000050     FreeRTOS.a : tasks.obj (.text:vTaskDelay)
+                  2001dce8    0000004e     audiotask.obj (.text:StatsCallback$75)
+                  2001dd36    0000004e     hellomath.obj (.text:VecNormalize8)
+                  2001dd84    0000004e     pb_encode.obj (.text:pb_encode)
+                  2001ddd2    00000002     --HOLE-- [fill = 0]
+                  2001ddd4    0000004d     ble_cmd.obj (.text:on_morpheus_protobuf_arrival)
+                  2001de21    00000003     --HOLE-- [fill = 0]
+                  2001de24    0000004c     spi_cmd.obj (.text:CS_set)
+                  2001de70    0000004c     commands.obj (.text:Cmd_free)
+                  2001debc    0000004c     fatfs_cmd.obj (.text:Cmd_version)
+                  2001df08    0000004c     fileuploadertask.obj (.text:FileUploaderTask_Upload)
+                  2001df54    0000004c     ble_proto.obj (.text:ble_proto_init)
+                  2001dfa0    0000004c     fatfs.a : ff.obj (.text:dir_read$83)
+                  2001dfec    0000004c     led_cmd.obj (.text:led_idle_task)
+                  2001e038    0000004c     FreeRTOS.a : tasks.obj (.text:prvAddCurrentTaskToDelayedList$84)
+                  2001e084    0000004c                : heap_6.obj (.text:prvInsertBlockIntoFreeList$88)
+                  2001e0d0    0000004c     led_animations.obj (.text:push_memory_queue$55)
+                  2001e11c    0000004c     rtsv7M4_T_le_v4SPD16_eabi.lib : atoi.obj (.text)
+                  2001e168    0000004c                                   : localtim.obj (.text)
+                  2001e1b4    0000004c     simplelink.a : cc_pal.obj (.text:spi_Write_CPU$97)
+                  2001e200    0000004c     wifi_cmd.obj (.text:stop_connection)
+                  2001e24c    0000004c     FreeRTOS.a : tasks.obj (.text:vTaskStartScheduler)
+                  2001e298    0000004c                : queue.obj (.text:xQueueCreateMutex)
+                  2001e2e4    0000004a     audiotask.obj (.text:AudioTask_DumpOncePerMinuteStats)
+                  2001e32e    00000002     --HOLE-- [fill = 0]
+                  2001e330    0000004a     wifi_cmd.obj (.text:Cmd_antsel)
+                  2001e37a    0000004a     rc4.obj (.text:RC4_setup)
+                  2001e3c4    0000004a     simplelink.a : cc_pal.obj (.text:cc_SetupTransfer$97)
+                  2001e40e    0000004a     pb_decode.obj (.text:decode_extension$17)
+                  2001e458    0000004a     FreeRTOS.a : tasks.obj (.text:prvInitialiseTCBVariables$84)
+                  2001e4a2    0000004a     simplelink.a : socket.obj (.text:sl_Bind)
+                  2001e4ec    0000004a     FreeRTOS.a : queue.obj (.text:xQueueGenericCreate)
+                  2001e536    00000002     --HOLE-- [fill = 0]
+                  2001e538    00000049     uart_logger.obj (.text:Cmd_analytics)
+                  2001e581    00000003     --HOLE-- [fill = 0]
+                  2001e584    00000049     wifi_cmd.obj (.text:_on_provision_response_failure$32)
+                  2001e5cd    00000003     --HOLE-- [fill = 0]
+                  2001e5d0    00000049     pb_encode.obj (.text:pb_enc_submessage$16)
+                  2001e619    00000003     --HOLE-- [fill = 0]
+                  2001e61c    00000049     pb_decode.obj (.text:pb_readbyte$17)
+                  2001e665    00000003     --HOLE-- [fill = 0]
+                  2001e668    00000048     fatfs_cmd.obj (.text:Cmd_mnt)
+                  2001e6b0    00000048     commands.obj (.text:Cmd_play_buff)
+                  2001e6f8    00000048     hellomath.obj (.text:FixedPointLog2Q10)
+                  2001e740    00000048     octogram.obj (.text:Octogram_Update)
+                  2001e788    00000048     FreeRTOS.a : osi_freertos.obj (.text:VStartSimpleLinkSpawnTask)
+                  2001e7d0    00000048     commands.obj (.text:_is_light_off$69)
+                  2001e818    00000048     simplelink.a : socket.obj (.text:_sl_HandleAsync_Accept)
+                  2001e860    00000048     ble_proto.obj (.text:ble_proto_led_busy_mode)
+                  2001e8a8    00000048     fatfs.a : ff.obj (.text:dir_find$83)
+                  2001e8f0    00000048     proto_utils.obj (.text:encode_device_id_string)
+                  2001e938    00000048     fatfs.a : ff.obj (.text:f_readdir)
+                  2001e980    00000048     fft.obj (.text:fxd_sin)
+                  2001e9c8    00000048     gesture.obj (.text:gesture_increment_hold_count)
+                  2001ea10    00000048     gesture.obj (.text:gesture_increment_wave_count)
+                  2001ea58    00000048     pb_decode.obj (.text:pb_decode_tag)
+                  2001eaa0    00000048     rtsv7M4_T_le_v4SPD16_eabi.lib : boot.obj (.text)
+                  2001eae8    00000048                                   : rand.obj (.text)
+                  2001eb30    00000048     commands.obj (.text:thread_alarm_on_finished$69)
+                  2001eb78    00000048     uart_logger.obj (.text:uart_logf)
+                  2001ebc0    00000046     simplelink.a : device.obj (.text:_SlDrvDeviceEventHandler)
+                  2001ec06    00000002     --HOLE-- [fill = 0]
+                  2001ec08    00000044     diskio.obj (.text:CardSelect$67)
+                  2001ec4c    00000044     commands.obj (.text:Cmd_test_realloc)
+                  2001ec90    00000044     gpio_if.obj (.text:GPIO_IF_ConfigureNIntEnable)
+                  2001ecd4    00000044     driverlib.a : prcm.obj (.text:PRCMPeripheralReset)
+                  2001ed18    00000044     uartstdio.obj (.text:UARTPeek)
+                  2001ed5c    00000044     wdt_if.obj (.text:WDT_IF_Init)
+                  2001eda0    00000044     bigint.obj (.text:bi_set_mod)
+                  2001ede4    00000044     commands.obj (.text:cmd_memfrag)
+                  2001ee28    00000044     fatfs.a : ff.obj (.text:f_mount)
+                  2001ee6c    00000044     led_animations.obj (.text:factory_led_test_pattern)
+                  2001eeb0    00000044     commands.obj (.text:get_alpha_from_light)
+                  2001eef4    00000044     sys_time.obj (.text:get_time)
+                  2001ef38    00000044     hlo_async.obj (.text:hlo_future_read)
+                  2001ef7c    00000044     networktask.obj (.text:networktask_init)
+                  2001efc0    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : cpy_tbl.obj (.text)
+                  2001f004    00000044                                   : exit.obj (.text)
+                  2001f048    00000044     simplelink.a : fs.obj (.text:sl_FsDel)
+                  2001f08c    00000044                  : netcfg.obj (.text:sl_NetCfgSet)
+                  2001f0d0    00000044                  : socket.obj (.text:sl_Recv)
+                  2001f114    00000044     uart_logger.obj (.text:uart_logger_flush)
+                  2001f158    00000044     commands.obj (.text:usertraceFREE)
+                  2001f19c    00000044     commands.obj (.text:usertraceMALLOC)
+                  2001f1e0    00000042     commands.obj (.text:Cmd_gesture)
+                  2001f222    00000042     pb_decode.obj (.text:default_extension_decoder$17)
+                  2001f264    00000042     pb_encode.obj (.text:pb_enc_string$16)
+                  2001f2a6    00000002     --HOLE-- [fill = 0]
+                  2001f2a8    00000042     pb_encode.obj (.text:pb_enc_svarint$16)
+                  2001f2ea    00000002     --HOLE-- [fill = 0]
+                  2001f2ec    00000042     pb_encode.obj (.text:pb_enc_uvarint$16)
+                  2001f32e    00000002     --HOLE-- [fill = 0]
+                  2001f330    00000042     pb_decode.obj (.text:pb_skip_field)
+                  2001f372    00000042     rtsv7M4_T_le_v4SPD16_eabi.lib : u_divt2.obj (.text)
+                  2001f3b4    00000040     mcasp_if.obj (.text:AudioCaptureRendererConfigure)
+                  2001f3f4    00000040     audioprocessingtask.obj (.text:AudioProcessingTask_AddFeaturesToQueue)
+                  2001f434    00000040     audiohelper.obj (.text:InitAudioCapture)
+                  2001f474    00000040     startup_ccs.obj (.text:IntDefaultHandler)
+                  2001f4b4    00000040     mcasp_if.obj (.text:McASPDeInit)
+                  2001f4f4    00000040     audioclassifier.obj (.text:PackFeats$81)
+                  2001f534    00000040     driverlib.a : spi.obj (.text:SPIConfigSetExpClk)
+                  2001f574    00000040     simplelink.a : driver.obj (.text:_SlRemoveFromList)
+                  2001f5b4    00000040     slip_packet.obj (.text:_handle_rx_byte_esc$40)
+                  2001f5f4    00000040     ble_cmd.obj (.text:ble_proto_assign_encode_funcs)
+                  2001f634    00000040     ble_proto.obj (.text:ble_reply_socket_error)
+                  2001f674    00000040     fatfs.a : ff.obj (.text:dir_alloc$83)
+                  2001f6b4    00000040             : ff.obj (.text:f_stat)
+                  2001f6f4    00000040     wifi_cmd.obj (.text:matchhere)
+                  2001f734    00000040     pb_decode.obj (.text:pb_decode_svarint)
+                  2001f774    00000040     FreeRTOS.a : heap_6.obj (.text:pvPortHeapViz)
+                  2001f7b4    00000040     uart_logger.obj (.text:send_log$35)
+                  2001f7f4    00000040     simplelink.a : wlan.obj (.text:sl_WlanSet)
+                  2001f834    00000040     commands.obj (.text:thread_spi)
+                  2001f874    00000040     wifi_cmd.obj (.text:wifi_status_init)
+                  2001f8b4    00000040     FreeRTOS.a : queue.obj (.text:xQueueGenericReset)
+                  2001f8f4    0000003f     pb_decode.obj (.text:decode_field$17)
+                  2001f933    00000001     --HOLE-- [fill = 0]
+                  2001f934    0000003e     circ_buff.obj (.text:ReadBuffer)
+                  2001f972    0000003e     sha1.obj (.text:SHA1_Final)
+                  2001f9b0    0000003e     commands.obj (.text:median_filter)
+                  2001f9ee    0000003e     pb_common.obj (.text:pb_field_iter_begin)
+                  2001fa2c    0000003d     commands.obj (.text:Cmd_topdfu)
+                  2001fa69    00000001     --HOLE-- [fill = 0]
+                  2001fa6a    0000003c     audiotask.obj (.text:AudioTask_StartPlayback)
+                  2001faa6    00000002     --HOLE-- [fill = 0]
+                  2001faa8    0000003c     hlo_async.obj (.text:Cmd_FutureTest)
+                  2001fae4    0000003c     networktask.obj (.text:NetworkTask_Thread$52)
+                  2001fb20    0000003c     uart_logger.obj (.text:_logstr_wrapper)
+                  2001fb5c    0000003c     simplelink.a : socket.obj (.text:_sl_HandleAsync_Select)
+                  2001fb98    0000003c                  : device.obj (.text:_sl_HandleAsync_Stop)
+                  2001fbd4    0000003c     ble_cmd.obj (.text:ble_proto_get_morpheus_command)
+                  2001fc10    0000003c     fatfs.a : ff.obj (.text:get_ldnumber$83)
+                  2001fc4c    0000003c     hellofilesystem.obj (.text:hello_fs_write)
+                  2001fc88    0000003c     fatfs_cmd.obj (.text:is_test_boot)
+                  2001fcc4    0000003c     i2c_cmd.obj (.text:set_volume)
+                  2001fd00    0000003c     simplelink.a : device.obj (.text:sl_DevSet)
+                  2001fd3c    0000003c                  : wlan.obj (.text:sl_WlanPolicySet)
+                  2001fd78    0000003c     FreeRTOS.a : heap_6.obj (.text:vPortFree)
+                  2001fdb4    0000003c     matmessageutils.obj (.text:write_string)
+                  2001fdf0    0000003b     pb_encode.obj (.text:encode_field$16)
+                  2001fe2b    00000001     --HOLE-- [fill = 0]
+                  2001fe2c    0000003b     hlo_async.obj (.text:hlo_future_write)
+                  2001fe67    00000001     --HOLE-- [fill = 0]
+                  2001fe68    0000003a     rsa.obj (.text:RSA_free)
+                  2001fea2    0000003a     audioclassifier.obj (.text:UnpackFeats8$81)
+                  2001fedc    0000003a     ble_proto.obj (.text:_ble_reply_command_with_type$72)
+                  2001ff16    0000003a     FreeRTOS.a : tasks.obj (.text:prvAllocateTCBAndStack$84)
+                  2001ff50    0000003a                : list.obj (.text:vListInsert)
+                  2001ff8a    00000002     --HOLE-- [fill = 0]
+                  2001ff8c    00000039     audiotask.obj (.text:AudioTask_StartCapture)
+                  2001ffc5    00000003     --HOLE-- [fill = 0]
+                  2001ffc8    00000038     audioprocessingtask.obj (.text:AudioProcessingTask_SetControl)
+                  20020000    00000038     audioprocessingtask.obj (.text:Init$76)
+                  20020038    00000038     audioprocessingtask.obj (.text:NetworkResponseFunc$76)
+                  20020070    00000038     driverlib.a : prcm.obj (.text:PRCMHibernateWakeupSourceEnable)
+                  200200a8    00000038     rc4.obj (.text:RC4_crypt)
+                  200200e0    00000038     audioprocessingtask.obj (.text:RecordCallback$76)
+                  20020118    00000038     sha1.obj (.text:SHA1_Update)
+                  20020150    00000038     prox_signal.obj (.text:UpdateMaxInBuffer$46)
+                  20020188    00000038     simplelink.a : driver.obj (.text:_SlDrvBasicCmd)
+                  200201c0    00000038     top_hci.obj (.text:_crc16_compute$36)
+                  200201f8    00000038     slip_packet.obj (.text:_handle_rx_byte_wait_start$40)
+                  20020230    00000038     led_cmd.obj (.text:_hist_flush)
+                  20020268    00000038     slip_packet.obj (.text:_slip_set_buffer$40)
+                  200202a0    00000038     ble_proto.obj (.text:ble_reply_wifi_status)
+                  200202d8    00000038     wifi_cmd.obj (.text:get_server)
+                  20020310    00000038     hellofilesystem.obj (.text:hello_fs_mkfs)
+                  20020348    00000038     hellofilesystem.obj (.text:hello_fs_read)
+                  20020380    00000038     http.obj (.text:http_init)
+                  200203b8    00000038     i2c_if.obj (.text:init_i2c_recovery)
+                  200203f0    00000038     led_cmd.obj (.text:led_set_user_color)
+                  20020428    00000038     proto_utils.obj (.text:pack_batched_periodic_data)
+                  20020460    00000038     simplelink.a : socket.obj (.text:sl_Htonl)
+                  20020498    00000038     wifi_cmd.obj (.text:wifi_status_set)
+                  200204d0    00000037     wifi_cmd.obj (.text:_on_sync_response_success$32)
+                  20020507    00000001     --HOLE-- [fill = 0]
+                  20020508    00000036     wdt_if.obj (.text:WDT_IF_DeInit)
+                  2002053e    00000036     slip_packet.obj (.text:_copy_slip_buffer_tx$40)
+                  20020574    00000036     fatfs.a : ff.obj (.text:dir_register$83)
+                  200205aa    00000036     bigint.obj (.text:exp_bit_is_one$74)
+                  200205e0    00000036     i2c_cmd.obj (.text:get_temp_humid)
+                  20020616    00000036     pb_common.obj (.text:pb_field_iter_find)
+                  2002064c    00000035     ble_proto.obj (.text:_on_pair_failure$72)
+                  20020681    00000003     --HOLE-- [fill = 0]
+                  20020684    00000034     audioclassifier.obj (.text:AudioClassifier_Init)
+                  200206b8    00000034     hellomath.obj (.text:CountHighestMsb)
+                  200206ec    00000034     simplelink.a : cc_pal.obj (.text:NwpPowerOff)
+                  20020720    00000034     driverlib.a : sdhost.obj (.text:SDHostSetExpClk)
+                  20020754    00000034     sha1.obj (.text:SHA1_Init)
+                  20020788    00000034     udma_if.obj (.text:UDMAChannelSelect)
+                  200207bc    00000034     audiohelper.obj (.text:WriteToFile)
+                  200207f0    00000034     simplelink.a : driver.obj (.text:_SlDrvRxIrqHandler)
+                  20020824    00000034     uart_logger.obj (.text:_encode_text_block$35)
+                  20020858    00000034     wifi_cmd.obj (.text:_get_provision_response$32)
+                  2002088c    00000034     slip_packet.obj (.text:_handle_rx_byte_default$40)
+                  200208c0    00000034     bigint.obj (.text:bi_initialize)
+                  200208f4    00000034     commands.obj (.text:checkFaults$69)
+                  20020928    00000034     fatfs.a : ff.obj (.text:dir_remove$83)
+                  2002095c    00000034     wifi_cmd.obj (.text:get_device_id)
+                  20020990    00000034     hellofilesystem.obj (.text:hello_fs_open)
+                  200209c4    00000034     led_cmd.obj (.text:led_fade_current_animation)
+                  200209f8    00000034     fatfs.a : ff.obj (.text:move_window$83)
+                  20020a2c    00000034     pb_encode.obj (.text:pb_get_encoded_size)
+                  20020a60    00000034     wifi_cmd.obj (.text:pb_ostream_from_sha_socket)
+                  20020a94    00000034     FreeRTOS.a : heap_6.obj (.text:prvHeapInit$88)
+                  20020ac8    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : strstr.obj (.text)
+                  20020afc    00000034     wifi_cmd.obj (.text:save_account_id)
+                  20020b30    00000034     led_cmd.obj (.text:set_low)
+                  20020b64    00000034     simplelink.a : socket.obj (.text:sl_Htons)
+                  20020b98    00000034     FreeRTOS.a : port.obj (.text:xPortStartScheduler)
+                  20020bcc    00000032     audiotask.obj (.text:AudioTask_StopCapture)
+                  20020bfe    00000002     --HOLE-- [fill = 0]
+                  20020c00    00000032     ble_proto.obj (.text:_on_pair_success$72)
+                  20020c32    00000002     --HOLE-- [fill = 0]
+                  20020c34    00000030     audiofeatures.obj (.text:AudioFeatures_Init)
+                  20020c64    00000030     audiotask.obj (.text:AudioTask_StopPlayback)
+                  20020c94    00000030     uart_logger.obj (.text:Cmd_log_upload)
+                  20020cc4    00000030     driverlib.a : prcm.obj (.text:PRCMSlowClkCtrGet)
+                  20020cf4    00000030     simplelink.a : driver.obj (.text:_SlDrvProtectAsyncRespSetting)
+                  20020d24    00000030     led_animations.obj (.text:_animate_factory_test_pattern$55)
+                  20020d54    00000030     top_board.obj (.text:_load_top_info$37)
+                  20020d84    00000030     top_board.obj (.text:_next_file_data_block$37)
+                  20020db4    00000030     hlo_async.obj (.text:async_worker$59)
+                  20020de4    00000030     ble_cmd.obj (.text:ble_reply_protobuf_error)
+                  20020e14    00000030     pb_encode.obj (.text:encode_extension_field$16)
+                  20020e44    00000030     bigint.obj (.text:find_max_exp_index$74)
+                  20020e74    00000030     gesture.obj (.text:gesture_get_and_reset_all_diagnostic_counts)
+                  20020ea4    00000030     gesture.obj (.text:gesture_get_hold_count)
+                  20020ed4    00000030     gesture.obj (.text:gesture_get_wave_count)
+                  20020f04    00000030     http.obj (.text:grow_scratch$29)
+                  20020f34    00000030     wifi_cmd.obj (.text:has_default_key)
+                  20020f64    00000030     hellofilesystem.obj (.text:hello_fs_getfree)
+                  20020f94    00000030     led_cmd.obj (.text:led_fade_all_animation)
+                  20020fc4    00000030     wifi_cmd.obj (.text:match)
+                  20020ff4    00000030     fatfs_cmd.obj (.text:mkdir)
+                  20021024    00000030     FreeRTOS.a : osi_freertos.obj (.text:osi_Spawn)
+                  20021054    00000030                : osi_freertos.obj (.text:osi_SyncObjSignalFromISR)
+                  20021084    00000030     fatfs_cmd.obj (.text:rm)
+                  200210b4    00000030     rtsv7M4_T_le_v4SPD16_eabi.lib : strncpy.obj (.text)
+                  200210e4    00000030     simplelink.a : socket.obj (.text:sl_Socket)
+                  20021114    00000030                  : wlan.obj (.text:sl_WlanSmartConfigStart)
+                  20021144    00000030     main.obj (.text:start_wdt)
+                  20021174    00000030     sys_time.obj (.text:wait_for_time)
+                  200211a4    00000030     top_board.obj (.text:wait_for_top_boot)
+                  200211d4    00000030     hlo_net_tools.obj (.text:worker_scan_unique$58)
+                  20021204    0000002f     pb_encode.obj (.text:encode_callback_field$16)
+                  20021233    00000001     --HOLE-- [fill = 0]
+                  20021234    0000002f     wifi_cmd.obj (.text:get_default_antenna)
+                  20021263    00000001     --HOLE-- [fill = 0]
+                  20021264    0000002e     led_animations.obj (.text:_reach_color$55)
+                  20021292    0000002e     led_cmd.obj (.text:led_from_brightness)
+                  200212c0    0000002e     wifi_cmd.obj (.text:matchstar)
+                  200212ee    0000002e     FreeRTOS.a : queue.obj (.text:prvNotifyQueueSetContainer$85)
+                  2002131c    0000002e     led_animations.obj (.text:stop_led_animation)
+                  2002134a    00000002     --HOLE-- [fill = 0]
+                  2002134c    0000002c     audioclassifier.obj (.text:AudioClassifier_SetStorageBuffers)
+                  20021378    0000002c     audiohelper.obj (.text:DeinitAudioCapture)
+                  200213a4    0000002c     audiohelper.obj (.text:DeinitAudioPlayback)
+                  200213d0    0000002c     i2c_if.obj (.text:I2C_IF_Open)
+                  200213fc    0000002c     fileuploadertask.obj (.text:Init$64)
+                  20021428    0000002c     audiofeatures.obj (.text:MovingAverage16$79)
+                  20021454    0000002c     simplelink.a : cc_pal.obj (.text:NwpPowerOn)
+                  20021480    0000002c     driverlib.a : prcm.obj (.text:PRCMPeripheralClkEnable)
+                  200214ac    0000002c     circ_buff.obj (.text:UpdateReadPtr)
+                  200214d8    0000002c     uart_logger.obj (.text:_open_log$35)
+                  20021504    0000002c     bigint.obj (.text:bi_free)
+                  20021530    0000002c     fft.obj (.text:bitexp)
+                  2002155c    0000002c     ble_proto.obj (.text:ble_proto_led_fade_out)
+                  20021588    0000002c     fatfs.a : ff.obj (.text:clmt_clust$83)
+                  200215b4    0000002c     gesture.obj (.text:gesture_counter_reset)
+                  200215e0    0000002c     sys_time.obj (.text:get_unix_time$38)
+                  2002160c    0000002c     sys_time.obj (.text:has_good_time)
+                  20021638    0000002c     hellofilesystem.obj (.text:hello_fs_lseek)
+                  20021664    0000002c     hellofilesystem.obj (.text:hello_fs_mount)
+                  20021690    0000002c     hellofilesystem.obj (.text:hello_fs_opendir)
+                  200216bc    0000002c     hellofilesystem.obj (.text:hello_fs_readdir)
+                  200216e8    0000002c     hellofilesystem.obj (.text:hello_fs_stat)
+                  20021714    0000002c     commands.obj (.text:load_serial)
+                  20021740    0000002c     networktask.obj (.text:networktask_enter_critical_region)
+                  2002176c    0000002c     networktask.obj (.text:networktask_exit_critical_region)
+                  20021798    0000002c     fatfs_cmd.obj (.text:reset_to_factory_fw)
+                  200217c4    0000002c     led_animations.obj (.text:set_led_progress_bar)
+                  200217f0    0000002c     slip_packet.obj (.text:slip_reset)
+                  2002181c    0000002c     wifi_cmd.obj (.text:wifi_status_get)
+                  20021848    0000002a     simplelink.a : socket.obj (.text:_sl_BuildAddress)
+                  20021872    0000002a     bigint.obj (.text:bi_terminate)
+                  2002189c    0000002a     fft.obj (.text:bitlog)
+                  200218c6    0000002a     hw_ver.obj (.text:check_ver_string$56)
+                  200218f0    0000002a     hlo_async.obj (.text:hlo_future_create)
+                  2002191a    0000002a     hlo_net_tools.obj (.text:resolve$58)
+                  20021944    0000002a     networktask.obj (.text:unblock_sync)
+                  2002196e    0000002a     FreeRTOS.a : queue.obj (.text:xQueueGiveMutexRecursive)
+                  20021998    0000002a                : queue.obj (.text:xQueueTakeMutexRecursive)
+                  200219c2    00000002     --HOLE-- [fill = 0]
+                  200219c4    00000029     uart_logger.obj (.text:_full_log_name$35)
+                  200219ed    00000003     --HOLE-- [fill = 0]
+                  200219f0    00000028     main.obj (.text:BoardInit$54)
+                  20021a18    00000028     wifi_cmd.obj (.text:Cmd_burn_top)
+                  20021a40    00000028     i2c_cmd.obj (.text:Cmd_readhumid)
+                  20021a68    00000028     i2c_cmd.obj (.text:Cmd_readtemp)
+                  20021a90    00000028     simplelink.a : cc_pal.obj (.text:DmaSpiSwIntHandler)
+                  20021ab8    00000028     networktask.obj (.text:Init$52)
+                  20021ae0    00000028     fatfs_cmd.obj (.text:IsSecureMCU)
+                  20021b08    00000028     audiofeatures.obj (.text:IsStable$79)
+                  20021b30    00000028     hlo_proto_tools.obj (.text:MorpheusCommand_from_buffer)
+                  20021b58    00000028     driverlib.a : pin.obj (.text:PinModeSet)
+                  20021b80    00000028     wifi_cmd.obj (.text:SimpleLinkGeneralEventHandler)
+                  20021ba8    00000028     uartstdio.obj (.text:UARTFlushRx)
+                  20021bd0    00000028     uartstdio.obj (.text:UARTFlushTx)
+                  20021bf8    00000028     simplelink.a : netapp.obj (.text:_SlDrvNetAppEventHandler)
+                  20021c20    00000028     slip_packet.obj (.text:_handle_rx_byte_dtm$40)
+                  20021c48    00000028     uart_logger.obj (.text:_swap_and_upload$35)
+                  20021c70    00000028     diskio.obj (.text:disk_ioctl)
+                  20021c98    00000028     ble_proto.obj (.text:get_ble_mode)
+                  20021cc0    00000028     crypto_misc.obj (.text:get_random_NZ)
+                  20021ce8    00000028     ble_proto.obj (.text:get_released$72)
+                  20021d10    00000028     hellofilesystem.obj (.text:hello_fs_close)
+                  20021d38    00000028     hellofilesystem.obj (.text:hello_fs_mkdir)
+                  20021d60    00000028     hellofilesystem.obj (.text:hello_fs_unlink)
+                  20021d88    00000028     pb_encode.obj (.text:pb_ostream_from_buffer)
+                  20021db0    00000028     FreeRTOS.a : tasks.obj (.text:prvResetNextTaskUnblockTime$84)
+                  20021dd8    00000028     hlo_net_tools.obj (.text:resolve_ip_by_host_name)
+                  20021e00    00000028     rtsv7M4_T_le_v4SPD16_eabi.lib : strncat.obj (.text)
+                  20021e28    00000028     ble_proto.obj (.text:set_ble_mode$72)
+                  20021e50    00000028     ble_proto.obj (.text:set_released$72)
+                  20021e78    00000028     sl_sync.obj (.text:sl_exit_critical_region)
+                  20021ea0    00000028     fatfs.a : ff.obj (.text:validate$83)
+                  20021ec8    00000026     simplelink.a : cc_pal.obj (.text:NwpRegisterInterruptHandler)
+                  20021eee    00000026                  : cc_pal.obj (.text:cc_UDMAChannelSelect$97)
+                  20021f14    00000026     pb_decode.obj (.text:find_extension_field$17)
+                  20021f3a    00000026     FreeRTOS.a : osi_freertos.obj (.text:osi_InterruptRegister)
+                  20021f60    00000026                : osi_freertos.obj (.text:osi_LockObjLock)
+                  20021f86    00000026                : osi_freertos.obj (.text:osi_SyncObjCreate)
+                  20021fac    00000026     rtsv7M4_T_le_v4SPD16_eabi.lib : strncmp.obj (.text)
+                  20021fd2    00000002     --HOLE-- [fill = 0]
+                  20021fd4    00000026     main.obj (.text:vApplicationStackOverflowHook)
+                  20021ffa    00000002     --HOLE-- [fill = 0]
+                  20021ffc    00000025     ble_proto.obj (.text:_factory_reset$72)
+                  20022021    00000003     --HOLE-- [fill = 0]
+                  20022024    00000025     hlo_net_tools.obj (.text:response_realloc$58)
+                  20022049    00000003     --HOLE-- [fill = 0]
+                  2002204c    00000024     commands.obj (.text:Cmd_get_gesture_count)
+                  20022070    00000024     uart_logger.obj (.text:Cmd_log_setview)
+                  20022094    00000024     driverlib.a : prcm.obj (.text:PRCMSysResetCauseGet)
+                  200220b8    00000024                 : uart.obj (.text:UARTDisable)
+                  200220dc    00000024                 : uart.obj (.text:UARTIntNumberGet$99)
+                  20022100    00000024     circ_buff.obj (.text:UpdateWritePtr)
+                  20022124    00000024     led_cmd.obj (.text:_fade_out_for_new)
+                  20022148    00000024     top_board.obj (.text:_on_dtm_event$37)
+                  2002216c    00000024     wifi_cmd.obj (.text:_on_morpheus_command_failure$32)
+                  20022190    00000024     wifi_cmd.obj (.text:_on_sync_response_failure$32)
+                  200221b4    00000024     led_cmd.obj (.text:_start_fade_out)
+                  200221d8    00000024     bigint.obj (.text:bi_clear_cache)
+                  200221fc    00000024     ble_proto.obj (.text:ble_proto_led_fade_in_trippy)
+                  20022220    00000024     pb_decode.obj (.text:buf_read$17)
+                  20022244    00000024     commands.obj (.text:load_alarm)
+                  20022268    00000024     FreeRTOS.a : osi_freertos.obj (.text:osi_LockObjUnlock)
+                  2002228c    00000024                : osi_freertos.obj (.text:osi_SyncObjWait)
+                  200222b0    00000024     pb_decode.obj (.text:pb_skip_varint$17)
+                  200222d4    00000024     simplelink.a : socket.obj (.text:sl_Close)
+                  200222f8    00000024                  : wlan.obj (.text:sl_WlanProfileDel)
+                  2002231c    00000024     FreeRTOS.a : osi_freertos.obj (.text:vSimpleLinkSpawnTask$86)
+                  20022340    00000024     top_board.obj (.text:verify_top_update)
+                  20022364    00000023     udma_if.obj (.text:DmaErrorIntHandler)
+                  20022387    00000001     --HOLE-- [fill = 0]
+                  20022388    00000023     audiotask.obj (.text:QueueFileForUpload$75)
+                  200223ab    00000001     --HOLE-- [fill = 0]
+                  200223ac    00000023     wifi_cmd.obj (.text:save_default_antenna)
+                  200223cf    00000001     --HOLE-- [fill = 0]
+                  200223d0    00000022     ble_proto.obj (.text:_pair_reply$72)
+                  200223f2    00000022     uart_logger.obj (.text:_remove_file$35)
+                  20022414    00000022     bigint.obj (.text:bi_free_mod)
+                  20022436    00000022     ble_proto.obj (.text:ble_proto_led_init)
+                  20022458    00000022     FreeRTOS.a : queue.obj (.text:prvCopyDataFromQueue$85)
+                  2002247a    00000022     rtsv7M4_T_le_v4SPD16_eabi.lib : memcmp.obj (.text)
+                  2002249c    00000022     wifi_cmd.obj (.text:save_aes)
+                  200224be    00000022     ustdlib.obj (.text:ustrncpy)
+                  200224e0    00000022     FreeRTOS.a : list.obj (.text:uxListRemove)
+                  20022502    00000020     audiohelper.obj (.text:CloseAndDeleteFile)
+                  20022522    00000020     commands.obj (.text:Cmd_disableInterrupts)
+                  20022542    00000020     fatfs_cmd.obj (.text:Cmd_download)
+                  20022562    00000002     --HOLE-- [fill = 0]
+                  20022564    00000020     driverlib.a : gpio.obj (.text:GPIODirModeSet)
+                  20022584    00000020     crypto_misc.obj (.text:RNG_custom_init)
+                  200225a4    00000020     driverlib.a : sdhost.obj (.text:SDHostDataRead)
+                  200225c4    00000020     top_board.obj (.text:_save_top_info$37)
+                  200225e4    00000020     led_cmd.obj (.text:_start_animation)
+                  20022604    00000020     bigint.obj (.text:bi_clone)
+                  20022624    00000020     ble_cmd.obj (.text:ble_proto_assign_decode_funcs)
+                  20022644    00000020     led_cmd.obj (.text:flush_animation_history)
+                  20022664    00000020     sys_time.obj (.text:get_cached_time$38)
+                  20022684    00000020     led_cmd.obj (.text:get_cycle_time)
+                  200226a4    00000020     led_cmd.obj (.text:led_init)
+                  200226c4    00000020     led_cmd.obj (.text:led_is_idle)
+                  200226e4    00000020     FreeRTOS.a : osi_freertos.obj (.text:osi_MsgQWrite)
+                  20022704    00000020     pb_encode.obj (.text:pb_encode_string)
+                  20022724    00000020     pb_encode.obj (.text:pb_encode_svarint)
+                  20022744    00000020     pb_decode.obj (.text:pb_istream_from_buffer)
+                  20022764    00000020     FreeRTOS.a : port.obj (.text:pxPortInitialiseStack)
+                  20022784    00000020     rtsv7M4_T_le_v4SPD16_eabi.lib : memmov.obj (.text)
+                  200227a4    00000020     wifi_cmd.obj (.text:save_device_id)
+                  200227c4    00000020     top_board.obj (.text:set_top_update_sha)
+                  200227e4    00000020     sl_sync.obj (.text:sl_gethostbynameNoneThreadSafe)
+                  20022804    00000020     ustdlib.obj (.text:usprintf)
+                  20022824    00000020     FreeRTOS.a : queue.obj (.text:vQueueUnregisterQueue)
+                  20022844    00000020                : port.obj (.text:xPortSysTickHandler)
+                  20022864    0000001e     commands.obj (.text:Cmd_audio_turn_on)
+                  20022882    0000001e     uart_logger.obj (.text:_find_oldest_log$35)
+                  200228a0    0000001e     wifi_cmd.obj (.text:_on_morpheus_command_success$32)
+                  200228be    00000002     --HOLE-- [fill = 0]
+                  200228c0    0000001e     pb_decode.obj (.text:decode_pointer_field$17)
+                  200228de    0000001e     sys_time.obj (.text:int_to_bcd$38)
+                  200228fc    0000001e     fatfs.a : ff.obj (.text:ld_clust$83)
+                  2002291a    0000001e             : ff.obj (.text:mem_cmp$83)
+                  20022938    0000001e     rtsv7M4_T_le_v4SPD16_eabi.lib : ll_lsl_t2.obj (.text)
+                  20022956    0000001e                                   : ll_lsr_t2.obj (.text)
+                  20022974    0000001e     hlo_net_tools.obj (.text:scan_for_wifi$58)
+                  20022992    0000001e     bigint.obj (.text:trim$74)
+                  200229b0    0000001c     fatfs_cmd.obj (.text:Cmd_pwd)
+                  200229cc    0000001c     i2c_cmd.obj (.text:Cmd_readproximity)
+                  200229e8    0000001c     driverlib.a : prcm.obj (.text:PRCMHibernateEnter)
+                  20022a04    0000001c                 : prcm.obj (.text:PRCMPeripheralClkDisable)
+                  20022a20    0000001c     rawaudiostatemachine.obj (.text:RawAudioStateMachine_Init)
+                  20022a3c    0000001c     audioprocessingtask.obj (.text:TearDown$76)
+                  20022a58    0000001c     driverlib.a : uart.obj (.text:UARTEnable)
+                  20022a74    0000001c                 : uart.obj (.text:UARTIntRegister)
+                  20022a90    0000001c     top_board.obj (.text:_close_and_reset_dfu$37)
+                  20022aac    0000001c     uart_logger.obj (.text:_encode_wrapper)
+                  20022ac8    0000001c     slip_packet.obj (.text:_handle_slip_end$40)
+                  20022ae4    0000001c     simplelink.a : socket.obj (.text:_sl_TruncatePayloadByProtocol)
+                  20022b00    0000001c     wifi_cmd.obj (.text:antsel)
+                  20022b1c    0000001c     hlo_async.obj (.text:do_read$59)
+                  20022b38    0000001c     gesture.obj (.text:gesture_init)
+                  20022b54    0000001c     led_cmd.obj (.text:led_brightness_all)
+                  20022b70    0000001c     led_cmd.obj (.text:led_to_rgb)
+                  20022b8c    0000001c     wifi_cmd.obj (.text:load_account_id)
+                  20022ba8    0000001c     FreeRTOS.a : osi_freertos.obj (.text:osi_SyncObjSignal)
+                  20022bc4    0000001c     pb_decode.obj (.text:pb_decode)
+                  20022be0    0000001c     pb_decode.obj (.text:pb_skip_string$17)
+                  20022bfc    0000001c     FreeRTOS.a : queue.obj (.text:prvIsQueueFull$85)
+                  20022c18    0000001c     simplelink.a : netapp.obj (.text:sl_NetAppStop)
+                  20022c34    0000001c                  : wlan.obj (.text:sl_WlanSetMode)
+                  20022c50    0000001c     FreeRTOS.a : port.obj (.text:vPortEnterCritical)
+                  20022c6c    0000001c                : port.obj (.text:vPortSetupTimerInterrupt)
+                  20022c88    0000001a     simplelink.a : netapp.obj (.text:CopyPingResultsToReport)
+                  20022ca2    0000001a     circ_buff.obj (.text:GetBufferSize)
+                  20022cbc    0000001a     mcasp_if.obj (.text:McASPInit)
+                  20022cd6    0000001a     slip_packet.obj (.text:_calculate_raw_buffer$40)
+                  20022cf0    0000001a     top_board.obj (.text:_encode_and_send$37)
+                  20022d0a    0000001a     commands.obj (.text:_on_wave$69)
+                  20022d24    0000001a     pb_encode.obj (.text:buf_write$16)
+                  20022d3e    0000001a     hlo_async.obj (.text:hlo_future_read_once)
+                  20022d58    0000001a     FreeRTOS.a : osi_freertos.obj (.text:osi_LockObjCreate)
+                  20022d72    0000001a                : queue.obj (.text:prvIsQueueEmpty$85)
+                  20022d8c    0000001a     rtsv7M4_T_le_v4SPD16_eabi.lib : strcat.obj (.text)
+                  20022da6    0000001a     ustdlib.obj (.text:usnprintf)
+                  20022dc0    0000001a     FreeRTOS.a : event_groups.obj (.text:xEventGroupClearBits)
+                  20022dda    0000001a                : event_groups.obj (.text:xEventGroupCreate)
+                  20022df4    00000018     driverlib.a : adc.obj (.text:ADCTimerConfig)
+                  20022e0c    00000018     audiotask.obj (.text:AudioTask_AddMessageToQueue)
+                  20022e24    00000018     mcasp_if.obj (.text:Audio_Start)
+                  20022e3c    00000018     audiohelper.obj (.text:CloseFile)
+                  20022e54    00000018     commands.obj (.text:Cmd_boot)
+                  20022e6c    00000018     led_cmd.obj (.text:Cmd_led_clr)
+                  20022e84    00000018     driverlib.a : prcm.obj (.text:PRCMPeripheralStatusGet)
+                  20022e9c    00000018                 : uart.obj (.text:UARTCharGetNonBlocking)
+                  20022eb4    00000018     simplelink.a : driver.obj (.text:_SlDrvProtectionObjLockWaitForever)
+                  20022ecc    00000018                  : driver.obj (.text:_SlDrvProtectionObjUnLock)
+                  20022ee4    00000018     commands.obj (.text:_is_file_exists$69)
+                  20022efc    00000018     commands.obj (.text:_on_hold$69)
+                  20022f14    00000018     bigint.obj (.text:bi_depermanent)
+                  20022f2c    00000018     bigint.obj (.text:bi_permanent)
+                  20022f44    00000018     fatfs.a : ff.obj (.text:clust2sect)
+                  20022f5c    00000018             : ff.obj (.text:f_close)
+                  20022f74    00000018     hellofilesystem.obj (.text:hello_fs_init)
+                  20022f8c    00000018     hlo_async.obj (.text:hlo_future_destroy)
+                  20022fa4    00000018     led_animations.obj (.text:init_led_animation)
+                  20022fbc    00000018     FreeRTOS.a : osi_freertos.obj (.text:osi_MsgQCreate)
+                  20022fd4    00000018                : osi_freertos.obj (.text:osi_MsgQRead)
+                  20022fec    00000018     pb_encode.obj (.text:pb_encode_tag)
+                  20023004    00000018     rtsv7M4_T_le_v4SPD16_eabi.lib : args_main.obj (.text)
+                  2002301c    00000018                                   : ll_mul_t2.obj (.text)
+                  20023034    00000018                                   : strcmp.obj (.text)
+                  2002304c    00000018     slip_packet.obj (.text:slip_dtm_mode)
+                  20023064    00000018     top_board.obj (.text:start_top_boot_watcher)
+                  2002307c    00000018     FreeRTOS.a : tasks.obj (.text:uxTaskResetEventItemValue)
+                  20023094    00000018                : list.obj (.text:vListInsertEnd)
+                  200230ac    00000018                : port.obj (.text:vPortExitCritical)
+                  200230c4    00000018                : port.obj (.text:vPortYield)
+                  200230dc    00000018                : queue.obj (.text:vQueueDelete)
+                  200230f4    00000018                : tasks.obj (.text:vTaskSetTimeOutState)
+                  2002310c    00000018                : tasks.obj (.text:xTaskGetTickCount)
+                  20023124    00000017     hlo_net_tools.obj (.text:response_code$58)
+                  2002313b    00000001     --HOLE-- [fill = 0]
+                  2002313c    00000016     udma_if.obj (.text:DmaSwIntHandler)
+                  20023152    00000016     circ_buff.obj (.text:IsBufferSizeFilled)
+                  20023168    00000016     driverlib.a : pin.obj (.text:PinTypeGPIO)
+                  2002317e    00000016                 : pin.obj (.text:PinTypeUART)
+                  20023194    00000016     uart_logger.obj (.text:_find_newest_log$35)
+                  200231aa    00000016     simplelink.a : fs.obj (.text:_sl_Strlen)
+                  200231c0    00000016     http.obj (.text:http_free)
+                  200231d6    00000016     led_cmd.obj (.text:led_from_rgb)
+                  200231ec    00000016     FreeRTOS.a : osi_freertos.obj (.text:osi_InterruptDeRegister)
+                  20023202    00000016                : osi_freertos.obj (.text:osi_SyncObjDelete)
+                  20023218    00000016                : event_groups.obj (.text:prvTestWaitCondition$89)
+                  2002322e    00000002     --HOLE-- [fill = 0]
+                  20023230    00000016     hlo_net_tools.obj (.text:response_body$58)
+                  20023246    00000016     FreeRTOS.a : list.obj (.text:vListInitialise)
+                  2002325c    00000014     audioclassifier.obj (.text:AudioClassifier_ResetStorageBuffer)
+                  20023270    00000014     mcasp_if.obj (.text:Audio_Stop)
+                  20023284    00000014     driverlib.a : cpu.obj (.text:CPUcpsid)
+                  20023298    00000014                 : cpu.obj (.text:CPUcpsie)
+                  200232ac    00000014     wifi_cmd.obj (.text:Cmd_set_aes)
+                  200232c0    00000014     circ_buff.obj (.text:DestroyCircularBuffer)
+                  200232d4    00000014     uartstdio.obj (.text:GetBufferCount$34)
+                  200232e8    00000014     driverlib.a : interrupt.obj (.text:IntUnregister)
+                  200232fc    00000014     uartstdio.obj (.text:IsBufferFull$34)
+                  20023310    00000014     circ_buff.obj (.text:IsBufferVacant)
+                  20023324    00000014     networktask.obj (.text:NetworkTask_AddMessageToQueue)
+                  20023338    00000014     driverlib.a : prcm.obj (.text:PRCMMCUReset)
+                  2002334c    00000014     audioprocessingtask.obj (.text:Prepare$76)
+                  20023360    00000014     audiotask.obj (.text:ProcessingCommandFinished$75)
+                  20023374    00000014     driverlib.a : uart.obj (.text:UARTCharsAvail)
+                  20023388    00000014     audioprocessingtask.obj (.text:Unprepare$76)
+                  2002339c    00000014     led_animations.obj (.text:_new_random_color$55)
+                  200233b0    00000014     top_board.obj (.text:_on_decode_failed$37)
+                  200233c4    00000014     bigint.obj (.text:bi_copy)
+                  200233d8    00000014     hlo_async.obj (.text:hlo_future_free$59)
+                  200233ec    00000014     top_board.obj (.text:is_top_in_dfu)
+                  20023400    00000014     FreeRTOS.a : tasks.obj (.text:prvTaskCheckFreeStackSpace$84)
+                  20023414    00000014     rtsv7M4_T_le_v4SPD16_eabi.lib : strlen.obj (.text)
+                  20023428    00000014     sys_time.obj (.text:set_cached_time$38)
+                  2002343c    00000014     sys_time.obj (.text:set_unix_time$38)
+                  20023450    00000014     sl_sync.obj (.text:sl_sync_init)
+                  20023464    00000012     commands.obj (.text:Cmd_fault)
+                  20023476    00000012     rsa.obj (.text:RSA_public)
+                  20023488    00000012     led_cmd.obj (.text:_clamp)
+                  2002349a    00000012     top_hci.obj (.text:_header_checksum_calculate$36)
+                  200234ac    00000012     ble_cmd.obj (.text:ble_proto_free_morpheus_command)
+                  200234be    00000012     fatfs.a : ff.obj (.text:chk_chr$83)
+                  200234d0    00000012     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_zero_init.obj (.text:decompress:ZI)
+                  200234e2    00000012     led_cmd.obj (.text:ledcpy)
+                  200234f4    00000012     FreeRTOS.a : tasks.obj (.text:prvDeleteTCB$84)
+                  20023506    00000012     ustdlib.obj (.text:ustrlen)
+                  20023518    00000012     FreeRTOS.a : queue.obj (.text:uxQueueMessagesWaiting)
+                  2002352a    00000002     --HOLE-- [fill = 0]
+                  2002352c    00000011     main.obj (.text:WatchdogIntHandler)
+                  2002353d    00000003     --HOLE-- [fill = 0]
+                  20023540    00000010     driverlib.a : adc.obj (.text:ADCChannelEnable)
+                  20023550    00000010                 : adc.obj (.text:ADCDisable)
+                  20023560    00000010                 : adc.obj (.text:ADCEnable)
+                  20023570    00000010                 : adc.obj (.text:ADCFIFOLvlGet)
+                  20023580    00000010     aes.obj (.text:AES_xtime$82)
+                  20023590    00000010     fatfs_cmd.obj (.text:Cmd_cd)
+                  200235a0    00000010     fatfs_cmd.obj (.text:Cmd_mkdir)
+                  200235b0    00000010     fatfs_cmd.obj (.text:Cmd_rm)
+                  200235c0    00000010     hlo_net_tools.obj (.text:Cmd_test_get)
+                  200235d0    00000010     driverlib.a : gpio.obj (.text:GPIOIntDisable)
+                  200235e0    00000010     circ_buff.obj (.text:GetBufferEmptySize)
+                  200235f0    00000010     driverlib.a : i2s.obj (.text:I2SIntUnregister)
+                  20023600    00000010                 : interrupt.obj (.text:IntRegister)
+                  20023610    00000010                 : prcm.obj (.text:PRCMHIBRegRead)
+                  20023620    00000010     prox_signal.obj (.text:ProxSignal_Init)
+                  20023630    00000010     rawaudiostatemachine.obj (.text:RawAudioStateMachine_IncrementSamples)
+                  20023640    00000010     driverlib.a : sdhost.obj (.text:SDHostDataWrite)
+                  20023650    00000010                 : uart.obj (.text:UARTCharPut)
+                  20023660    00000010     simplelink.a : driver.obj (.text:_SlDrvSyncObjWaitForever)
+                  20023670    00000010                  : device.obj (.text:_sl_GetStartResponseConvert)
+                  20023680    00000010     sys_time.obj (.text:bcd_to_int$38)
+                  20023690    00000010     hlo_proto_tools.obj (.text:buffer_from_MorpheusCommand)
+                  200236a0    00000010     diskio.obj (.text:disk_status)
+                  200236b0    00000010     hellofilesystem.obj (.text:hello_fs_lock)
+                  200236c0    00000010     dust_cmd.obj (.text:init_dust)
+                  200236d0    00000010     bigint.obj (.text:int_to_bi)
+                  200236e0    00000010     fatfs.a : ff.obj (.text:mem_cpy$83)
+                  200236f0    00000010     hlo_net_tools.obj (.text:prescan_wifi)
+                  20023700    00000010     rtsv7M4_T_le_v4SPD16_eabi.lib : strcpy.obj (.text)
+                  20023710    00000010     wifi_cmd.obj (.text:save_aes_in_memory)
+                  20023720    00000010     slip_packet.obj (.text:slip_handle_rx)
+                  20023730    00000010     fatfs.a : ff.obj (.text:st_clust$83)
+                  20023740    00000010     FreeRTOS.a : tasks.obj (.text:vTaskSuspendAll)
+                  20023750    00000010     wifi_cmd.obj (.text:wifi_ip_update_task$32)
+                  20023760    0000000e     driverlib.a : gpio.obj (.text:GPIOIntStatus)
+                  2002376e    0000000e     uartstdio.obj (.text:IsBufferEmpty$34)
+                  2002377c    0000000e     led_animations.obj (.text:_reinit_animate_solid$55)
+                  2002378a    0000000e     led_animations.obj (.text:_reinit_animate_wheel$55)
+                  20023798    0000000e     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_none.obj (.text:decompress:none)
+                  200237a6    0000000e     http.obj (.text:http_iserror)
+                  200237b4    0000000e     led_cmd.obj (.text:ledset)
+                  200237c2    0000000e     main.obj (.text:nwp_reset_thread)
+                  200237d0    0000000d     commands.obj (.text:CreateDefaultDirectories$69)
+                  200237dd    00000003     --HOLE-- [fill = 0]
+                  200237e0    0000000c     driverlib.a : adc.obj (.text:ADCFIFORead)
+                  200237ec    0000000c     ble_proto.obj (.text:Cmd_SyncID)
+                  200237f8    0000000c     driverlib.a : gpio.obj (.text:GPIOIntEnable)
+                  20023804    0000000c                 : gpio.obj (.text:GPIOPinRead)
+                  20023810    0000000c     audiofeatures.obj (.text:GetAudioEnergyAsDBA$79)
+                  2002381c    0000000c     driverlib.a : i2c.obj (.text:I2CMasterControl)
+                  20023828    0000000c     audiohelper.obj (.text:InitFile)
+                  20023834    0000000c     driverlib.a : interrupt.obj (.text:IntVTableBaseSet)
+                  20023840    0000000c     simplelink.a : cc_pal.obj (.text:NwpMaskInterrupt)
+                  2002384c    0000000c                  : cc_pal.obj (.text:NwpUnMaskInterrupt)
+                  20023858    0000000c     driverlib.a : pin.obj (.text:PinTypeADC)
+                  20023864    0000000c     simplelink.a : driver.obj (.text:_SlDrvObjLockWaitForever)
+                  20023870    0000000c                  : driver.obj (.text:_SlDrvObjUnLock)
+                  2002387c    0000000c                  : driver.obj (.text:_SlDrvSyncObjSignal)
+                  20023888    0000000c     top_board.obj (.text:_on_slip_message$37)
+                  20023894    0000000c     http.obj (.text:append_body$29)
+                  200238a0    0000000c     pb_encode.obj (.text:default_extension_encoder$16)
+                  200238ac    0000000c     audiotask.obj (.text:fade_in_vol$75)
+                  200238b8    0000000c     audiotask.obj (.text:fade_out_vol$75)
+                  200238c4    0000000c     wifi_cmd.obj (.text:get_aes)
+                  200238d0    0000000c     hw_ver.obj (.text:get_hw_ver)
+                  200238dc    0000000c     top_hci.obj (.text:hci_init)
+                  200238e8    0000000c     hellofilesystem.obj (.text:hello_fs_unlock)
+                  200238f4    0000000c     led_cmd.obj (.text:led_get_animation_id)
+                  20023900    0000000c     fatfs.a : ff.obj (.text:mem_set$83)
+                  2002390c    0000000c     FreeRTOS.a : osi_freertos.obj (.text:osi_LockObjDelete)
+                  20023918    0000000c                : osi_freertos.obj (.text:osi_MsgQDelete)
+                  20023924    0000000c     uart_logger.obj (.text:set_loglevel)
+                  20023930    0000000c     wifi_cmd.obj (.text:should_burn_top_key)
+                  2002393c    0000000c     top_board.obj (.text:top_board_notify_boot_complete)
+                  20023948    0000000c     driverlib.a : udma.obj (.text:uDMAErrorStatusClear)
+                  20023954    0000000c                 : udma.obj (.text:uDMAErrorStatusGet)
+                  20023960    0000000c                 : udma.obj (.text:uDMAIntStatus)
+                  2002396c    0000000c     FreeRTOS.a : tasks.obj (.text:vTaskMissedYield)
+                  20023978    0000000c     wifi_cmd.obj (.text:wifi_get_connected_ssid)
+                  20023984    0000000c     FreeRTOS.a : heap_6.obj (.text:xPortGetFreeHeapSize)
+                  20023990    0000000c                : tasks.obj (.text:xTaskGetCurrentTaskHandle)
+                  2002399c    0000000a     commands.obj (.text:Cmd_audio_turn_off)
+                  200239a6    0000000a     wifi_cmd.obj (.text:Cmd_disconnect)
+                  200239b0    0000000a     commands.obj (.text:Cmd_nwpinfo)
+                  200239ba    0000000a     commands.obj (.text:Cmd_stop_buff)
+                  200239c4    0000000a     commands.obj (.text:Cmd_sync)
+                  200239ce    0000000a     fault.obj (.text:FaultISR)
+                  200239d8    0000000a     driverlib.a : interrupt.obj (.text:IntMasterDisable)
+                  200239e2    0000000a                 : interrupt.obj (.text:IntMasterEnable)
+                  200239ec    0000000a                 : prcm.obj (.text:PRCMHIBRegWrite)
+                  200239f6    0000000a     commands.obj (.text:octogram_notification$69)
+                  20023a00    0000000a     pb_decode.obj (.text:pb_close_string_substream)
+                  20023a0a    00000002     --HOLE-- [fill = 0]
+                  20023a0c    00000008     mcasp_if.obj (.text:AudioCapturerGetDMADataPtr)
+                  20023a14    00000008     mcasp_if.obj (.text:AudioRendererGetDMADataPtr)
+                  20023a1c    00000008     octogram.obj (.text:Octogram_Init)
+                  20023a24    00000008     simplelink.a : driver.obj (.text:_SlDrvMemZero)
+                  20023a2c    00000008     wifi_cmd.obj (.text:_free_provision_response$32)
+                  20023a34    00000008     ble_proto.obj (.text:get_top_version)
+                  20023a3c    00000008     http.obj (.text:min$29)
+                  20023a44    00000008     FreeRTOS.a : tasks.obj (.text:prvIdleTask$84)
+                  20023a4c    00000008                : port.obj (.text:prvTaskExitError)
+                  20023a54    00000008     rtsv7M4_T_le_v4SPD16_eabi.lib : abs.obj (.text)
+                  20023a5c    00000008     simplelink.a : wlan.obj (.text:sl_WlanDisconnect)
+                  20023a64    00000008     uart_logger.obj (.text:uart_block_saver_task)
+                  20023a6c    00000006     driverlib.a : gpio.obj (.text:GPIOIntClear)
+                  20023a72    00000006                 : gpio.obj (.text:GPIOPinWrite)
+                  20023a78    00000006     startup_ccs.obj (.text:ResetISR)
+                  20023a7e    00000006     driverlib.a : utils.obj (.text:UtilsDelay)
+                  20023a84    00000006     simplelink.a : driver.obj (.text:_SlDrvResetCmdExt)
+                  20023a8a    00000006     wifi_cmd.obj (.text:_key_check_reply$32)
+                  20023a90    00000006     led_cmd.obj (.text:_reset_animation_priority)
+                  20023a96    00000006     ble_proto.obj (.text:ble_proto_end_hold)
+                  20023a9c    00000006     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_rle.obj (.text:decompress:rle24)
+                  20023aa2    00000006     pb_decode.obj (.text:pb_dec_fixed32$17)
+                  20023aa8    00000006     pb_decode.obj (.text:pb_dec_fixed64$17)
+                  20023aae    00000006     pb_decode.obj (.text:pb_decode_fixed32)
+                  20023ab4    00000006     pb_decode.obj (.text:pb_decode_fixed64)
+                  20023aba    00000006     pb_encode.obj (.text:pb_enc_fixed32$16)
+                  20023ac0    00000006     pb_encode.obj (.text:pb_enc_fixed64$16)
+                  20023ac6    00000006     pb_encode.obj (.text:pb_encode_fixed32)
+                  20023acc    00000006     pb_encode.obj (.text:pb_encode_fixed64)
+                  20023ad2    00000006     FreeRTOS.a : list.obj (.text:vListInitialiseItem)
+                  20023ad8    00000004     spi_cmd.obj (.text:Cmd_spi_reset)
+                  20023adc    00000004     audiotask.obj (.text:DataCallback$75)
+                  20023ae0    00000004     circ_buff.obj (.text:GetReadPtr)
+                  20023ae4    00000004     circ_buff.obj (.text:GetWritePtr)
+                  20023ae8    00000004     commands.obj (.text:SetupGPIOInterrupts)
+                  20023aec    00000004     uartstdio.obj (.text:UARTStdioInit)
+                  20023af0    00000004     wifi_cmd.obj (.text:_free_sync_response$32)
+                  20023af4    00000004     top_board.obj (.text:_on_ack_failed$37)
+                  20023af8    00000004     wifi_cmd.obj (.text:_on_alarm_received$32)
+                  20023afc    00000004     wifi_cmd.obj (.text:_on_factory_reset_received$32)
+                  20023b00    00000004     commands.obj (.text:_on_gesture_out$69)
+                  20023b04    00000004     top_board.obj (.text:_sendchar$37)
+                  20023b08    00000004     bigint.obj (.text:bi_multiply)
+                  20023b0c    00000004     diskio.obj (.text:get_fattime)
+                  20023b10    00000004     top_hci.obj (.text:hci_crc16_compute_cont)
+                  20023b14    00000004     top_hci.obj (.text:hci_free)
+                  20023b18    00000004     pb_encode.obj (.text:pb_encode_delimited)
+
+.const     0    20023b20    00002e0c     
+                  20023b20    000003c8     ble_proto.obj (.const)
+                  20023ee8    00000380     hlo_net_tools.obj (.const)
+                  20024268    00000292     <whole-program> (.const:.string)
+                  200244fa    00000002     --HOLE-- [fill = 0]
+                  200244fc    00000248     fft.obj (.const)
+                  20024744    0000023c     morpheus_ble.pb.obj (.const)
+                  20024980    00000228     audiotask.obj (.const:$P$T0$1$75)
+                  20024ba8    00000220     aes.obj (.const)
+                  20024dc8    00000218     ble_cmd.obj (.const)
+                  20024fe0    00000210     hellomath.obj (.const)
+                  200251f0    000001a4     periodic.pb.obj (.const)
+                  20025394    00000188     commands.obj (.const)
+                  2002551c    00000172     fault.obj (.const:.string)
+                  2002568e    00000002     --HOLE-- [fill = 0]
+                  20025690    00000154     driverlib.a : interrupt.obj (.const)
+                  200257e4    00000144     sync_response.pb.obj (.const)
+                  20025928    00000108     hlo_proto_tools.obj (.const)
+                  20025a30    00000101     rtsv7M4_T_le_v4SPD16_eabi.lib : ctype.obj (.const:.string:_ctypes_)
+                  20025b31    00000100     fatfs_cmd.obj (.const:.string:$P$T29$1)
+                  20025c31    00000003     --HOLE-- [fill = 0]
+                  20025c34    00000100     driverlib.a : pin.obj (.const:g_ulPinToPadMap$103)
+                  20025d34    00000100     matrix.pb.obj (.const)
+                  20025e34    000000ec     simplelink.a : wlan.obj (.const)
+                  20025f20    000000a8     driverlib.a : prcm.obj (.const:PRCM_PeriphRegsList)
+                  20025fc8    000000a8     simplelink.a : driver.obj (.const)
+                  20026070    000000a5     sync_response.pb.obj (.const:SyncResponse_FileDownload_fields)
+                  20026115    00000003     --HOLE-- [fill = 0]
+                  20026118    000000a0     led_animations.obj (.const)
+                  200261b8    00000096     audio_control.pb.obj (.const:AudioControl_fields)
+                  2002624e    00000002     --HOLE-- [fill = 0]
+                  20026250    00000078     fault.obj (.const)
+                  200262c8    00000069     sync_response.pb.obj (.const:SyncResponse_Alarm_fields)
+                  20026331    00000068     i2c_cmd.obj (.const:reg$2)
+                  20026399    00000003     --HOLE-- [fill = 0]
+                  2002639c    00000064     wifi_cmd.obj (.const)
+                  20026400    00000060     pb_encode.obj (.const)
+                  20026460    00000060     i2c_cmd.obj (.const:reg$3)
+                  200264c0    00000060     rtsv7M4_T_le_v4SPD16_eabi.lib : mktime.obj (.const)
+                  20026520    0000005a     filetransfer.pb.obj (.const:FileMessage_fields)
+                  2002657a    00000002     --HOLE-- [fill = 0]
+                  2002657c    00000054     sys_time.obj (.const)
+                  200265d0    0000004b     log.pb.obj (.const:sense_log_fields)
+                  2002661b    00000001     --HOLE-- [fill = 0]
+                  2002661c    00000044     simplelink.a : socket.obj (.const)
+                  20026660    00000040     audioclassifier.obj (.const:k_default_audio_hmm_vecs$81)
+                  200266a0    0000003c     audio_control.pb.obj (.const:AudioClassifierMessage_fields)
+                  200266dc    0000003c     provision.pb.obj (.const:ProvisionRequest_fields)
+                  20026718    0000003c     sync_response.pb.obj (.const:SyncResponse_WhiteNoise_fields)
+                  20026754    00000038     simplelink.a : fs.obj (.const)
+                  2002678c    00000034     audiohelper.obj (.const)
+                  200267c0    0000002c     fatfs.a : ff.obj (.const)
+                  200267ec    0000002c     uart_logger.obj (.const)
+                  20026818    00000024     pb_decode.obj (.const:PB_DECODERS$17)
+                  2002683c    00000024     simplelink.a : netapp.obj (.const)
+                  20026860    0000001c     audioclassifier.obj (.const)
+                  2002687c    0000001c     pill_settings.obj (.const)
+                  20026898    0000001c     simplelink.a : device.obj (.const)
+                  200268b4    00000018     matmessageutils.obj (.const)
+                  200268cc    00000014     chunk.obj (.const:.string)
+                  200268e0    00000014     top_board.obj (.const)
+                  200268f4    00000010     driverlib.a : uart.obj (.const)
+                  20026904    00000010     sha1.obj (.const)
+                  20026914    00000010     uartstdio.obj (.const)
+                  20026924    00000008     simplelink.a : netcfg.obj (.const)
+
+.cinit     0    20026930    00000510     
+                  20026930    000004e6     (.cinit..data.load) [load image, compression = rle]
+                  20026e16    00000002     --HOLE-- [fill = 0]
+                  20026e18    0000000c     (__TI_handler_table)
+                  20026e24    00000004     --HOLE-- [fill = 0]
+                  20026e28    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  20026e30    00000010     (__TI_cinit_table)
+
+.data      0    20027800    0001826c     UNINITIALIZED
+                  20027800    00016418     FreeRTOS.a : heap_6.obj (.data)
+                  2003dc18    00000858     uart_logger.obj (.data)
+                  2003e470    00000540     audioclassifier.obj (.data)
+                  2003e9b0    00000520     commands.obj (.data)
+                  2003eed0    00000230     uartstdio.obj (.data)
+                  2003f100    000001e4     ble_proto.obj (.data)
+                  2003f2e4    00000184     simplelink.a : driver.obj (.data)
+                  2003f468    00000110     wifi_cmd.obj (.data)
+                  2003f578    000000fc     FreeRTOS.a : tasks.obj (.data)
+                  2003f674    000000c4     led_cmd.obj (.data)
+                  2003f738    000000c0     top_board.obj (.data)
+                  2003f7f8    00000064     simplelink.a : cc_pal.obj (.data)
+                  2003f85c    00000058     header.obj (.data:http_header_state$30)
+                  2003f8b4    00000050     fatfs_cmd.obj (.data:cwd_buff)
+                  2003f904    00000048     led_animations.obj (.data)
+                  2003f94c    00000004     FreeRTOS.a : port.obj (.data)
+                  2003f950    00000038     audiotask.obj (.data)
+                  2003f988    00000024     rtsv7M4_T_le_v4SPD16_eabi.lib : localtim.obj (.data:local_tm$121)
+                  2003f9ac    00000018     diskio.obj (.data)
+                  2003f9c4    00000018     sys_time.obj (.data)
+                  2003f9dc    00000014     audioprocessingtask.obj (.data)
+                  2003f9f0    00000010     rtsv7M4_T_le_v4SPD16_eabi.lib : tmzone.obj (.data)
+                  2003fa00    0000000e     fatfs_cmd.obj (.data)
+                  2003fa0e    00000002     --HOLE--
+                  2003fa10    0000000c     FreeRTOS.a : osi_freertos.obj (.data)
+                  2003fa1c    0000000c     pill_settings.obj (.data)
+                  2003fa28    00000008     fileuploadertask.obj (.data)
+                  2003fa30    00000008     networktask.obj (.data)
+                  2003fa38    00000008     pcm_handler.obj (.data)
+                  2003fa40    00000008     rtsv7M4_T_le_v4SPD16_eabi.lib : _lock.obj (.data)
+                  2003fa48    00000008                                   : exit.obj (.data)
+                  2003fa50    00000004     hellofilesystem.obj (.data)
+                  2003fa54    00000004     hw_ver.obj (.data)
+                  2003fa58    00000004     i2c_cmd.obj (.data)
+                  2003fa5c    00000004     main.obj (.data)
+                  2003fa60    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : errno.obj (.data)
+                  2003fa64    00000004                                   : rand.obj (.data)
+                  2003fa68    00000004                                   : stkdepth_vars.obj (.data)
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 20026e30 records: 2, size/record: 8, table size: 16
+	.data: load addr=20026930, load size=000004e6 bytes, run addr=20027800, run size=0001826c bytes, compression=rle
+	.bss: load addr=20026e28, load size=00000008 bytes, run addr=20000000, run size=00003340 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 20026e18 records: 3, size/record: 4, table size: 12
+	index: 0, handler: __TI_decompress_rle24
+	index: 1, handler: __TI_decompress_none
+	index: 2, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+20023541   ADCChannelEnable
+20023551   ADCDisable
+20023561   ADCEnable
+20023571   ADCFIFOLvlGet
+200237e1   ADCFIFORead
+20022df5   ADCTimerConfig
+20014305   AES_cbc_decrypt
+20014fc1   AES_cbc_encrypt
+200175c5   AES_convert_key
+20015445   AES_set_key
+2001f3b5   AudioCaptureRendererConfigure
+20023a0d   AudioCapturerGetDMADataPtr
+2001d101   AudioCapturerSetupDMAMode
+200266a0   AudioClassifierMessage_fields
+200130e9   AudioClassifier_DataCallback
+20020685   AudioClassifier_Init
+2002325d   AudioClassifier_ResetStorageBuffer
+2002134d   AudioClassifier_SetStorageBuffers
+2001beb1   AudioControlHelper_SetAudioControl
+200261b8   AudioControl_fields
+20020c35   AudioFeatures_Init
+2000ce4d   AudioFeatures_SetAudioData
+2000dd1d   AudioHmm_EvaluateModel
+2001f3f5   AudioProcessingTask_AddFeaturesToQueue
+2001ffc9   AudioProcessingTask_SetControl
+20010385   AudioProcessingTask_Thread
+20023a15   AudioRendererGetDMADataPtr
+20022e0d   AudioTask_AddMessageToQueue
+2001e2e5   AudioTask_DumpOncePerMinuteStats
+2001ff8d   AudioTask_StartCapture
+2001fa6b   AudioTask_StartPlayback
+20020bcd   AudioTask_StopCapture
+20020c65   AudioTask_StopPlayback
+20017bb1   AudioTask_Thread
+20022e25   Audio_Start
+20023271   Audio_Stop
+200257e8   BatchedPillSettings_fields
+2001f005   C$$EXIT
+20023285   CPUcpsid
+20023299   CPUcpsie
+2001de25   CS_set
+20022503   CloseAndDeleteFile
+20022e3d   CloseFile
+2001380d   CmdLineProcess
+2001faa9   Cmd_FutureTest
+200237ed   Cmd_SyncID
+2001e539   Cmd_analytics
+2001e331   Cmd_antsel
+2002399d   Cmd_audio_turn_off
+20022865   Cmd_audio_turn_on
+20022e55   Cmd_boot
+20021a19   Cmd_burn_top
+20017c45   Cmd_cat
+20023591   Cmd_cd
+2001b5ad   Cmd_connect
+200152c5   Cmd_country
+200179ed   Cmd_dig
+20022523   Cmd_disableInterrupts
+200239a7   Cmd_disconnect
+2000f8a5   Cmd_do_octogram
+20022543   Cmd_download
+2001d929   Cmd_dusttest
+2001d155   Cmd_factory_reset
+20023465   Cmd_fault
+2001de71   Cmd_free
+2001ca19   Cmd_fs_delete
+2000d1d1   Cmd_fs_read
+2000bef1   Cmd_fs_write
+2000de95   Cmd_generate_factory_data
+2001f1e1   Cmd_gesture
+2002204d   Cmd_get_gesture_count
+2001c5c9   Cmd_get_octogram
+2001bf11   Cmd_heapviz
+2001101d   Cmd_led
+2000a6d1   Cmd_led_animate
+20022e6d   Cmd_led_clr
+20022071   Cmd_log_setview
+20020c95   Cmd_log_upload
+2000c4dd   Cmd_ls
+200235a1   Cmd_mkdir
+200199a5   Cmd_mkfs
+2001e669   Cmd_mnt
+200194cd   Cmd_mode
+200239b1   Cmd_nwpinfo
+2001bf71   Cmd_ping
+2001e6b1   Cmd_play_buff
+200229b1   Cmd_pwd
+20021a41   Cmd_readhumid
+2000f9e1   Cmd_readlight
+200229cd   Cmd_readproximity
+20021a69   Cmd_readtemp
+20019fb9   Cmd_record_buff
+200235b1   Cmd_rm
+20019351   Cmd_rssi
+200120c1   Cmd_scan_wifi
+2001c625   Cmd_send_top
+20018659   Cmd_setDev
+200186e5   Cmd_setDns
+200232ad   Cmd_set_aes
+2001c961   Cmd_set_mac
+20016c85   Cmd_sl
+2001d6e9   Cmd_slip
+2001765d   Cmd_spi_read
+20023ad9   Cmd_spi_reset
+20018ec9   Cmd_spi_write
+20011471   Cmd_status
+200239bb   Cmd_stop_buff
+200239c5   Cmd_sync
+2001372d   Cmd_tasks
+200235c1   Cmd_test_get
+20015a25   Cmd_test_key
+2001ec4d   Cmd_test_realloc
+2001a60d   Cmd_time
+200124b1   Cmd_time_test
+20016949   Cmd_top_dtm
+2001fa2d   Cmd_topdfu
+2001c50d   Cmd_umnt
+2001debd   Cmd_version
+2000fd95   Cmd_write
+20022c89   CopyPingResultsToReport
+200206b9   CountHighestMsb
+2001b67d   CreateCircularBuffer
+2000e185   CreateConnection
+2003f804   DMAMsgQ
+2000bad9   DMAPingPongCompleteAppCB_opt
+20021379   DeinitAudioCapture
+200213a5   DeinitAudioPlayback
+200232c1   DestroyCircularBuffer
+20022365   DmaErrorIntHandler
+20021a91   DmaSpiSwIntHandler
+2002313d   DmaSwIntHandler
+20018c35   FaultDecoder
+200239cf   FaultISR
+20026520   FileMessage_fields
+20015085   FileUploaderTask_Thread
+2001df09   FileUploaderTask_Upload
+2001bcc5   FillBuffer
+200170e3   FixedPointExp2Q10
+2001e6f9   FixedPointLog2Q10
+20022565   GPIODirModeSet
+20023a6d   GPIOIntClear
+200235d1   GPIOIntDisable
+200237f9   GPIOIntEnable
+20023761   GPIOIntStatus
+20023805   GPIOPinRead
+20023a73   GPIOPinWrite
+2001ec91   GPIO_IF_ConfigureNIntEnable
+200235e1   GetBufferEmptySize
+20022ca3   GetBufferSize
+2000f0dd   GetChunkSize
+20004401   GetData
+20023ae1   GetReadPtr
+20023ae5   GetWritePtr
+2002381d   I2CMasterControl
+200213d1   I2C_IF_Open
+2001a0a1   I2C_IF_Read
+2001a115   I2C_IF_Write
+200235f1   I2SIntUnregister
+2001f435   InitAudioCapture
+2001d9c9   InitAudioPlayback
+20023829   InitFile
+2001b0cd   IntDisable
+2001b135   IntEnable
+200239d9   IntMasterDisable
+200239e3   IntMasterEnable
+20023601   IntRegister
+200232e9   IntUnregister
+20023835   IntVTableBaseSet
+20023153   IsBufferSizeFilled
+20023311   IsBufferVacant
+20025d34   MatrixClientMessage_fields
+20025d8e   Matrix_fields
+2001f4b5   McASPDeInit
+20022cbd   McASPInit
+20024834   MorpheusCommand_fields
+20021b31   MorpheusCommand_from_buffer
+20023325   NetworkTask_AddMessageToQueue
+2000d385   NetworkTask_SendProtobuf
+20023841   NwpMaskInterrupt
+200206ed   NwpPowerOff
+20021455   NwpPowerOn
+200176f5   NwpPowerOnPreamble
+20021ec9   NwpRegisterInterruptHandler
+2002384d   NwpUnMaskInterrupt
+200166a9   Octogram_GetResult
+20023a1d   Octogram_Init
+2001e741   Octogram_Update
+20026034   OpcodeTranslateTable
+20011135   PRCMCC3200MCUInit
+20023611   PRCMHIBRegRead
+200239ed   PRCMHIBRegWrite
+200229e9   PRCMHibernateEnter
+2001cb85   PRCMHibernateIntervalSet
+20020071   PRCMHibernateWakeupSourceEnable
+20023339   PRCMMCUReset
+20022a05   PRCMPeripheralClkDisable
+20021481   PRCMPeripheralClkEnable
+2001bfd1   PRCMPeripheralClockGet
+2001ecd5   PRCMPeripheralReset
+20022e85   PRCMPeripheralStatusGet
+20020cc5   PRCMSlowClkCtrGet
+20022095   PRCMSysResetCauseGet
+2001b74d   PinConfigSet
+20021b59   PinModeSet
+2000a471   PinMuxConfig
+2001abbd   PinMuxConfig_hw_dep
+20023859   PinTypeADC
+20023169   PinTypeGPIO
+2002317f   PinTypeUART
+200266dc   ProvisionRequest_fields
+20023621   ProxSignal_Init
+2000e2f9   ProxSignal_UpdateChangeSignals
+200200a9   RC4_crypt
+2001e37b   RC4_setup
+20022585   RNG_custom_init
+2001c3f1   RSA_encrypt
+2001fe69   RSA_free
+2001cbdd   RSA_pub_key_new
+20023477   RSA_public
+20023631   RawAudioStateMachine_IncrementSamples
+20022a21   RawAudioStateMachine_Init
+2001876d   RawAudioStateMachine_SetLogLikelihoodOfModel
+2001f935   ReadBuffer
+20023a79   ResetISR
+2000333e   RxIrqCnt
+20025fdc   RxMsgClassLUT
+200225a5   SDHostDataRead
+20023641   SDHostDataWrite
+2001c031   SDHostInit
+20020721   SDHostSetExpClk
+2001f973   SHA1_Final
+20020755   SHA1_Init
+20020119   SHA1_Update
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+2001f535   SPIConfigSetExpClk
+2001d1a9   Scale16VecTo8
+2001816d   SetIntMatrix
+20023ae9   SetupGPIOInterrupts
+2001a6ed   SetupPingPongDMATransferRx
+2001b879   SetupPingPongDMATransferTx
+2001d73d   SetupTransfer
+20021b81   SimpleLinkGeneralEventHandler
+20016d25   SimpleLinkNetAppEventHandler
+2000b027   SimpleLinkSockEventHandler
+2000d535   SimpleLinkWlanEventHandler
+200268ac   StartResponseLUT
+200262c8   SyncResponse_Alarm_fields
+200257e4   SyncResponse_Alarm_ringtone_id_default
+20026070   SyncResponse_FileDownload_fields
+20025808   SyncResponse_PillSettings_fields
+20026718   SyncResponse_WhiteNoise_fields
+20025835   SyncResponse_fields
+20022e9d   UARTCharGetNonBlocking
+20023651   UARTCharPut
+20023375   UARTCharsAvail
+2001d251   UARTConfigSetExpClk
+200220b9   UARTDisable
+20022a59   UARTEnable
+20021ba9   UARTFlushRx
+20021bd1   UARTFlushTx
+20022a75   UARTIntRegister
+2001ed19   UARTPeek
+20023aed   UARTStdioInit
+20015501   UARTStdioInitExpClk
+20008ef1   UARTStdioIntHandler
+2001cc35   UARTgets
+2000b8c5   UARTprintf
+200181f9   UARTwrite
+20020789   UDMAChannelSelect
+2001b19d   UDMAInit
+200214ad   UpdateReadPtr
+20022101   UpdateWritePtr
+20023a7f   UtilsDelay
+2001e789   VStartSimpleLinkSpawnTask
+2001dd37   VecNormalize8
+20020509   WDT_IF_DeInit
+2001ed5d   WDT_IF_Init
+2002352d   WatchdogIntHandler
+200207bd   WriteToFile
+2003fa60   _Errno
+2002663c   _SlAcceptCmdCtrl
+20025ffc   _SlActionLookupTable
+2001da19   _SlAsyncEventGenericHandler
+200268a4   _SlDeviceGetCmdCtrl
+200268a8   _SlDeviceSetCmdCtrl
+20020189   _SlDrvBasicCmd
+2001a189   _SlDrvClassifyRxMsg
+2001a75d   _SlDrvCmdOp
+2001356d   _SlDrvDataReadOp
+200163f9   _SlDrvDataWriteOp
+2001ebc1   _SlDrvDeviceEventHandler
+20019051   _SlDrvDriverCBDeinit
+20013c59   _SlDrvDriverCBInit
+20023a25   _SlDrvMemZero
+2000822d   _SlDrvMsgRead
+20018285   _SlDrvMsgReadCmdCtx
+2001ac95   _SlDrvMsgReadSpawnCtx
+20011cc1   _SlDrvMsgWrite
+20021bf9   _SlDrvNetAppEventHandler
+20023865   _SlDrvObjLockWaitForever
+20023871   _SlDrvObjUnLock
+20020cf5   _SlDrvProtectAsyncRespSetting
+20022eb5   _SlDrvProtectionObjLockWaitForever
+20022ecd   _SlDrvProtectionObjUnLock
+200138e9   _SlDrvReleasePoolObj
+20023a85   _SlDrvResetCmdExt
+2000f61d   _SlDrvRxHdrRead
+200207f1   _SlDrvRxIrqHandler
+2002387d   _SlDrvSyncObjSignal
+20023661   _SlDrvSyncObjWaitForever
+20014d75   _SlDrvWaitForPoolObj
+200268a0   _SlEventMaskGetCmdCtrl
+2002689c   _SlEventMaskSetCmdCtrl
+20016dc5   _SlFindAndSetActiveObj
+20026758   _SlFsCloseCmdCtrl
+20026768   _SlFsDeleteCmdCtrl
+20026764   _SlFsGetInfoCmdCtrl
+20026754   _SlFsOpenCmdCtrl
+2002675c   _SlFsReadCmdCtrl
+20026760   _SlFsWriteCmdCtrl
+20026854   _SlGetHostByNameCtrl
+20026850   _SlGetHostByServiceCtrl
+20026848   _SlGetServiceListeCtrl
+20026648   _SlGetSockOptCmdCtrl
+20026638   _SlListenCmdCtrl
+2002685c   _SlNetAppGetCmdCtrl
+20026858   _SlNetAppSetCmdCtrl
+20026840   _SlNetAppStartCtrl
+20026844   _SlNetAppStopCtrl
+20026928   _SlNetCfgGetCmdCtrl
+20026924   _SlNetCfgSetCmdCtrl
+20026650   _SlPayloadByProtocolLUT
+20025e3c   _SlPolicyGetCmdCtrl
+20025e38   _SlPolicySetCmdCtrl
+20025e44   _SlProfileDelCmdCtrl
+20025e40   _SlProfileGetCmdCtrl
+20026640   _SlRecvCmdCtrl
+20026630   _SlRecvfomCmdCtrl
+2002684c   _SlRegisterServiceCtrl
+2001f575   _SlRemoveFromList
+20025e4c   _SlRxFilterAddtCmdCtrl
+20025e54   _SlRxFilterGetCmdCtrl
+20025e50   _SlRxFilterSetCmdCtrl
+2002664c   _SlSelectCmdCtrl
+20026634   _SlSendCmdCtrl
+20026644   _SlSetSockOptCmdCtrl
+20025e58   _SlSmartConfigStartCmdCtrl
+2002662c   _SlSockCloseCmdCtrl
+20026628   _SlSockSocketCmdCtrl
+20026898   _SlStopCmdCtrl
+20025e64   _SlWlanCfgGetCmdCtrl
+20025e60   _SlWlanCfgSetCmdCtrl
+20025e48   _SlWlanGetNetworkListCtrl
+20025e5c   _SlWlanSetModeCmdCtrl
+00000800   __HEAP_SIZE
+20003d40   __STACK_END
+00000200   __STACK_SIZE
+20003d40   __STACK_TOP
+00000800   __SYSMEM_SIZE
+20026e30   __TI_CINIT_Base
+20026e40   __TI_CINIT_Limit
+20026e18   __TI_Handler_Table_Base
+20026e24   __TI_Handler_Table_Limit
+00000001   __TI_args_main
+20017e01   __TI_auto_init
+2003fa48   __TI_cleanup_ptr
+20023799   __TI_decompress_none
+20023a9d   __TI_decompress_rle24
+2003fa4c   __TI_dtors_ptr
+20026930   __TI_static_base__
+200234d1   __TI_zero_init
+2001c2d1   __aeabi_idivmod
+2000b26d   __aeabi_ldivmod
+20022939   __aeabi_llsl
+20022957   __aeabi_llsr
+2002301d   __aeabi_lmul
+20019c75   __aeabi_memclr
+20019c75   __aeabi_memclr4
+20019c75   __aeabi_memclr8
+2001748d   __aeabi_memcpy
+2001748d   __aeabi_memcpy4
+2001748d   __aeabi_memcpy8
+20019c77   __aeabi_memset
+20019c77   __aeabi_memset4
+20019c77   __aeabi_memset8
+2001f373   __aeabi_uidivmod
+2000c2e9   __aeabi_uldivmod
+ffffffff   __binit__
+ffffffff   __c_args__
+20003b40   __stack
+20023005   _args_main
+20017181   _boot_watcher_task
+2001eaa1   _c_int00
+20025a30   _ctypes_
+20012a71   _decode_string_field
+2001c151   _encode_string_fields
+20022aad   _encode_wrapper
+20019ecd   _init_url
+2003fa40   _lock
+2001fb21   _logstr_wrapper
+2000db97   _nop
+200118a9   _on_file_download
+2001db09   _replace_ssid_by_rssi
+20021849   _sl_BuildAddress
+2001b8dd   _sl_GetCreateFsMode
+20023671   _sl_GetStartResponseConvert
+2001e819   _sl_HandleAsync_Accept
+2001d2a5   _sl_HandleAsync_Connect
+2001d2f9   _sl_HandleAsync_DnsGetHostByName
+2001c211   _sl_HandleAsync_DnsGetHostByService
+2001c739   _sl_HandleAsync_InitComplete
+2001d34d   _sl_HandleAsync_PingResponse
+2001fb5d   _sl_HandleAsync_Select
+2001fb99   _sl_HandleAsync_Stop
+200231ab   _sl_Strlen
+20022ae5   _sl_TruncatePayloadByProtocol
+20003340   _sys_memory
+2003f9f0   _tz
+2003fa44   _unlock
+2000c8ad   _va_printf
+2001f009   abort
+20023a55   abs
+2001a1fd   analytics_event
+2000d019   analytics_event_task
+20022b01   antsel
+2001e11d   atoi
+2002522c   batched_periodic_data_fields
+200251f0   batched_periodic_data_wifi_access_point_fields
+20024744   batched_pill_data_fields
+2001ad01   bi_add
+200221d9   bi_clear_cache
+20022605   bi_clone
+2001d78f   bi_compare
+200233c5   bi_copy
+20022f15   bi_depermanent
+2000ab89   bi_divide
+2001bd8b   bi_export
+20021505   bi_free
+20022415   bi_free_mod
+2001c795   bi_import
+200208c1   bi_initialize
+20010a85   bi_mod_power
+20023b09   bi_multiply
+20022f2d   bi_permanent
+2001eda1   bi_set_mod
+2001b061   bi_subtract
+20021873   bi_terminate
+ffffffff   binit
+20021531   bitexp
+2002189d   bitlog
+20022625   ble_proto_assign_decode_funcs
+2001f5f5   ble_proto_assign_encode_funcs
+20023a97   ble_proto_end_hold
+2001a599   ble_proto_free_command
+200234ad   ble_proto_free_morpheus_command
+2001fbd5   ble_proto_get_morpheus_command
+2001df55   ble_proto_init
+2001e861   ble_proto_led_busy_mode
+200221fd   ble_proto_led_fade_in_trippy
+2002155d   ble_proto_led_fade_out
+20019b85   ble_proto_led_flash
+20022437   ble_proto_led_init
+2001778d   ble_proto_start_hold
+2001d3a1   ble_reply_http_status
+20020de5   ble_reply_protobuf_error
+2001f635   ble_reply_socket_error
+200202a1   ble_reply_wifi_status
+2001d885   ble_send_protobuf
+2000d6e5   boot_commit_ota
+2003e9b3   booted
+20023691   buffer_from_MorpheusCommand
+2003fa00   bytesReceived
+20011691   cd
+200104b1   check_hw_version
+2001a271   check_provision
+200191d1   close_codec_NAU
+20022f45   clust2sect
+2001ede5   cmd_memfrag
+2001ad6d   cmd_set_time
+2000cc71   connect_wifi
+2001efc1   copy_in
+2003ea1c   data_queue
+2003e9bc   data_queue_batch_size
+20017cd9   dct
+200139c5   deleteFilesInDir
+2000fec5   disk_initialize
+20021c71   disk_ioctl
+20017fbd   disk_read
+200236a1   disk_status
+200121bd   disk_write
+2000e5d5   download_file
+2003fa08   download_queue
+2003e9fc   dust_smphr
+20013aa1   encode_all_periodic_data
+20012b61   encode_all_pills
+2001e8f1   encode_device_id_string
+20012c4d   encode_file
+2001f011   exit
+20022f5d   f_close
+2001415d   f_getfree
+2000b48d   f_lseek
+2000ea09   f_mkdir
+200065a1   f_mkfs
+2001ee29   f_mount
+2000ef81   f_open
+2001bded   f_opendir
+2000f385   f_read
+2001e939   f_readdir
+2001f6b5   f_stat
+20017a83   f_sync
+20017b19   f_unlink
+2000da0f   f_write
+2001ee6d   factory_led_test_pattern
+2000a20d   faultPrinter
+2000706d   fetch_ntp_time_from_ntp
+20011249   fft
+20007549   file_download_task
+2001d3f5   file_exists
+2001d449   fix_window
+20022645   flush_animation_history
+2001cd3d   force_data_push
+2003ea20   force_data_queue
+20018d3d   free_download_info
+2001288d   fs_get
+2000d87d   fs_save
+2001e981   fxd_sin
+200123b5   fxd_sqrt
+2003f2e4   gFirstCmdMode
+20025fd4   g_H2NCnysPattern
+20025fcc   g_H2NSyncPattern
+2003f7f8   g_SpiFd
+2003f2f0   g_StatMem
+20002400   g_buff
+2003f808   g_cDummy
+2003f2e8   g_pCB
+2003f7fc   g_pHostIntHdl
+20004000   g_pfnVectors
+2003eb04   g_sCmdTable
+2003f800   g_ucDMAEnabled
+2003f80c   g_ucDinDout
+2003f954   g_uiPlayWaterMark
+2003eef4   g_xRxLineSemaphore
+20002c68   gaucZeroBuffer
+200215b5   gesture_counter_reset
+20020e75   gesture_get_and_reset_all_diagnostic_counts
+20020ea5   gesture_get_hold_count
+20020ed5   gesture_get_wave_count
+2001e9c9   gesture_increment_hold_count
+2001ea11   gesture_increment_wave_count
+20022b39   gesture_init
+20019641   getMatrixClientMessage
+200238c5   get_aes
+2001eeb1   get_alpha_from_light
+20021c99   get_ble_mode
+20017355   get_codec_NAU
+2001a2e5   get_codec_mic_NAU
+20021235   get_default_antenna
+2002095d   get_device_id
+200148b5   get_dust
+200143d7   get_fat
+20023b0d   get_fattime
+200238d1   get_hw_ver
+20008bd5   get_light
+2000a92d   get_prox
+200173f1   get_random
+20021cc1   get_random_NZ
+200202d9   get_server
+20015385   get_sl_time
+200205e1   get_temp_humid
+2001eef5   get_time
+20023a35   get_top_version
+2000e73d   get_unique_wifi_list
+20016299   get_wifi_scan_result
+20001c00   gfpAppCallbackHndl
+200196bd   global_filename
+20002000   gpCtlTbl
+2003fa3c   guiDMATransferCountRx
+2003fa38   guiDMATransferCountTx
+20020f35   has_default_key
+2002160d   has_good_time
+20023b11   hci_crc16_compute_cont
+20018905   hci_decode
+2001c7f1   hci_encode
+20023b15   hci_free
+200238dd   hci_init
+20021d11   hello_fs_close
+20020f65   hello_fs_getfree
+20022f75   hello_fs_init
+200236b1   hello_fs_lock
+20021639   hello_fs_lseek
+20021d39   hello_fs_mkdir
+20020311   hello_fs_mkfs
+20021665   hello_fs_mount
+20020991   hello_fs_open
+20021691   hello_fs_opendir
+20020349   hello_fs_read
+200216bd   hello_fs_readdir
+200216e9   hello_fs_stat
+20021d61   hello_fs_unlink
+200238e9   hello_fs_unlock
+2001fc4d   hello_fs_write
+20013e09   hexToi
+200218f1   hlo_future_create
+20016fa5   hlo_future_create_task_bg
+20022f8d   hlo_future_destroy
+2001ef39   hlo_future_read
+20022d3f   hlo_future_read_once
+2001fe2d   hlo_future_write
+2001898d   hold_animate_progress_task
+2000b029   http_data
+200231c1   http_free
+2001cd95   http_get_stream
+20020381   http_init
+200237a7   http_iserror
+20017825   http_parse_chunked
+20018dc1   http_parse_header_char
+200158ad   http_response_ok
+2003fa54   hw_ver
+2003e9c4   i2c_smphr
+2001d49d   init_download_task
+200236c1   init_dust
+2001b9a5   init_humid_sensor
+200203b9   init_i2c_recovery
+20022fa5   init_led_animation
+2000fff5   init_light_sensor
+20016a99   init_prox_sensor
+2001ba09   init_temp_sensor
+2001ae45   init_time_module
+200236d1   int_to_bi
+2001fc89   is_test_boot
+200233ed   is_top_in_dfu
+2003fa5c   last_upload_time
+2000e469   launch_tasks
+20020f95   led_fade_all_animation
+200209c5   led_fade_current_animation
+20021293   led_from_brightness
+200231d7   led_from_rgb
+200238f5   led_get_animation_id
+2001cded   led_get_user_color
+2001dfed   led_idle_task
+200226a5   led_init
+200226c5   led_is_idle
+200203f1   led_set_user_color
+2003f678   led_smphr
+200091ed   led_task
+20022b71   led_to_rgb
+200155bd   led_transition_custom_animation
+200234e3   ledcpy
+200237b5   ledset
+20022b8d   load_account_id
+2001c84d   load_aes
+20022245   load_alarm
+2001a359   load_data_server
+2001c8a9   load_device_id
+20021715   load_serial
+2001e169   localtime
+20011bbd   logpsdmel
+20019739   main
+2003fa68   main_func_sp
+20020fc5   match
+2001f6f5   matchhere
+200212c1   matchstar
+2001b2d5   mcu_reset
+2001f9b1   median_filter
+2002247b   memcmp
+2001748d   memcpy
+20022785   memmove
+20019c7d   memset
+20020ff5   mkdir
+200097d1   mktime
+20021741   networktask_enter_critical_region
+2002176d   networktask_exit_critical_region
+2001ef7d   networktask_init
+2001aeb1   nordic_prox_int
+20019e55   nwp_reset
+200237c3   nwp_reset_thread
+200051cd   on_ble_protobuf_command
+20019251   on_key
+2001ddd5   on_morpheus_protobuf_arrival
+2000c6c5   on_pill_settings
+200231ed   osi_InterruptDeRegister
+20021f3b   osi_InterruptRegister
+20022d59   osi_LockObjCreate
+2002390d   osi_LockObjDelete
+20021f61   osi_LockObjLock
+20022269   osi_LockObjUnlock
+20022fbd   osi_MsgQCreate
+20023919   osi_MsgQDelete
+20022fd5   osi_MsgQRead
+200226e5   osi_MsgQWrite
+20021025   osi_Spawn
+20021f87   osi_SyncObjCreate
+20023203   osi_SyncObjDelete
+20022ba9   osi_SyncObjSignal
+20021055   osi_SyncObjSignalFromISR
+2002228d   osi_SyncObjWait
+2003f2ec   pPingCallBackFunc
+2003e9cc   pRxBuffer
+2003e9c8   pTxBuffer
+20020429   pack_batched_periodic_data
+20023a01   pb_close_string_substream
+20022bc5   pb_decode
+20023aaf   pb_decode_fixed32
+20023ab5   pb_decode_fixed64
+2000f231   pb_decode_noinit
+2001f735   pb_decode_svarint
+2001ea59   pb_decode_tag
+2001b33d   pb_decode_varint
+2001dd85   pb_encode
+20023b19   pb_encode_delimited
+20023ac7   pb_encode_fixed32
+20023acd   pb_encode_fixed64
+20022705   pb_encode_string
+20015679   pb_encode_submessage
+20022725   pb_encode_svarint
+20022fed   pb_encode_tag
+2001c9bd   pb_encode_tag_for_field
+2001a4b5   pb_encode_varint
+2001f9ef   pb_field_iter_begin
+20020617   pb_field_iter_find
+20017d6d   pb_field_iter_next
+20020a2d   pb_get_encoded_size
+20022745   pb_istream_from_buffer
+2001dbf9   pb_make_string_substream
+20021d89   pb_ostream_from_buffer
+20020a61   pb_ostream_from_sha_socket
+20018a15   pb_read
+2001f331   pb_skip_field
+2001d545   pb_write
+200252a4   periodic_data_fields
+200247bc   pill_data_fields
+2003ea24   pill_queue
+2003e9c0   pill_queue_batch_size
+200168a1   pill_settings_get_color
+2001af1d   pill_settings_init
+20014579   pill_settings_load_from_file
+20014e39   pill_settings_reset_all
+2001aff5   pingRes
+20014231   play_led_animation_solid
+2001b3a5   play_led_progress_bar
+200192d1   play_led_trippy
+20013b7d   play_led_wheel
+20015a1d   portCLZ
+200236f1   prescan_wifi
+2003e9b2   provisioning_mode
+20015a05   prvPortStartFirstTask
+20002c64   puiRxDestBuf
+20002c58   puiTxSrcBuf
+20002c60   pusRxSrcBuf
+20002c5c   pusTxDestBuf
+200132b9   put_fat
+2001f775   pvPortHeapViz
+20015d05   pvPortMalloc
+200105dd   pvPortRealloc
+2003f578   pxCurrentTCB
+20022765   pxPortInitialiseStack
+2001eafd   rand
+20014981   recoveri2c
+2001b6e5   reset_default_antenna
+20021799   reset_to_factory_fw
+20021dd9   resolve_ip_by_host_name
+20021085   rm
+2000b6a9   sample_sensor_data
+20020afd   save_account_id
+2002249d   save_aes
+20023711   save_aes_in_memory
+200223ad   save_default_antenna
+200227a5   save_device_id
+200032f0   sda_gpio_base
+200032ec   sda_gpio_bit
+200032f4   sda_gpio_pin
+200032f8   sda_i2c_mode
+200164a5   send_chunk_len
+200059d9   send_data_pb
+2001b40d   send_periodic_data
+2001ba6d   send_pill_data
+2001bad1   send_provision_request
+2001804d   send_top
+200265d0   sense_log_fields
+2000e00d   set_alarm
+200217c5   set_led_progress_bar
+20023925   set_loglevel
+20013489   set_sl_time
+20018b25   set_test_alarm
+200227c5   set_top_update_sha
+2001fcc5   set_volume
+2000bce5   sf_sha1_verify
+20023931   should_burn_top_key
+2001e4a3   sl_Bind
+200222d5   sl_Close
+20016089   sl_Connect
+20019ced   sl_DevGet
+2001fd01   sl_DevSet
+2001a441   sl_FsClose
+2001f049   sl_FsDel
+2001c331   sl_FsGetInfo
+2001d599   sl_FsOpen
+20018429   sl_FsRead
+200184b5   sl_FsWrite
+20020461   sl_Htonl
+20020b65   sl_Htons
+20015c4d   sl_NetAppDnsGetHostByName
+2001b475   sl_NetAppPingStart
+20022c19   sl_NetAppStop
+20019831   sl_NetCfgGet
+2001f08d   sl_NetCfgSet
+2001f0d1   sl_Recv
+20015db9   sl_RecvFrom
+20016551   sl_Send
+20017529   sl_SendTo
+2001d5ed   sl_SetSockOpt
+200210e5   sl_Socket
+20012ffd   sl_Start
+2001af89   sl_Stop
+20016139   sl_WlanConnect
+20023a5d   sl_WlanDisconnect
+2001c391   sl_WlanGet
+2001d641   sl_WlanGetNetworkList
+2001fd3d   sl_WlanPolicySet
+20015e6d   sl_WlanProfileAdd
+200222f9   sl_WlanProfileDel
+2001f7f5   sl_WlanSet
+20022c35   sl_WlanSetMode
+20021115   sl_WlanSmartConfigStart
+20019d65   sl_enter_critical_region
+20021e79   sl_exit_critical_region
+200227e5   sl_gethostbynameNoneThreadSafe
+2003f46c   sl_mode
+20023451   sl_sync_init
+2002304d   slip_dtm_mode
+20023721   slip_handle_rx
+200217f1   slip_reset
+2001b4dd   slip_write
+20018541   spi_Close
+20010709   spi_Open
+200161e9   spi_Read
+20019ddd   spi_Write
+2001bb35   spi_init
+200119b1   spi_read
+2001bb99   spi_read_step
+20014be5   spi_reset
+2003ea28   spi_smphr
+200198ad   spi_write
+2001a83d   spi_write_step
+2001eae9   srand
+20007ea9   start_connection
+20023065   start_top_boot_watcher
+20021145   start_wdt
+2001e201   stop_connection
+2002131d   stop_led_animation
+20022d8d   strcat
+20023035   strcmp
+20023701   strcpy
+20023415   strlen
+20021e01   strncat
+20021fad   strncmp
+200210b5   strncpy
+20020ac9   strstr
+20010125   strtol
+20011581   strtoul
+20009d01   thread_alarm
+20010835   thread_fast_i2c_poll
+20010255   thread_sensor_poll
+2001f835   thread_spi
+200094e1   thread_tx
+20014cad   top_board_dfu_begin
+2002393d   top_board_notify_boot_complete
+20018a9d   top_board_task
+2003ea3c   top_device_id
+2003e9b1   top_got_device_id
+2003f11c   top_version
+20023949   uDMAErrorStatusClear
+20023955   uDMAErrorStatusGet
+20023961   uDMAIntStatus
+20023a65   uart_block_saver_task
+2001eb79   uart_logf
+2001f115   uart_logger_flush
+20018e45   uart_logger_init
+2000ee25   uart_logger_task
+2001596d   ulPortSetInterruptMask
+20021945   unblock_sync
+2003e9b0   use_dev_server
+2003f680   user_delay
+2001f159   usertraceFREE
+2001f19d   usertraceMALLOC
+20022da7   usnprintf
+20022805   usprintf
+20023507   ustrlen
+200224bf   ustrncpy
+2000addd   uvsnprintf
+200224e1   uxListRemove
+20023519   uxQueueMessagesWaiting
+200185cd   uxTaskGetSystemState
+2002307d   uxTaskResetEventItemValue
+20021fd5   vApplicationStackOverflowHook
+2001bbfd   vAssertCalled
+20023247   vListInitialise
+20023ad3   vListInitialiseItem
+2001ff51   vListInsert
+20023095   vListInsertEnd
+20015983   vPortClearInterruptMask
+20019929   vPortDefineHeapRegions
+20022c51   vPortEnterCritical
+200230ad   vPortExitCritical
+2001fd79   vPortFree
+200159dd   vPortSVCHandler
+20022c6d   vPortSetupTimerInterrupt
+200230c5   vPortYield
+200230dd   vQueueDelete
+20022825   vQueueUnregisterQueue
+2001dc99   vTaskDelay
+2001a8ad   vTaskDelayUntil
+20017e95   vTaskDelete
+200157f1   vTaskList
+2002396d   vTaskMissedYield
+2001c905   vTaskPlaceOnEventList
+2001bc61   vTaskPlaceOnUnorderedEventList
+2001b545   vTaskPriorityDisinherit
+200180dd   vTaskPriorityInherit
+200230f5   vTaskSetTimeOutState
+2001e24d   vTaskStartScheduler
+20023741   vTaskSuspendAll
+2001a91d   vTaskSwitchContext
+20005fd5   vUARTTask
+20022341   verify_top_update
+20021175   wait_for_time
+200211a5   wait_for_top_boot
+20014649   watchdog_thread
+20024771   wifi_endpoint_fields
+20023979   wifi_get_connected_ssid
+2000fc59   wifi_reset
+2002181d   wifi_status_get
+2001f875   wifi_status_init
+20020499   wifi_status_set
+20014efd   write_mat_array
+2001fdb5   write_string
+20022dc1   xEventGroupClearBits
+20022ddb   xEventGroupCreate
+2001be4f   xEventGroupSetBits
+20017955   xEventGroupWaitBits
+2003fa10   xHigherPriorityTaskWoken
+20023985   xPortGetFreeHeapSize
+20015991   xPortPendSVHandler
+20020b99   xPortStartScheduler
+20022845   xPortSysTickHandler
+2001e299   xQueueCreateMutex
+2001e4ed   xQueueGenericCreate
+20011dc1   xQueueGenericReceive
+2001f8b5   xQueueGenericReset
+200133a1   xQueueGenericSend
+2001a527   xQueueGenericSendFromISR
+2002196f   xQueueGiveMutexRecursive
+20003214   xQueueRegistry
+20021999   xQueueTakeMutexRecursive
+2003fa14   xSimpleLinkSpawnQueue
+2003fa18   xSimpleLinkSpawnTaskHndl
+2001d695   xTaskCheckForTimeOut
+2001364d   xTaskGenericCreate
+20023991   xTaskGetCurrentTaskHandle
+2002310d   xTaskGetTickCount
+20011ec1   xTaskIncrementTick
+2001a98d   xTaskRemoveFromEventList
+2001cf4d   xTaskRemoveFromUnorderedEventList
+20014a4d   xTaskResumeAll
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000001   __TI_args_main
+00000200   __STACK_SIZE
+00000800   __HEAP_SIZE
+00000800   __SYSMEM_SIZE
+20001c00   gfpAppCallbackHndl
+20002000   gpCtlTbl
+20002400   g_buff
+20002c58   puiTxSrcBuf
+20002c5c   pusTxDestBuf
+20002c60   pusRxSrcBuf
+20002c64   puiRxDestBuf
+20002c68   gaucZeroBuffer
+20003214   xQueueRegistry
+200032ec   sda_gpio_bit
+200032f0   sda_gpio_base
+200032f4   sda_gpio_pin
+200032f8   sda_i2c_mode
+2000333e   RxIrqCnt
+20003340   _sys_memory
+20003b40   __stack
+20003d40   __STACK_END
+20003d40   __STACK_TOP
+20004000   g_pfnVectors
+20004401   GetData
+200051cd   on_ble_protobuf_command
+200059d9   send_data_pb
+20005fd5   vUARTTask
+200065a1   f_mkfs
+2000706d   fetch_ntp_time_from_ntp
+20007549   file_download_task
+20007ea9   start_connection
+2000822d   _SlDrvMsgRead
+20008bd5   get_light
+20008ef1   UARTStdioIntHandler
+200091ed   led_task
+200094e1   thread_tx
+200097d1   mktime
+20009d01   thread_alarm
+2000a20d   faultPrinter
+2000a471   PinMuxConfig
+2000a6d1   Cmd_led_animate
+2000a92d   get_prox
+2000ab89   bi_divide
+2000addd   uvsnprintf
+2000b027   SimpleLinkSockEventHandler
+2000b029   http_data
+2000b26d   __aeabi_ldivmod
+2000b48d   f_lseek
+2000b6a9   sample_sensor_data
+2000b8c5   UARTprintf
+2000bad9   DMAPingPongCompleteAppCB_opt
+2000bce5   sf_sha1_verify
+2000bef1   Cmd_fs_write
+2000c2e9   __aeabi_uldivmod
+2000c4dd   Cmd_ls
+2000c6c5   on_pill_settings
+2000c8ad   _va_printf
+2000cc71   connect_wifi
+2000ce4d   AudioFeatures_SetAudioData
+2000d019   analytics_event_task
+2000d1d1   Cmd_fs_read
+2000d385   NetworkTask_SendProtobuf
+2000d535   SimpleLinkWlanEventHandler
+2000d6e5   boot_commit_ota
+2000d87d   fs_save
+2000da0f   f_write
+2000db97   _nop
+2000dd1d   AudioHmm_EvaluateModel
+2000de95   Cmd_generate_factory_data
+2000e00d   set_alarm
+2000e185   CreateConnection
+2000e2f9   ProxSignal_UpdateChangeSignals
+2000e469   launch_tasks
+2000e5d5   download_file
+2000e73d   get_unique_wifi_list
+2000ea09   f_mkdir
+2000ee25   uart_logger_task
+2000ef81   f_open
+2000f0dd   GetChunkSize
+2000f231   pb_decode_noinit
+2000f385   f_read
+2000f61d   _SlDrvRxHdrRead
+2000f8a5   Cmd_do_octogram
+2000f9e1   Cmd_readlight
+2000fc59   wifi_reset
+2000fd95   Cmd_write
+2000fec5   disk_initialize
+2000fff5   init_light_sensor
+20010125   strtol
+20010255   thread_sensor_poll
+20010385   AudioProcessingTask_Thread
+200104b1   check_hw_version
+200105dd   pvPortRealloc
+20010709   spi_Open
+20010835   thread_fast_i2c_poll
+20010a85   bi_mod_power
+2001101d   Cmd_led
+20011135   PRCMCC3200MCUInit
+20011249   fft
+20011471   Cmd_status
+20011581   strtoul
+20011691   cd
+200118a9   _on_file_download
+200119b1   spi_read
+20011bbd   logpsdmel
+20011cc1   _SlDrvMsgWrite
+20011dc1   xQueueGenericReceive
+20011ec1   xTaskIncrementTick
+200120c1   Cmd_scan_wifi
+200121bd   disk_write
+200123b5   fxd_sqrt
+200124b1   Cmd_time_test
+2001288d   fs_get
+20012a71   _decode_string_field
+20012b61   encode_all_pills
+20012c4d   encode_file
+20012ffd   sl_Start
+200130e9   AudioClassifier_DataCallback
+200132b9   put_fat
+200133a1   xQueueGenericSend
+20013489   set_sl_time
+2001356d   _SlDrvDataReadOp
+2001364d   xTaskGenericCreate
+2001372d   Cmd_tasks
+2001380d   CmdLineProcess
+200138e9   _SlDrvReleasePoolObj
+200139c5   deleteFilesInDir
+20013aa1   encode_all_periodic_data
+20013b7d   play_led_wheel
+20013c59   _SlDrvDriverCBInit
+20013e09   hexToi
+2001415d   f_getfree
+20014231   play_led_animation_solid
+20014305   AES_cbc_decrypt
+200143d7   get_fat
+20014579   pill_settings_load_from_file
+20014649   watchdog_thread
+200148b5   get_dust
+20014981   recoveri2c
+20014a4d   xTaskResumeAll
+20014be5   spi_reset
+20014cad   top_board_dfu_begin
+20014d75   _SlDrvWaitForPoolObj
+20014e39   pill_settings_reset_all
+20014efd   write_mat_array
+20014fc1   AES_cbc_encrypt
+20015085   FileUploaderTask_Thread
+200152c5   Cmd_country
+20015385   get_sl_time
+20015445   AES_set_key
+20015501   UARTStdioInitExpClk
+200155bd   led_transition_custom_animation
+20015679   pb_encode_submessage
+200157f1   vTaskList
+200158ad   http_response_ok
+2001596d   ulPortSetInterruptMask
+20015983   vPortClearInterruptMask
+20015991   xPortPendSVHandler
+200159dd   vPortSVCHandler
+20015a05   prvPortStartFirstTask
+20015a1d   portCLZ
+20015a25   Cmd_test_key
+20015c4d   sl_NetAppDnsGetHostByName
+20015d05   pvPortMalloc
+20015db9   sl_RecvFrom
+20015e6d   sl_WlanProfileAdd
+20016089   sl_Connect
+20016139   sl_WlanConnect
+200161e9   spi_Read
+20016299   get_wifi_scan_result
+200163f9   _SlDrvDataWriteOp
+200164a5   send_chunk_len
+20016551   sl_Send
+200166a9   Octogram_GetResult
+200168a1   pill_settings_get_color
+20016949   Cmd_top_dtm
+20016a99   init_prox_sensor
+20016c85   Cmd_sl
+20016d25   SimpleLinkNetAppEventHandler
+20016dc5   _SlFindAndSetActiveObj
+20016fa5   hlo_future_create_task_bg
+200170e3   FixedPointExp2Q10
+20017181   _boot_watcher_task
+20017355   get_codec_NAU
+200173f1   get_random
+2001748d   __aeabi_memcpy
+2001748d   __aeabi_memcpy4
+2001748d   __aeabi_memcpy8
+2001748d   memcpy
+20017529   sl_SendTo
+200175c5   AES_convert_key
+2001765d   Cmd_spi_read
+200176f5   NwpPowerOnPreamble
+2001778d   ble_proto_start_hold
+20017825   http_parse_chunked
+20017955   xEventGroupWaitBits
+200179ed   Cmd_dig
+20017a83   f_sync
+20017b19   f_unlink
+20017bb1   AudioTask_Thread
+20017c45   Cmd_cat
+20017cd9   dct
+20017d6d   pb_field_iter_next
+20017e01   __TI_auto_init
+20017e95   vTaskDelete
+20017fbd   disk_read
+2001804d   send_top
+200180dd   vTaskPriorityInherit
+2001816d   SetIntMatrix
+200181f9   UARTwrite
+20018285   _SlDrvMsgReadCmdCtx
+20018429   sl_FsRead
+200184b5   sl_FsWrite
+20018541   spi_Close
+200185cd   uxTaskGetSystemState
+20018659   Cmd_setDev
+200186e5   Cmd_setDns
+2001876d   RawAudioStateMachine_SetLogLikelihoodOfModel
+20018905   hci_decode
+2001898d   hold_animate_progress_task
+20018a15   pb_read
+20018a9d   top_board_task
+20018b25   set_test_alarm
+20018c35   FaultDecoder
+20018d3d   free_download_info
+20018dc1   http_parse_header_char
+20018e45   uart_logger_init
+20018ec9   Cmd_spi_write
+20019051   _SlDrvDriverCBDeinit
+200191d1   close_codec_NAU
+20019251   on_key
+200192d1   play_led_trippy
+20019351   Cmd_rssi
+200194cd   Cmd_mode
+20019641   getMatrixClientMessage
+200196bd   global_filename
+20019739   main
+20019831   sl_NetCfgGet
+200198ad   spi_write
+20019929   vPortDefineHeapRegions
+200199a5   Cmd_mkfs
+20019b85   ble_proto_led_flash
+20019c75   __aeabi_memclr
+20019c75   __aeabi_memclr4
+20019c75   __aeabi_memclr8
+20019c77   __aeabi_memset
+20019c77   __aeabi_memset4
+20019c77   __aeabi_memset8
+20019c7d   memset
+20019ced   sl_DevGet
+20019d65   sl_enter_critical_region
+20019ddd   spi_Write
+20019e55   nwp_reset
+20019ecd   _init_url
+20019fb9   Cmd_record_buff
+2001a0a1   I2C_IF_Read
+2001a115   I2C_IF_Write
+2001a189   _SlDrvClassifyRxMsg
+2001a1fd   analytics_event
+2001a271   check_provision
+2001a2e5   get_codec_mic_NAU
+2001a359   load_data_server
+2001a441   sl_FsClose
+2001a4b5   pb_encode_varint
+2001a527   xQueueGenericSendFromISR
+2001a599   ble_proto_free_command
+2001a60d   Cmd_time
+2001a6ed   SetupPingPongDMATransferRx
+2001a75d   _SlDrvCmdOp
+2001a83d   spi_write_step
+2001a8ad   vTaskDelayUntil
+2001a91d   vTaskSwitchContext
+2001a98d   xTaskRemoveFromEventList
+2001abbd   PinMuxConfig_hw_dep
+2001ac95   _SlDrvMsgReadSpawnCtx
+2001ad01   bi_add
+2001ad6d   cmd_set_time
+2001ae45   init_time_module
+2001aeb1   nordic_prox_int
+2001af1d   pill_settings_init
+2001af89   sl_Stop
+2001aff5   pingRes
+2001b061   bi_subtract
+2001b0cd   IntDisable
+2001b135   IntEnable
+2001b19d   UDMAInit
+2001b2d5   mcu_reset
+2001b33d   pb_decode_varint
+2001b3a5   play_led_progress_bar
+2001b40d   send_periodic_data
+2001b475   sl_NetAppPingStart
+2001b4dd   slip_write
+2001b545   vTaskPriorityDisinherit
+2001b5ad   Cmd_connect
+2001b67d   CreateCircularBuffer
+2001b6e5   reset_default_antenna
+2001b74d   PinConfigSet
+2001b879   SetupPingPongDMATransferTx
+2001b8dd   _sl_GetCreateFsMode
+2001b9a5   init_humid_sensor
+2001ba09   init_temp_sensor
+2001ba6d   send_pill_data
+2001bad1   send_provision_request
+2001bb35   spi_init
+2001bb99   spi_read_step
+2001bbfd   vAssertCalled
+2001bc61   vTaskPlaceOnUnorderedEventList
+2001bcc5   FillBuffer
+2001bd8b   bi_export
+2001bded   f_opendir
+2001be4f   xEventGroupSetBits
+2001beb1   AudioControlHelper_SetAudioControl
+2001bf11   Cmd_heapviz
+2001bf71   Cmd_ping
+2001bfd1   PRCMPeripheralClockGet
+2001c031   SDHostInit
+2001c151   _encode_string_fields
+2001c211   _sl_HandleAsync_DnsGetHostByService
+2001c2d1   __aeabi_idivmod
+2001c331   sl_FsGetInfo
+2001c391   sl_WlanGet
+2001c3f1   RSA_encrypt
+2001c50d   Cmd_umnt
+2001c5c9   Cmd_get_octogram
+2001c625   Cmd_send_top
+2001c739   _sl_HandleAsync_InitComplete
+2001c795   bi_import
+2001c7f1   hci_encode
+2001c84d   load_aes
+2001c8a9   load_device_id
+2001c905   vTaskPlaceOnEventList
+2001c961   Cmd_set_mac
+2001c9bd   pb_encode_tag_for_field
+2001ca19   Cmd_fs_delete
+2001cb85   PRCMHibernateIntervalSet
+2001cbdd   RSA_pub_key_new
+2001cc35   UARTgets
+2001cd3d   force_data_push
+2001cd95   http_get_stream
+2001cded   led_get_user_color
+2001cf4d   xTaskRemoveFromUnorderedEventList
+2001d101   AudioCapturerSetupDMAMode
+2001d155   Cmd_factory_reset
+2001d1a9   Scale16VecTo8
+2001d251   UARTConfigSetExpClk
+2001d2a5   _sl_HandleAsync_Connect
+2001d2f9   _sl_HandleAsync_DnsGetHostByName
+2001d34d   _sl_HandleAsync_PingResponse
+2001d3a1   ble_reply_http_status
+2001d3f5   file_exists
+2001d449   fix_window
+2001d49d   init_download_task
+2001d545   pb_write
+2001d599   sl_FsOpen
+2001d5ed   sl_SetSockOpt
+2001d641   sl_WlanGetNetworkList
+2001d695   xTaskCheckForTimeOut
+2001d6e9   Cmd_slip
+2001d73d   SetupTransfer
+2001d78f   bi_compare
+2001d885   ble_send_protobuf
+2001d929   Cmd_dusttest
+2001d9c9   InitAudioPlayback
+2001da19   _SlAsyncEventGenericHandler
+2001db09   _replace_ssid_by_rssi
+2001dbf9   pb_make_string_substream
+2001dc99   vTaskDelay
+2001dd37   VecNormalize8
+2001dd85   pb_encode
+2001ddd5   on_morpheus_protobuf_arrival
+2001de25   CS_set
+2001de71   Cmd_free
+2001debd   Cmd_version
+2001df09   FileUploaderTask_Upload
+2001df55   ble_proto_init
+2001dfed   led_idle_task
+2001e11d   atoi
+2001e169   localtime
+2001e201   stop_connection
+2001e24d   vTaskStartScheduler
+2001e299   xQueueCreateMutex
+2001e2e5   AudioTask_DumpOncePerMinuteStats
+2001e331   Cmd_antsel
+2001e37b   RC4_setup
+2001e4a3   sl_Bind
+2001e4ed   xQueueGenericCreate
+2001e539   Cmd_analytics
+2001e669   Cmd_mnt
+2001e6b1   Cmd_play_buff
+2001e6f9   FixedPointLog2Q10
+2001e741   Octogram_Update
+2001e789   VStartSimpleLinkSpawnTask
+2001e819   _sl_HandleAsync_Accept
+2001e861   ble_proto_led_busy_mode
+2001e8f1   encode_device_id_string
+2001e939   f_readdir
+2001e981   fxd_sin
+2001e9c9   gesture_increment_hold_count
+2001ea11   gesture_increment_wave_count
+2001ea59   pb_decode_tag
+2001eaa1   _c_int00
+2001eae9   srand
+2001eafd   rand
+2001eb79   uart_logf
+2001ebc1   _SlDrvDeviceEventHandler
+2001ec4d   Cmd_test_realloc
+2001ec91   GPIO_IF_ConfigureNIntEnable
+2001ecd5   PRCMPeripheralReset
+2001ed19   UARTPeek
+2001ed5d   WDT_IF_Init
+2001eda1   bi_set_mod
+2001ede5   cmd_memfrag
+2001ee29   f_mount
+2001ee6d   factory_led_test_pattern
+2001eeb1   get_alpha_from_light
+2001eef5   get_time
+2001ef39   hlo_future_read
+2001ef7d   networktask_init
+2001efc1   copy_in
+2001f005   C$$EXIT
+2001f009   abort
+2001f011   exit
+2001f049   sl_FsDel
+2001f08d   sl_NetCfgSet
+2001f0d1   sl_Recv
+2001f115   uart_logger_flush
+2001f159   usertraceFREE
+2001f19d   usertraceMALLOC
+2001f1e1   Cmd_gesture
+2001f331   pb_skip_field
+2001f373   __aeabi_uidivmod
+2001f3b5   AudioCaptureRendererConfigure
+2001f3f5   AudioProcessingTask_AddFeaturesToQueue
+2001f435   InitAudioCapture
+2001f4b5   McASPDeInit
+2001f535   SPIConfigSetExpClk
+2001f575   _SlRemoveFromList
+2001f5f5   ble_proto_assign_encode_funcs
+2001f635   ble_reply_socket_error
+2001f6b5   f_stat
+2001f6f5   matchhere
+2001f735   pb_decode_svarint
+2001f775   pvPortHeapViz
+2001f7f5   sl_WlanSet
+2001f835   thread_spi
+2001f875   wifi_status_init
+2001f8b5   xQueueGenericReset
+2001f935   ReadBuffer
+2001f973   SHA1_Final
+2001f9b1   median_filter
+2001f9ef   pb_field_iter_begin
+2001fa2d   Cmd_topdfu
+2001fa6b   AudioTask_StartPlayback
+2001faa9   Cmd_FutureTest
+2001fb21   _logstr_wrapper
+2001fb5d   _sl_HandleAsync_Select
+2001fb99   _sl_HandleAsync_Stop
+2001fbd5   ble_proto_get_morpheus_command
+2001fc4d   hello_fs_write
+2001fc89   is_test_boot
+2001fcc5   set_volume
+2001fd01   sl_DevSet
+2001fd3d   sl_WlanPolicySet
+2001fd79   vPortFree
+2001fdb5   write_string
+2001fe2d   hlo_future_write
+2001fe69   RSA_free
+2001ff51   vListInsert
+2001ff8d   AudioTask_StartCapture
+2001ffc9   AudioProcessingTask_SetControl
+20020071   PRCMHibernateWakeupSourceEnable
+200200a9   RC4_crypt
+20020119   SHA1_Update
+20020189   _SlDrvBasicCmd
+200202a1   ble_reply_wifi_status
+200202d9   get_server
+20020311   hello_fs_mkfs
+20020349   hello_fs_read
+20020381   http_init
+200203b9   init_i2c_recovery
+200203f1   led_set_user_color
+20020429   pack_batched_periodic_data
+20020461   sl_Htonl
+20020499   wifi_status_set
+20020509   WDT_IF_DeInit
+200205e1   get_temp_humid
+20020617   pb_field_iter_find
+20020685   AudioClassifier_Init
+200206b9   CountHighestMsb
+200206ed   NwpPowerOff
+20020721   SDHostSetExpClk
+20020755   SHA1_Init
+20020789   UDMAChannelSelect
+200207bd   WriteToFile
+200207f1   _SlDrvRxIrqHandler
+200208c1   bi_initialize
+2002095d   get_device_id
+20020991   hello_fs_open
+200209c5   led_fade_current_animation
+20020a2d   pb_get_encoded_size
+20020a61   pb_ostream_from_sha_socket
+20020ac9   strstr
+20020afd   save_account_id
+20020b65   sl_Htons
+20020b99   xPortStartScheduler
+20020bcd   AudioTask_StopCapture
+20020c35   AudioFeatures_Init
+20020c65   AudioTask_StopPlayback
+20020c95   Cmd_log_upload
+20020cc5   PRCMSlowClkCtrGet
+20020cf5   _SlDrvProtectAsyncRespSetting
+20020de5   ble_reply_protobuf_error
+20020e75   gesture_get_and_reset_all_diagnostic_counts
+20020ea5   gesture_get_hold_count
+20020ed5   gesture_get_wave_count
+20020f35   has_default_key
+20020f65   hello_fs_getfree
+20020f95   led_fade_all_animation
+20020fc5   match
+20020ff5   mkdir
+20021025   osi_Spawn
+20021055   osi_SyncObjSignalFromISR
+20021085   rm
+200210b5   strncpy
+200210e5   sl_Socket
+20021115   sl_WlanSmartConfigStart
+20021145   start_wdt
+20021175   wait_for_time
+200211a5   wait_for_top_boot
+20021235   get_default_antenna
+20021293   led_from_brightness
+200212c1   matchstar
+2002131d   stop_led_animation
+2002134d   AudioClassifier_SetStorageBuffers
+20021379   DeinitAudioCapture
+200213a5   DeinitAudioPlayback
+200213d1   I2C_IF_Open
+20021455   NwpPowerOn
+20021481   PRCMPeripheralClkEnable
+200214ad   UpdateReadPtr
+20021505   bi_free
+20021531   bitexp
+2002155d   ble_proto_led_fade_out
+200215b5   gesture_counter_reset
+2002160d   has_good_time
+20021639   hello_fs_lseek
+20021665   hello_fs_mount
+20021691   hello_fs_opendir
+200216bd   hello_fs_readdir
+200216e9   hello_fs_stat
+20021715   load_serial
+20021741   networktask_enter_critical_region
+2002176d   networktask_exit_critical_region
+20021799   reset_to_factory_fw
+200217c5   set_led_progress_bar
+200217f1   slip_reset
+2002181d   wifi_status_get
+20021849   _sl_BuildAddress
+20021873   bi_terminate
+2002189d   bitlog
+200218f1   hlo_future_create
+20021945   unblock_sync
+2002196f   xQueueGiveMutexRecursive
+20021999   xQueueTakeMutexRecursive
+20021a19   Cmd_burn_top
+20021a41   Cmd_readhumid
+20021a69   Cmd_readtemp
+20021a91   DmaSpiSwIntHandler
+20021b31   MorpheusCommand_from_buffer
+20021b59   PinModeSet
+20021b81   SimpleLinkGeneralEventHandler
+20021ba9   UARTFlushRx
+20021bd1   UARTFlushTx
+20021bf9   _SlDrvNetAppEventHandler
+20021c71   disk_ioctl
+20021c99   get_ble_mode
+20021cc1   get_random_NZ
+20021d11   hello_fs_close
+20021d39   hello_fs_mkdir
+20021d61   hello_fs_unlink
+20021d89   pb_ostream_from_buffer
+20021dd9   resolve_ip_by_host_name
+20021e01   strncat
+20021e79   sl_exit_critical_region
+20021ec9   NwpRegisterInterruptHandler
+20021f3b   osi_InterruptRegister
+20021f61   osi_LockObjLock
+20021f87   osi_SyncObjCreate
+20021fad   strncmp
+20021fd5   vApplicationStackOverflowHook
+2002204d   Cmd_get_gesture_count
+20022071   Cmd_log_setview
+20022095   PRCMSysResetCauseGet
+200220b9   UARTDisable
+20022101   UpdateWritePtr
+200221d9   bi_clear_cache
+200221fd   ble_proto_led_fade_in_trippy
+20022245   load_alarm
+20022269   osi_LockObjUnlock
+2002228d   osi_SyncObjWait
+200222d5   sl_Close
+200222f9   sl_WlanProfileDel
+20022341   verify_top_update
+20022365   DmaErrorIntHandler
+200223ad   save_default_antenna
+20022415   bi_free_mod
+20022437   ble_proto_led_init
+2002247b   memcmp
+2002249d   save_aes
+200224bf   ustrncpy
+200224e1   uxListRemove
+20022503   CloseAndDeleteFile
+20022523   Cmd_disableInterrupts
+20022543   Cmd_download
+20022565   GPIODirModeSet
+20022585   RNG_custom_init
+200225a5   SDHostDataRead
+20022605   bi_clone
+20022625   ble_proto_assign_decode_funcs
+20022645   flush_animation_history
+200226a5   led_init
+200226c5   led_is_idle
+200226e5   osi_MsgQWrite
+20022705   pb_encode_string
+20022725   pb_encode_svarint
+20022745   pb_istream_from_buffer
+20022765   pxPortInitialiseStack
+20022785   memmove
+200227a5   save_device_id
+200227c5   set_top_update_sha
+200227e5   sl_gethostbynameNoneThreadSafe
+20022805   usprintf
+20022825   vQueueUnregisterQueue
+20022845   xPortSysTickHandler
+20022865   Cmd_audio_turn_on
+20022939   __aeabi_llsl
+20022957   __aeabi_llsr
+200229b1   Cmd_pwd
+200229cd   Cmd_readproximity
+200229e9   PRCMHibernateEnter
+20022a05   PRCMPeripheralClkDisable
+20022a21   RawAudioStateMachine_Init
+20022a59   UARTEnable
+20022a75   UARTIntRegister
+20022aad   _encode_wrapper
+20022ae5   _sl_TruncatePayloadByProtocol
+20022b01   antsel
+20022b39   gesture_init
+20022b71   led_to_rgb
+20022b8d   load_account_id
+20022ba9   osi_SyncObjSignal
+20022bc5   pb_decode
+20022c19   sl_NetAppStop
+20022c35   sl_WlanSetMode
+20022c51   vPortEnterCritical
+20022c6d   vPortSetupTimerInterrupt
+20022c89   CopyPingResultsToReport
+20022ca3   GetBufferSize
+20022cbd   McASPInit
+20022d3f   hlo_future_read_once
+20022d59   osi_LockObjCreate
+20022d8d   strcat
+20022da7   usnprintf
+20022dc1   xEventGroupClearBits
+20022ddb   xEventGroupCreate
+20022df5   ADCTimerConfig
+20022e0d   AudioTask_AddMessageToQueue
+20022e25   Audio_Start
+20022e3d   CloseFile
+20022e55   Cmd_boot
+20022e6d   Cmd_led_clr
+20022e85   PRCMPeripheralStatusGet
+20022e9d   UARTCharGetNonBlocking
+20022eb5   _SlDrvProtectionObjLockWaitForever
+20022ecd   _SlDrvProtectionObjUnLock
+20022f15   bi_depermanent
+20022f2d   bi_permanent
+20022f45   clust2sect
+20022f5d   f_close
+20022f75   hello_fs_init
+20022f8d   hlo_future_destroy
+20022fa5   init_led_animation
+20022fbd   osi_MsgQCreate
+20022fd5   osi_MsgQRead
+20022fed   pb_encode_tag
+20023005   _args_main
+2002301d   __aeabi_lmul
+20023035   strcmp
+2002304d   slip_dtm_mode
+20023065   start_top_boot_watcher
+2002307d   uxTaskResetEventItemValue
+20023095   vListInsertEnd
+200230ad   vPortExitCritical
+200230c5   vPortYield
+200230dd   vQueueDelete
+200230f5   vTaskSetTimeOutState
+2002310d   xTaskGetTickCount
+2002313d   DmaSwIntHandler
+20023153   IsBufferSizeFilled
+20023169   PinTypeGPIO
+2002317f   PinTypeUART
+200231ab   _sl_Strlen
+200231c1   http_free
+200231d7   led_from_rgb
+200231ed   osi_InterruptDeRegister
+20023203   osi_SyncObjDelete
+20023247   vListInitialise
+2002325d   AudioClassifier_ResetStorageBuffer
+20023271   Audio_Stop
+20023285   CPUcpsid
+20023299   CPUcpsie
+200232ad   Cmd_set_aes
+200232c1   DestroyCircularBuffer
+200232e9   IntUnregister
+20023311   IsBufferVacant
+20023325   NetworkTask_AddMessageToQueue
+20023339   PRCMMCUReset
+20023375   UARTCharsAvail
+200233c5   bi_copy
+200233ed   is_top_in_dfu
+20023415   strlen
+20023451   sl_sync_init
+20023465   Cmd_fault
+20023477   RSA_public
+200234ad   ble_proto_free_morpheus_command
+200234d1   __TI_zero_init
+200234e3   ledcpy
+20023507   ustrlen
+20023519   uxQueueMessagesWaiting
+2002352d   WatchdogIntHandler
+20023541   ADCChannelEnable
+20023551   ADCDisable
+20023561   ADCEnable
+20023571   ADCFIFOLvlGet
+20023591   Cmd_cd
+200235a1   Cmd_mkdir
+200235b1   Cmd_rm
+200235c1   Cmd_test_get
+200235d1   GPIOIntDisable
+200235e1   GetBufferEmptySize
+200235f1   I2SIntUnregister
+20023601   IntRegister
+20023611   PRCMHIBRegRead
+20023621   ProxSignal_Init
+20023631   RawAudioStateMachine_IncrementSamples
+20023641   SDHostDataWrite
+20023651   UARTCharPut
+20023661   _SlDrvSyncObjWaitForever
+20023671   _sl_GetStartResponseConvert
+20023691   buffer_from_MorpheusCommand
+200236a1   disk_status
+200236b1   hello_fs_lock
+200236c1   init_dust
+200236d1   int_to_bi
+200236f1   prescan_wifi
+20023701   strcpy
+20023711   save_aes_in_memory
+20023721   slip_handle_rx
+20023741   vTaskSuspendAll
+20023761   GPIOIntStatus
+20023799   __TI_decompress_none
+200237a7   http_iserror
+200237b5   ledset
+200237c3   nwp_reset_thread
+200237e1   ADCFIFORead
+200237ed   Cmd_SyncID
+200237f9   GPIOIntEnable
+20023805   GPIOPinRead
+2002381d   I2CMasterControl
+20023829   InitFile
+20023835   IntVTableBaseSet
+20023841   NwpMaskInterrupt
+2002384d   NwpUnMaskInterrupt
+20023859   PinTypeADC
+20023865   _SlDrvObjLockWaitForever
+20023871   _SlDrvObjUnLock
+2002387d   _SlDrvSyncObjSignal
+200238c5   get_aes
+200238d1   get_hw_ver
+200238dd   hci_init
+200238e9   hello_fs_unlock
+200238f5   led_get_animation_id
+2002390d   osi_LockObjDelete
+20023919   osi_MsgQDelete
+20023925   set_loglevel
+20023931   should_burn_top_key
+2002393d   top_board_notify_boot_complete
+20023949   uDMAErrorStatusClear
+20023955   uDMAErrorStatusGet
+20023961   uDMAIntStatus
+2002396d   vTaskMissedYield
+20023979   wifi_get_connected_ssid
+20023985   xPortGetFreeHeapSize
+20023991   xTaskGetCurrentTaskHandle
+2002399d   Cmd_audio_turn_off
+200239a7   Cmd_disconnect
+200239b1   Cmd_nwpinfo
+200239bb   Cmd_stop_buff
+200239c5   Cmd_sync
+200239cf   FaultISR
+200239d9   IntMasterDisable
+200239e3   IntMasterEnable
+200239ed   PRCMHIBRegWrite
+20023a01   pb_close_string_substream
+20023a0d   AudioCapturerGetDMADataPtr
+20023a15   AudioRendererGetDMADataPtr
+20023a1d   Octogram_Init
+20023a25   _SlDrvMemZero
+20023a35   get_top_version
+20023a55   abs
+20023a5d   sl_WlanDisconnect
+20023a65   uart_block_saver_task
+20023a6d   GPIOIntClear
+20023a73   GPIOPinWrite
+20023a79   ResetISR
+20023a7f   UtilsDelay
+20023a85   _SlDrvResetCmdExt
+20023a97   ble_proto_end_hold
+20023a9d   __TI_decompress_rle24
+20023aaf   pb_decode_fixed32
+20023ab5   pb_decode_fixed64
+20023ac7   pb_encode_fixed32
+20023acd   pb_encode_fixed64
+20023ad3   vListInitialiseItem
+20023ad9   Cmd_spi_reset
+20023ae1   GetReadPtr
+20023ae5   GetWritePtr
+20023ae9   SetupGPIOInterrupts
+20023aed   UARTStdioInit
+20023b09   bi_multiply
+20023b0d   get_fattime
+20023b11   hci_crc16_compute_cont
+20023b15   hci_free
+20023b19   pb_encode_delimited
+20024744   batched_pill_data_fields
+20024771   wifi_endpoint_fields
+200247bc   pill_data_fields
+20024834   MorpheusCommand_fields
+200251f0   batched_periodic_data_wifi_access_point_fields
+2002522c   batched_periodic_data_fields
+200252a4   periodic_data_fields
+200257e4   SyncResponse_Alarm_ringtone_id_default
+200257e8   BatchedPillSettings_fields
+20025808   SyncResponse_PillSettings_fields
+20025835   SyncResponse_fields
+20025a30   _ctypes_
+20025d34   MatrixClientMessage_fields
+20025d8e   Matrix_fields
+20025e38   _SlPolicySetCmdCtrl
+20025e3c   _SlPolicyGetCmdCtrl
+20025e40   _SlProfileGetCmdCtrl
+20025e44   _SlProfileDelCmdCtrl
+20025e48   _SlWlanGetNetworkListCtrl
+20025e4c   _SlRxFilterAddtCmdCtrl
+20025e50   _SlRxFilterSetCmdCtrl
+20025e54   _SlRxFilterGetCmdCtrl
+20025e58   _SlSmartConfigStartCmdCtrl
+20025e5c   _SlWlanSetModeCmdCtrl
+20025e60   _SlWlanCfgSetCmdCtrl
+20025e64   _SlWlanCfgGetCmdCtrl
+20025fcc   g_H2NSyncPattern
+20025fd4   g_H2NCnysPattern
+20025fdc   RxMsgClassLUT
+20025ffc   _SlActionLookupTable
+20026034   OpcodeTranslateTable
+20026070   SyncResponse_FileDownload_fields
+200261b8   AudioControl_fields
+200262c8   SyncResponse_Alarm_fields
+20026520   FileMessage_fields
+200265d0   sense_log_fields
+20026628   _SlSockSocketCmdCtrl
+2002662c   _SlSockCloseCmdCtrl
+20026630   _SlRecvfomCmdCtrl
+20026634   _SlSendCmdCtrl
+20026638   _SlListenCmdCtrl
+2002663c   _SlAcceptCmdCtrl
+20026640   _SlRecvCmdCtrl
+20026644   _SlSetSockOptCmdCtrl
+20026648   _SlGetSockOptCmdCtrl
+2002664c   _SlSelectCmdCtrl
+20026650   _SlPayloadByProtocolLUT
+200266a0   AudioClassifierMessage_fields
+200266dc   ProvisionRequest_fields
+20026718   SyncResponse_WhiteNoise_fields
+20026754   _SlFsOpenCmdCtrl
+20026758   _SlFsCloseCmdCtrl
+2002675c   _SlFsReadCmdCtrl
+20026760   _SlFsWriteCmdCtrl
+20026764   _SlFsGetInfoCmdCtrl
+20026768   _SlFsDeleteCmdCtrl
+20026840   _SlNetAppStartCtrl
+20026844   _SlNetAppStopCtrl
+20026848   _SlGetServiceListeCtrl
+2002684c   _SlRegisterServiceCtrl
+20026850   _SlGetHostByServiceCtrl
+20026854   _SlGetHostByNameCtrl
+20026858   _SlNetAppSetCmdCtrl
+2002685c   _SlNetAppGetCmdCtrl
+20026898   _SlStopCmdCtrl
+2002689c   _SlEventMaskSetCmdCtrl
+200268a0   _SlEventMaskGetCmdCtrl
+200268a4   _SlDeviceGetCmdCtrl
+200268a8   _SlDeviceSetCmdCtrl
+200268ac   StartResponseLUT
+20026924   _SlNetCfgSetCmdCtrl
+20026928   _SlNetCfgGetCmdCtrl
+20026930   __TI_static_base__
+20026e18   __TI_Handler_Table_Base
+20026e24   __TI_Handler_Table_Limit
+20026e30   __TI_CINIT_Base
+20026e40   __TI_CINIT_Limit
+2003e9b0   use_dev_server
+2003e9b1   top_got_device_id
+2003e9b2   provisioning_mode
+2003e9b3   booted
+2003e9bc   data_queue_batch_size
+2003e9c0   pill_queue_batch_size
+2003e9c4   i2c_smphr
+2003e9c8   pTxBuffer
+2003e9cc   pRxBuffer
+2003e9fc   dust_smphr
+2003ea1c   data_queue
+2003ea20   force_data_queue
+2003ea24   pill_queue
+2003ea28   spi_smphr
+2003ea3c   top_device_id
+2003eb04   g_sCmdTable
+2003eef4   g_xRxLineSemaphore
+2003f11c   top_version
+2003f2e4   gFirstCmdMode
+2003f2e8   g_pCB
+2003f2ec   pPingCallBackFunc
+2003f2f0   g_StatMem
+2003f46c   sl_mode
+2003f578   pxCurrentTCB
+2003f678   led_smphr
+2003f680   user_delay
+2003f7f8   g_SpiFd
+2003f7fc   g_pHostIntHdl
+2003f800   g_ucDMAEnabled
+2003f804   DMAMsgQ
+2003f808   g_cDummy
+2003f80c   g_ucDinDout
+2003f954   g_uiPlayWaterMark
+2003f9f0   _tz
+2003fa00   bytesReceived
+2003fa08   download_queue
+2003fa10   xHigherPriorityTaskWoken
+2003fa14   xSimpleLinkSpawnQueue
+2003fa18   xSimpleLinkSpawnTaskHndl
+2003fa38   guiDMATransferCountTx
+2003fa3c   guiDMATransferCountRx
+2003fa40   _lock
+2003fa44   _unlock
+2003fa48   __TI_cleanup_ptr
+2003fa4c   __TI_dtors_ptr
+2003fa54   hw_ver
+2003fa5c   last_upload_time
+2003fa60   _Errno
+2003fa68   main_func_sp
+ffffffff   __binit__
+ffffffff   __c_args__
+ffffffff   binit
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+
+[965 symbols]
