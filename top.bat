@@ -63,6 +63,6 @@ goto :eof
 	echo "*                       fail                       *"
 	echo "*                                                  *"
 	echo "****************************************************"
-	exit \b
+	exit /b
 :eof
-	exit \b
+	exit /b
