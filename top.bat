@@ -2,7 +2,7 @@
 cls
 SET PWD=%~dp0
 SET TARG=%1
-SET INFONAME=%2
+SET INFONAME=""
 SET TEMPDIR=%PWD%temp\
 SET CACHEDIR=%PWD%cached\%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
@@ -37,7 +37,7 @@ For %%f in (%TEMPDIR%*.crc) do rename "%%f" "%%~nf.crc.bin"
 SET TEMPDIR=%TEMPDIR:\=/%
 SET CACHEDIR=%CACHEDIR:\=/%
 %CYGWIN%sed.exe -e "s,\$TEMP\/,%TEMPDIR%,g" -e "s,\$CACHE\/,%CACHEDIR%,g" %PWD%targets/%TARG%\app+bootloader.prod.in > %TEMPDIR%flash.jlink
-%JLINK% -device nrf51422 -if swd -speed 2000 -SelectEmuBySN %EMU% -CommanderScript %TEMPDIR%flash.jlink
+%JLINK% -device nrf51422 -if swd -speed 2000 -CommanderScript %TEMPDIR%flash.jlink
 
 SET DEVICEINFO=%CACHEDIR%device.info
 
