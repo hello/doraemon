@@ -52,8 +52,7 @@ if %size% gtr 0 (
 IF "%INFONAME%" == "" (
 	echo "No name input, using SHA1 as default name"
 	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do %CYGWIN%mv.exe %DEVICEINFO% %DEVICEDIR%/%%i 
-echo" SET SHA=%%i"
-	
+	ECHO "GOOD"
 ) else (
 	%CYGWIN%mv.exe %DEVICEINFO% %DEVICEDIR%/%INFONAME%
 )
