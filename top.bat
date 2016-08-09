@@ -7,7 +7,7 @@ SET TEMPDIR=%PWD%temp\
 SET CACHEDIR=%PWD%cached\%TARG%\
 SET JLINK=%PWD%JLinkWin/JLink.exe
 SET DEVICEROOT=%PWD%devices\
-SET DEVICEDIR=%DEVICEROOT%%TARG%
+SET DEVICEDIR=%DEVICEROOT%\%TARG%
 SET EMU=%3
 
 if defined ProgramFiles(x86) (
@@ -39,7 +39,7 @@ SET CACHEDIR=%CACHEDIR:\=/%
 %CYGWIN%sed.exe -e "s,\$TEMP\/,%TEMPDIR%,g" -e "s,\$CACHE\/,%CACHEDIR%,g" %PWD%targets/%TARG%\app+bootloader.prod.in > %TEMPDIR%flash.jlink
 %JLINK% -device nrf51422 -if swd -speed 2000 -CommanderScript %TEMPDIR%flash.jlink
 
-SET DEVICEINFO=%CACHEDIR%device.info
+SET DEVICEINFO=%CACHEDIR%\device.info
 
 for /f %%i in ("%DEVICEINFO%") do set "size=%%~zi"
 if not defined size set size=0
@@ -51,10 +51,11 @@ if %size% gtr 0 (
 )
 IF "%INFONAME%" == "" (
 	echo "No name input, using SHA1 as default name"
-	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do SET SHA=%%i
-	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%SHA%
+	FOR /F "tokens=1 delims=\\ " %%i in ('%CYGWIN%/sha1sum.exe %DEVICEINFO%') do %CYGWIN%mv.exe %DEVICEINFO% %DEVICEDIR%/%%i 
+echo" SET SHA=%%i"
+	
 ) else (
-	%CYGWIN%mv %DEVICEINFO% %DEVICEDIR%/%INFONAME%
+	%CYGWIN%mv.exe %DEVICEINFO% %DEVICEDIR%/%INFONAME%
 )
 goto :eof
 :fail
